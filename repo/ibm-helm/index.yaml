@@ -86,6 +86,18 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/analyticsengine-12.0.0+20251209.040827.1295.tgz
     version: 12.0.0+20251209.040827.1295
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.635836313Z"
+    description: Deploys the Analytics Engine operator and its instance in a target
+      namespace. Includes namespace RBAC, ConfigMaps, Secrets, and the AE Custom Resource.
+      Manages the lifecycle and configuration of one AE service instance
+    digest: 6eb749f60649c9194c744fc29f1b3d0e01e5f59c60974e39a52d09105f240030
+    name: analyticsengine
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/analyticsengine-5.4.2+20260629.105312.2410.tgz
+    version: 5.4.2+20260629.105312.2410
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.293037328Z"
     description: Deploys the Analytics Engine operator and its instance in a target
@@ -207,6 +219,18 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/analyticsengine-cluster-scoped-12.0.0+20251209.040827.1295.tgz
     version: 12.0.0+20251209.040827.1295
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.636283686Z"
+    description: Provides cluster-wide resources for Analytics Engine, including CRDs
+      and cluster RBAC. Must be installed once per cluster before namespace deployments.
+      Ensures consistency of shared objects across all AE instances
+    digest: 5aa0942c18df490437286b2bfac7038dbb2b96291bb38fc9a807b4b17f8e202a
+    name: analyticsengine-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/analyticsengine-cluster-scoped-5.4.2+20260629.105312.2410.tgz
+    version: 5.4.2+20260629.105312.2410
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.293403699Z"
     description: Provides cluster-wide resources for Analytics Engine, including CRDs
@@ -243,6 +267,18 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/analyticsengine-cluster-scoped-5.3.1+patch4.adobe.hf3.20260629.070929.2409.tgz
     version: 5.3.1+patch4.adobe.hf3.20260629.070929.2409
   analyticsengine-migration:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.63659353Z"
+    description: Handles migration from OLM-based to non-OLM Helm-based deployments.
+      Cleans up legacy OLM resources and adopts existing CRs. Ensures smooth transition
+      without impacting running workload
+    digest: 66fd292b715560ef3b194e59cb63ca4eb51d4e0ec827693d3fad1fab8ed48c44
+    name: analyticsengine-migration
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/analyticsengine-migration-5.4.2.tgz
+    version: 5.4.2
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.293678852Z"
@@ -493,6 +529,16 @@ entries:
     version: 0.0.0
   canvasbase:
   - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.637007954Z"
+    description: CPD Canvas Base Helm chart for operator
+    digest: 63915b399b16dd1a16c46146b18427ab813f412e37a1d75477e689f779a619ea
+    name: canvasbase
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/canvasbase-13.0.2+20260624.191446.34.tgz
+    version: 13.0.2+20260624.191446.34
+  - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.361262617Z"
     description: CPD Canvas Base Helm chart for operator
@@ -563,6 +609,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/canvasbase-12.0.0+20251208.054149.52.tgz
     version: 12.0.0+20251208.054149.52
   canvasbase-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.637299689Z"
+    description: CPD Canvas Base Helm chart for operator
+    digest: e0fe89c888f0c41a96420ac3ca607da94ed29b40c7ebc5b69e0ba0f5654cf977
+    name: canvasbase-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/canvasbase-cluster-scoped-13.0.2+20260624.191446.34.tgz
+    version: 13.0.2+20260624.191446.34
   - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.3614908Z"
@@ -665,6 +721,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/canvasbase-migration-0.0.0.tgz
     version: 0.0.0
   ccs:
+  - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.637802286Z"
+    description: CPD Common Core Service Helm chart for operator
+    digest: a3679f19c4da2367b73ea0d0895a802e409d406615622f5f0131781e04c42dca
+    name: ccs
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ccs-13.0.2+20260624.143147.50.tgz
+    version: 13.0.2+20260624.143147.50
   - apiVersion: v2
     appVersion: 13.0.1
     created: "2026-06-23T08:11:43.294116181Z"
@@ -806,6 +872,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ccs-11.1.0+20250819.201103.250.tgz
     version: 11.1.0+20250819.201103.250
   ccs-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.638466139Z"
+    description: CPD Common Core Service Helm chart for operator
+    digest: bc6a454c192691c7db234dea4fc3568f0ecbdf66ea089adfcc3620462eb98139
+    name: ccs-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ccs-cluster-scoped-13.0.2+20260624.143147.50.tgz
+    version: 13.0.2+20260624.143147.50
   - apiVersion: v2
     appVersion: 13.0.1
     created: "2026-06-23T08:11:43.295959071Z"
@@ -1623,6 +1699,16 @@ entries:
     version: 0.0.0
   datagate:
   - apiVersion: v2
+    appVersion: 15.4.2
+    created: "2026-07-06T22:17:31.638813296Z"
+    description: A Helm chart for Data Gate
+    digest: 3e4ffb51d65e7e8042de8544a3bdfcdd60d4c2a69aa6a26c80282d7e98415cba
+    name: datagate
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datagate-15.4.2+20260622.151430.170.tgz
+    version: 15.4.2+20260622.151430.170
+  - apiVersion: v2
     appVersion: 15.4.1
     created: "2026-06-23T08:11:43.298372294Z"
     description: A Helm chart for Data Gate
@@ -1643,6 +1729,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datagate-15.4.0+20260505.155547.143.tgz
     version: 15.4.0+20260505.155547.143
   datagate-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 15.4.2
+    created: "2026-07-06T22:17:31.639043107Z"
+    description: A Helm chart for Data Gate
+    digest: 4e2e80f02fb0cc0e8d1e2c4fcab97ddae7ef01319d7894d693a92fff9938edd9
+    name: datagate-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datagate-cluster-scoped-15.4.2+20260622.151430.170.tgz
+    version: 15.4.2+20260622.151430.170
   - apiVersion: v2
     appVersion: 15.4.1
     created: "2026-06-23T08:11:43.298642479Z"
@@ -1675,6 +1771,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datagate-migration-0.0.0.tgz
     version: 0.0.0
   datalineage:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.639582333Z"
+    description: CPD IBM Datalineage operator helm chart
+    digest: 451c2cbe61e505c3efdb1776eeb7de2ce3b1036088057d2a1af0cefc1f1764be
+    name: datalineage
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datalineage-5.4.2+20260623.092245.2004.tgz
+    version: 5.4.2+20260623.092245.2004
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.299094073Z"
@@ -1756,6 +1862,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datalineage-5.3.0+20251127.155212.129.tgz
     version: 5.3.0+20251127.155212.129
   datalineage-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.639798491Z"
+    description: CPD IBM Datalineage operator helm chart
+    digest: 1e34a4258293c8a288679d411e9733a18dfd8ca100633477ebd354ee8b078054
+    name: datalineage-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datalineage-cluster-scoped-5.4.2+20260623.092245.2004.tgz
+    version: 5.4.2+20260623.092245.2004
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.299439963Z"
@@ -1857,6 +1973,16 @@ entries:
     version: 0.0.0
   dataproduct:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.64034462Z"
+    description: CPD Data Product Hub operator helm chart
+    digest: c6e86da0a8086a85a8a5229520ebfee1cdb86f8855e623f292d451ff462198ef
+    name: dataproduct
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dataproduct-5.4.2+20260623.110707.2009.tgz
+    version: 5.4.2+20260623.110707.2009
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.299940296Z"
     description: CPD Data Product Hub operator helm chart
@@ -1937,6 +2063,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dataproduct-5.3.0+20251210.200701.731.tgz
     version: 5.3.0+20251210.200701.731
   dataproduct-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.640706021Z"
+    description: CPD Data Product Hub operator helm chart
+    digest: 34fae17c90e4e30e00da8c1fb328d80095ed476fd365bf5adb84c746549cb5e4
+    name: dataproduct-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dataproduct-cluster-scoped-5.4.2+20260623.110707.2009.tgz
+    version: 5.4.2+20260623.110707.2009
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.300310959Z"
@@ -2038,6 +2174,16 @@ entries:
     version: 0.0.0
   datarefinery:
   - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.641178726Z"
+    description: CPD Data Refinery Helm chart for operator
+    digest: b283ec7cf02d8baff9b17975a9f58112ab3346a334cfed1321a835782762f126
+    name: datarefinery
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datarefinery-13.0.2+20260624.231848.362.tgz
+    version: 13.0.2+20260624.231848.362
+  - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.37322869Z"
     description: CPD Data Refinery Helm chart for operator
@@ -2098,6 +2244,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datarefinery-12.0.0+20251120.211953.156.tgz
     version: 12.0.0+20251120.211953.156
   datarefinery-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.641438798Z"
+    description: CPD Data Refinery Helm chart for operator
+    digest: 1f3bc26299f94525f0ed6ff31e368c05b61dacda6e4ef3ec54d7f534e210e71f
+    name: datarefinery-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datarefinery-cluster-scoped-13.0.2+20260624.231848.362.tgz
+    version: 13.0.2+20260624.231848.362
   - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.373425457Z"
@@ -2180,6 +2336,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datarefinery-migration-0.0.0.tgz
     version: 0.0.0
   datastage-ent:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.641932983Z"
+    description: A Helm chart for DataStage.
+    digest: 2608b2cf5cec8542c35a53191876100064d3f10c234d3e07df86dcb6830a20a9
+    name: datastage-ent
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-12.0.2+20260623.150159.5.tgz
+    version: 12.0.2+20260623.150159.5
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.300680708Z"
@@ -2282,6 +2448,16 @@ entries:
     version: 11.0.0+20251203.100137.3359
   datastage-ent-cluster-scoped:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.642263537Z"
+    description: A Helm chart for DataStage cluster scoped crd.
+    digest: 72a08f500c74d5cbc4f2e33d9c8cdfdcafbe130314e1f5b06228740456658f45
+    name: datastage-ent-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-cluster-scoped-12.0.2+20260623.150159.5.tgz
+    version: 12.0.2+20260623.150159.5
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.300918799Z"
     description: A Helm chart for DataStage cluster scoped crd.
@@ -2382,6 +2558,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-cluster-scoped-11.0.0+20251203.100137.3359.tgz
     version: 11.0.0+20251203.100137.3359
   datastage-ent-migration:
+  - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2026-07-06T22:17:31.642570143Z"
+    description: A Helm chart for DataStage migration.
+    digest: 585e214eb74f08418121c247391d929848c035c6ea3a28bc957f629bd56c4447
+    name: datastage-ent-migration
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-migration-0.1.2+20260623.150159.5.tgz
+    version: 0.1.2+20260623.150159.5
   - apiVersion: v2
     appVersion: 0.1.1
     created: "2026-06-23T08:11:43.301162809Z"
@@ -2484,6 +2670,16 @@ entries:
     version: 0.0.0+20251203.100137.3359
   datastage-ent-plus:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.645482871Z"
+    description: A Helm chart for DataStage.
+    digest: 6115202abc438433e2ef13270499a074512365b6c0f28c7e64267a57da93f1c5
+    name: datastage-ent-plus
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-plus-12.0.2+20260623.150159.5.tgz
+    version: 12.0.2+20260623.150159.5
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.301570076Z"
     description: A Helm chart for DataStage.
@@ -2585,6 +2781,16 @@ entries:
     version: 11.0.0+20251203.100137.3359
   datastage-ent-plus-cluster-scoped:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.645794429Z"
+    description: A Helm chart for DataStage cluster scoped crd.
+    digest: 53f12d4c91d3a18982f342fefaae5f9c02236df41fd5edc22d40153631ff3b3e
+    name: datastage-ent-plus-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-plus-cluster-scoped-12.0.2+20260623.150159.5.tgz
+    version: 12.0.2+20260623.150159.5
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.301744427Z"
     description: A Helm chart for DataStage cluster scoped crd.
@@ -2685,6 +2891,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-plus-cluster-scoped-11.0.0+20251203.100137.3359.tgz
     version: 11.0.0+20251203.100137.3359
   datastage-ent-plus-migration:
+  - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2026-07-06T22:17:31.646142348Z"
+    description: A Helm chart for DataStage migration.
+    digest: 8036e80bced66a17f7ab2b14e8f95aa3525a871ad9dc1399419db8a62192db1a
+    name: datastage-ent-plus-migration
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-plus-migration-0.1.2+20260623.150159.5.tgz
+    version: 0.1.2+20260623.150159.5
   - apiVersion: v2
     appVersion: 0.1.1
     created: "2026-06-23T08:11:43.301957373Z"
@@ -3463,6 +3679,16 @@ entries:
     version: 0.0.0
   dmc:
   - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.646533054Z"
+    description: Helm chart for DMC
+    digest: b088529ba345bb234b54b725cffe734a13e735311f99264970a765031746fef2
+    name: dmc
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dmc-8.12.1+20260623.082937.85.tgz
+    version: 8.12.1+20260623.082937.85
+  - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.400916001Z"
     description: Helm chart for DMC
@@ -3523,6 +3749,15 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dmc-8.10.0+20251211.000158.101.tgz
     version: 8.10.0+20251211.000158.101
   dmc-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.646776373Z"
+    digest: d7019892ef0d7b4d8f9dc2d81cf93e1c03f17e38c6fc55f3cf25fa1426d91bf0
+    name: dmc-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dmc-cluster-scoped-8.12.1+20260623.082937.85.tgz
+    version: 8.12.1+20260623.082937.85
   - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.401339838Z"
@@ -3599,6 +3834,28 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dmc-migration-0.0.0.tgz
     version: 0.0.0
   dods:
+  - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.647728717Z"
+    description: Decision Optimization addon for CP4D License By installing this product
+      you accept the license terms https://ibm.biz/~LBlmmMZYB or https://ibm.biz/~vCxTp4zqJ
+    digest: acf1a0be80adb33275ede4aaf7de3e0a82536a3a765d6df572c45c9a37093498
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAuGAAALhgBKqonIAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAW2SURBVHic7Zp7iBVVHMc/57qGWmoQ/tHLMlEwyO2h1k3KSTJ7blGmjkUTmEXRS2/ZyyJ7QcVBMYqIjM4fejJ3K5RC7XV9xKEg0KKE2v4KrL8sEhXJ3emPc3fbvc6cO3N39t69V78wXJjfY37ne8/8zvn9zogwDDkeIbSaAsiWegdSawithgF3A8uASccVAUKr+cAK4ILSra7jggCh1WzgOWBWuaipCRBatQLPArfF6TQlAUKr8cCTwL3AMJduUxEgtDoVeLR0jU1i0xQECK1agPuAJ4Cz09g2PAERmT0VGpYAR2ZPhYYjQGg1EngXWJSFv1wWTmqMI8AaQGfhTDRyLSC0mold5+dW6aK7oQnogdCqDbsCXEqFdb8MzUEAgNBqAvATMDKFWXcj5oA4rCbd4IHGTILHQGh1O9AWIz7itK3FKyC0mgi0AltDPziYse8xwF7gjAixBN7B7hfuiJAPfg4QWk0HPgbOBH4HNgEbgJ2hH2Th/03ggQhRJ9Aa+sGhkl7UitE1qAQIrW4G1gEnR4h/BDYCHaEf/Fyl/8sAEyP2Qj/YHmHThiViGgziKyC0ehB4I4FqN7AdOys2hX7wR0L/OeB74MII8ZrQDx5x2ArgfmDhoBAgtHoVWF6F6T/AFuADYJsrXwitHgNejxB1AlNDPzicKNYsCRBanQS8D/gZuOvNF6Ef7Cx7zrnYNX9UhF3k1I9DZgQIrcYBHcAVmTjsjx+AdqA99IO9QqvNwI0Res6pH4VMCBBanY/N9JNjVHYAX2DX6mkDeNRRLBkXR8hSTf0eDJiAUl3+IXBajMpW4NY+y1ErloiBklGOWaEf7EhrNCAChFZ3AWuJ7ytsBBaFfnA0xj4rMpxTXxpvA/BdIV+Ux8RQLQFCq2eAlxwq74V+sDiFv2rJcE59abzF2AYKwIpCvvhyv+dWQ4DQ6m1sEzIOq0I/WJba8f/+05ARm/Wl8SYBu+m/Wqwu5ItLe5+VhgCh1WhsJ+YGh9rK0A+eT+y08jNdZMROfWm8HHaXOCNCvK6QL94JKQgQWp2DzfQXOdSWhX6wKpHDKtCHjHnYxsd0x9R/BXjK4a4DeDoRAUKrGSWDsxxq94R+sLais4wgtBod+sGBKJk03lXAVwncHK5IQIWCBuzavCj0g40uP9J4w4FTCvniXwkCqxrSeGOxhVaiAxJnQ6RU0HxC/OAPAjclGPwo4FNgtzRePklg1UAaD2z9n/R0KL4lVipoXNXcfmBu6AdbKgQ1DvgcmAOMB7ZL410boTdVGi8vjZemqVmOW4D5aQyO2cCUChoFLHTY7QOuD/1gj8u5NN5EYDMwpc/t4dhEWk5cG/Ai8Ks0XhHYBuwq5It/VhhDX0xIoQuUEVAqaNqBKx02ncB1oR90uhxL412CreaiWlVRfbpDpd9JpWsJcEAa71vsDPoS2F3IF7scj/3XFVMUeglIUNAA7MH+8/tcTqXx5mCJHJMiFhFxbzRwdekC+KXP7Pi6kC/uT+E/Ejno7ZftwD34b4DZCQbvA5+RbvBJMRn70UM77p1oYuSEVmuw72NcNQe2orsm9AMn49J4DwPrqc2hayYt/RbgoQo6zooOQBpPAC9gz+lrhUw6OZX+qaQV3RJqO/jM4JpGq1OUs6dnEUw9EEfAytAPlsbIohD7egx1RL0Cg1rRDTWUE1DTim4ooOcV6ALmVxq8NN4IaTzXXqHhkAN+AxYkqOjGYFvb82oRWK2QwzYUO1xK0njnYc/vZgJ/1yKwWiHX06+PgzTe5cAuog8hGx7O7aQ03gJsFdZ3nY8qWhoWsQRI4y3HntKOqF04tUfkVlga7y3s+XnTox8BpUy/Hnffv6nQS4A03gTgI5o02cWhBUAabxq2fdWwRU21yEnjvYbtuR13gwc7Ax6vdxD1RFN8KToQnCCg3gHUGycIqHcA9UYL9lPVNIhqR4cp/QwVH93/AQzx9EVxdShLAAAAAElFTkSuQmCC
+    keywords:
+    - Commercial
+    - Limited
+    - amd64
+    - ppc64le
+    - Data Science
+    - RHOCP
+    - Other
+    maintainers:
+    - name: IBM
+    name: dods
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dods-13.0.2+20260617.075122.1PL791.tgz
+    version: 13.0.2+20260617.075122.1PL791
   - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.403466663Z"
@@ -3754,6 +4011,29 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dods-12.0.0+20251118.175129.1PL637.tgz
     version: 12.0.0+20251118.175129.1PL637
   dods-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.648417869Z"
+    description: Decision Optimization addon for CP4D - cluster scope installation
+      License By installing this product you accept the license terms https://ibm.biz/~LBlmmMZYB
+      or https://ibm.biz/~vCxTp4zqJ
+    digest: c78f563139467f6a2d2b11a921739fade8e6fd2b610c272489e1207161928321
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAuGAAALhgBKqonIAAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNAay06AAAAW2SURBVHic7Zp7iBVVHMc/57qGWmoQ/tHLMlEwyO2h1k3KSTJ7blGmjkUTmEXRS2/ZyyJ7QcVBMYqIjM4fejJ3K5RC7XV9xKEg0KKE2v4KrL8sEhXJ3emPc3fbvc6cO3N39t69V78wXJjfY37ne8/8zvn9zogwDDkeIbSaAsiWegdSawithgF3A8uASccVAUKr+cAK4ILSra7jggCh1WzgOWBWuaipCRBatQLPArfF6TQlAUKr8cCTwL3AMJduUxEgtDoVeLR0jU1i0xQECK1agPuAJ4Cz09g2PAERmT0VGpYAR2ZPhYYjQGg1EngXWJSFv1wWTmqMI8AaQGfhTDRyLSC0mold5+dW6aK7oQnogdCqDbsCXEqFdb8MzUEAgNBqAvATMDKFWXcj5oA4rCbd4IHGTILHQGh1O9AWIz7itK3FKyC0mgi0AltDPziYse8xwF7gjAixBN7B7hfuiJAPfg4QWk0HPgbOBH4HNgEbgJ2hH2Th/03ggQhRJ9Aa+sGhkl7UitE1qAQIrW4G1gEnR4h/BDYCHaEf/Fyl/8sAEyP2Qj/YHmHThiViGgziKyC0ehB4I4FqN7AdOys2hX7wR0L/OeB74MII8ZrQDx5x2ArgfmDhoBAgtHoVWF6F6T/AFuADYJsrXwitHgNejxB1AlNDPzicKNYsCRBanQS8D/gZuOvNF6Ef7Cx7zrnYNX9UhF3k1I9DZgQIrcYBHcAVmTjsjx+AdqA99IO9QqvNwI0Res6pH4VMCBBanY/N9JNjVHYAX2DX6mkDeNRRLBkXR8hSTf0eDJiAUl3+IXBajMpW4NY+y1ErloiBklGOWaEf7EhrNCAChFZ3AWuJ7ytsBBaFfnA0xj4rMpxTXxpvA/BdIV+Ux8RQLQFCq2eAlxwq74V+sDiFv2rJcE59abzF2AYKwIpCvvhyv+dWQ4DQ6m1sEzIOq0I/WJba8f/+05ARm/Wl8SYBu+m/Wqwu5ItLe5+VhgCh1WhsJ+YGh9rK0A+eT+y08jNdZMROfWm8HHaXOCNCvK6QL94JKQgQWp2DzfQXOdSWhX6wKpHDKtCHjHnYxsd0x9R/BXjK4a4DeDoRAUKrGSWDsxxq94R+sLais4wgtBod+sGBKJk03lXAVwncHK5IQIWCBuzavCj0g40uP9J4w4FTCvniXwkCqxrSeGOxhVaiAxJnQ6RU0HxC/OAPAjclGPwo4FNgtzRePklg1UAaD2z9n/R0KL4lVipoXNXcfmBu6AdbKgQ1DvgcmAOMB7ZL410boTdVGi8vjZemqVmOW4D5aQyO2cCUChoFLHTY7QOuD/1gj8u5NN5EYDMwpc/t4dhEWk5cG/Ai8Ks0XhHYBuwq5It/VhhDX0xIoQuUEVAqaNqBKx02ncB1oR90uhxL412CreaiWlVRfbpDpd9JpWsJcEAa71vsDPoS2F3IF7scj/3XFVMUeglIUNAA7MH+8/tcTqXx5mCJHJMiFhFxbzRwdekC+KXP7Pi6kC/uT+E/Ejno7ZftwD34b4DZCQbvA5+RbvBJMRn70UM77p1oYuSEVmuw72NcNQe2orsm9AMn49J4DwPrqc2hayYt/RbgoQo6zooOQBpPAC9gz+lrhUw6OZX+qaQV3RJqO/jM4JpGq1OUs6dnEUw9EEfAytAPlsbIohD7egx1RL0Cg1rRDTWUE1DTim4ooOcV6ALmVxq8NN4IaTzXXqHhkAN+AxYkqOjGYFvb82oRWK2QwzYUO1xK0njnYc/vZgJ/1yKwWiHX06+PgzTe5cAuog8hGx7O7aQ03gJsFdZ3nY8qWhoWsQRI4y3HntKOqF04tUfkVlga7y3s+XnTox8BpUy/Hnffv6nQS4A03gTgI5o02cWhBUAabxq2fdWwRU21yEnjvYbtuR13gwc7Ax6vdxD1RFN8KToQnCCg3gHUGycIqHcA9UYL9lPVNIhqR4cp/QwVH93/AQzx9EVxdShLAAAAAElFTkSuQmCC
+    keywords:
+    - Commercial
+    - Limited
+    - amd64
+    - ppc64le
+    - Data Science
+    - RHOCP
+    - Other
+    maintainers:
+    - name: IBM
+    name: dods-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dods-cluster-scoped-13.0.2+20260617.075122.1PL791.tgz
+    version: 13.0.2+20260617.075122.1PL791
   - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.40414414Z"
@@ -3964,6 +4244,16 @@ entries:
     version: 0.0.0
   dp:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.648802404Z"
+    description: CPD IBM Data Privacy operator helm chart
+    digest: 1c8884339cf7cfc92276254fce27f27cc787217f560a33e8d6633625dc92ba94
+    name: dp
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dp-12.0.2+20260622.214530.2008.tgz
+    version: 12.0.2+20260622.214530.2008
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.302357946Z"
     description: CPD IBM Data Privacy operator helm chart
@@ -4044,6 +4334,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dp-11.0.0+20251126.231304.2681.tgz
     version: 11.0.0+20251126.231304.2681
   dp-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.64899818Z"
+    description: CPD IBM Data Privacy operator helm chart
+    digest: bab1886d07cd0247a97041eb19250fc4cdafaea30922aa1f0c14b5140e076820
+    name: dp-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dp-cluster-scoped-12.0.2+20260622.214530.2008.tgz
+    version: 12.0.2+20260622.214530.2008
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.302600945Z"
@@ -4381,6 +4681,17 @@ entries:
     version: 0.0.0
   factsheet:
   - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.649408231Z"
+    description: Service Helm chart for deploying the service, including RBAC, operator
+      deployment, and Custom Resource definitions.
+    digest: e229e5a01a25bfaee08445b1434a56c670961414415624a267d42a8a3b9ab84a
+    name: factsheet
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/factsheet-8.0.1+20260615.100025.9.tgz
+    version: 8.0.1+20260615.100025.9
+  - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.406519016Z"
     description: Service Helm chart for deploying the service, including RBAC, operator
@@ -4436,6 +4747,17 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/factsheet-7.0.0+20251203.074613.146.tgz
     version: 7.0.0+20251203.074613.146
   factsheet-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.649597708Z"
+    description: A cluster-scoped Helm chart for factsheet, defining Custom Resource
+      Definitions (CRDs)
+    digest: 93e8ca1e689894ded54e90b1efc9b3f845237944bae09c79237bc2591d8f936b
+    name: factsheet-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/factsheet-cluster-scoped-8.0.1+20260615.100025.9.tgz
+    version: 8.0.1+20260615.100025.9
   - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.406766589Z"
@@ -4516,6 +4838,15 @@ entries:
     version: 0.0.0
   hee:
   - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.649910298Z"
+    digest: 5b0eb1bcb2606c65b5f879796154fb0c064fc60dfce3029616cc8ef29e1ad15c
+    name: hee
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/hee-5.4.1+20260623.000000.54.tgz
+    version: 5.4.1+20260623.000000.54
+  - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.407238845Z"
     digest: 83b0902edf86d5b422ac70735f4174cb4a3c7ec333efc51c6b61fce6d9d1ba43
@@ -4570,6 +4901,15 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/hee-5.3.0+20251126.000000.100.tgz
     version: 5.3.0+20251126.000000.100
   hee-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.650130446Z"
+    digest: 98bf2bdb0bfae87a48b8e8a07efbe3dbfc87389fdf6e714f5ca1b603bff0de9a
+    name: hee-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/hee-cluster-scoped-5.4.1+20260623.000000.54.tgz
+    version: 5.4.1+20260623.000000.54
   - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.407472035Z"
@@ -20870,6 +21210,16 @@ entries:
     version: 4.2.14+20250404.141107.0
   ibm-neo4j:
   - apiVersion: v2
+    appVersion: 1.4.2
+    created: "2026-07-06T22:17:31.650600448Z"
+    description: A Helm chart for Kubernetes
+    digest: 6fa2b0b752a0a601f0206206125ebc1637671991e4c81d80ddb8737d99064a8e
+    name: ibm-neo4j
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-neo4j-1.4.2+20260626.095150.492.tgz
+    version: 1.4.2+20260626.095150.492
+  - apiVersion: v2
     appVersion: 1.4.1
     created: "2026-06-23T08:11:43.303536865Z"
     description: A Helm chart for Kubernetes
@@ -20950,6 +21300,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-neo4j-1.3.0+20251112.144309.166.tgz
     version: 1.3.0+20251112.144309.166
   ibm-neo4j-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 1.4.2
+    created: "2026-07-06T22:17:31.650808872Z"
+    description: A Helm chart for ibm-neo4j
+    digest: af121c1477e85aeb329f29156fa51176056c5062b9f61de08c9593245abfd01d
+    name: ibm-neo4j-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-neo4j-cluster-scoped-1.4.2+20260626.095150.492.tgz
+    version: 1.4.2+20260626.095150.492
   - apiVersion: v2
     appVersion: 1.4.1
     created: "2026-06-23T08:11:43.303991688Z"
@@ -46555,6 +46915,16 @@ entries:
     version: 3.5.0+20260625.074112.1234
   ikc-premium:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.651158814Z"
+    description: CPD IBM Knowledge Catalog Cartridge operator helm chart
+    digest: db71ac1c37e12b282c411d9ebb0582d9516f1ee59af88a8c7a847dfc2b5d1b41
+    name: ikc-premium
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-premium-5.4.2+20260624.054024.2004.tgz
+    version: 5.4.2+20260624.054024.2004
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.310034467Z"
     description: CPD IBM Knowledge Catalog Cartridge operator helm chart
@@ -46635,6 +47005,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-premium-5.3.0+20251203.214630.312.tgz
     version: 5.3.0+20251203.214630.312
   ikc-premium-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.651647593Z"
+    description: CPD IBM Knowledge Catalog Cartridge operator helm chart
+    digest: 08c6acf76800f434549b9f0495e7b6cb983ac10cba7059b64ed51ad4c007c1d1
+    name: ikc-premium-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-premium-cluster-scoped-5.4.2+20260624.054024.2004.tgz
+    version: 5.4.2+20260624.054024.2004
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.310285323Z"
@@ -46738,6 +47118,16 @@ entries:
     version: 0.0.0
   ikc-standard:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.652903365Z"
+    description: CPD IKC Cartradge operator helm chart
+    digest: 53d4a4e3e2c74ca8c8c75e0504a68e992e2fee433518a5c41ec83bd6e740d254
+    name: ikc-standard
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-standard-5.4.2+20260624.054024.2004.tgz
+    version: 5.4.2+20260624.054024.2004
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.311144636Z"
     description: CPD IKC Cartradge operator helm chart
@@ -46818,6 +47208,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-standard-5.3.0+20251203.214630.312.tgz
     version: 5.3.0+20251203.214630.312
   ikc-standard-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.653448931Z"
+    description: CPD IKC Cartradge operator helm chart
+    digest: ac9915edd73e253d4f42d70bae90fd3f1b640376e89da660b0f9171925615ea2
+    name: ikc-standard-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-standard-cluster-scoped-5.4.2+20260624.054024.2004.tgz
+    version: 5.4.2+20260624.054024.2004
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.311705333Z"
@@ -47139,6 +47539,16 @@ entries:
     version: 2.0.0
   match360:
   - apiVersion: v2
+    appVersion: 4.12.51
+    created: "2026-07-06T22:17:31.654577186Z"
+    description: A Helm chart for Kubernetes
+    digest: 0cabfde3e6a7411ac29cb1dcc3e34408f24274e087e51ac3a4098f1a25423857
+    name: match360
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/match360-4.12.2+20260625.115942.52.tgz
+    version: 4.12.2+20260625.115942.52
+  - apiVersion: v2
     appVersion: 4.12.50
     created: "2026-06-23T08:11:43.312116095Z"
     description: A Helm chart for Kubernetes
@@ -47229,6 +47639,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/match360-4.10.0+20251218.123701.15.tgz
     version: 4.10.0+20251218.123701.15
   match360-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 4.12.51
+    created: "2026-07-06T22:17:31.654879193Z"
+    description: A Helm chart for Kubernetes
+    digest: 0771b68c32789584cc7cb389b83e59fbb3f2f7e9500b7b60b5ef0b327b9ad462
+    name: match360-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/match360-cluster-scoped-4.12.2+20260625.115942.52.tgz
+    version: 4.12.2+20260625.115942.52
   - apiVersion: v2
     appVersion: 4.12.50
     created: "2026-06-23T08:11:43.312430603Z"
@@ -47342,6 +47762,16 @@ entries:
     version: 0.0.0
   model-gateway:
   - apiVersion: v2
+    appVersion: 13.0.1
+    created: "2026-07-06T22:17:31.655418123Z"
+    description: CPD Model Gateway helm chart for operator
+    digest: 92fc7eca9fc16f1f32500951ce3825966bf5f3f7486774326f2317f7373504ad
+    name: model-gateway
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/model-gateway-13.0.1+20260602.145726.8.tgz
+    version: 13.0.1+20260602.145726.8
+  - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.416592765Z"
     description: CPD Model Gateway helm chart for operator
@@ -47372,6 +47802,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/model-gateway-12.0.0+20251121.222037.102.tgz
     version: 12.0.0+20251121.222037.102
   model-gateway-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 13.0.1
+    created: "2026-07-06T22:17:31.655628633Z"
+    description: CPD Model Gateway helm chart for operator
+    digest: 71f0ef588d7423a14190e690439f6408aed3bf46ee2e4d6b7bcf1472acd69a01
+    name: model-gateway-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/model-gateway-cluster-scoped-13.0.1+20260602.145726.8.tgz
+    version: 13.0.1+20260602.145726.8
   - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.416836156Z"
@@ -47531,6 +47971,19 @@ entries:
   opencontent-fdb:
   - apiVersion: v2
     appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.656595827Z"
+    description: A Helm chart for foundationDB operator
+    digest: 66c3682448fb71d20b8a8e20a570a0acb19f7a8647433247362555d47b0d6f9a
+    home: https://www.ibm.com/
+    name: opencontent-fdb
+    sources:
+    - https://github.ibm.com/foundationdb/fdb-operator/tree/master/helm/fdb-operator
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/opencontent-fdb-5.4.2+20260623.110440.2.tgz
+    version: 5.4.2+20260623.110440.2
+  - apiVersion: v2
+    appVersion: 5.4.1
     created: "2026-06-23T08:11:43.314072856Z"
     description: A Helm chart for foundationDB operator
     digest: c40d4b06710daac7c8dafd5a728e80b9520eeacf7e82086d267428cb61e8cd98
@@ -47634,6 +48087,19 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/opencontent-fdb-5.3.0+20251124.132732.8.tgz
     version: 5.3.0+20251124.132732.8
   opencontent-fdb-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.663806512Z"
+    description: A Helm chart for foundationDB operator
+    digest: e754c6f1a75e26576a12b95f0816778ab538e6361be32d9cbdca6a8602a8d9fc
+    home: https://www.ibm.com/
+    name: opencontent-fdb-cluster-scoped
+    sources:
+    - https://github.ibm.com/foundationdb/fdb-operator/tree/master/helm/fdb-operator
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/opencontent-fdb-cluster-scoped-5.4.2+20260623.110440.2.tgz
+    version: 5.4.2+20260623.110440.2
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.322189879Z"
@@ -48310,6 +48776,16 @@ entries:
     version: 0.0.0
   planning-analytics:
   - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.664375806Z"
+    description: A Helm chart for IBM Planning Analytics
+    digest: 258b7498376abbd1084d3b112adb83ec90cd65ef68aae5b05b1357c1b91d6a21
+    name: planning-analytics
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/planning-analytics-5.4.1+20260623.114304.2566.tgz
+    version: 5.4.1+20260623.114304.2566
+  - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.424986008Z"
     description: A Helm chart for IBM Planning Analytics
@@ -48391,6 +48867,16 @@ entries:
     version: 5.2.0+20250604.210250.1608
   planning-analytics-cluster-scoped:
   - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.664699917Z"
+    description: A Helm chart for Cluster Scoped objects for planning_analytics
+    digest: 46f4df6a9eb84af1baeb5808054d9e15e817474d2af528b709763e9e429b56e4
+    name: planning-analytics-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/planning-analytics-cluster-scoped-5.4.1+20260623.114304.2566.tgz
+    version: 5.4.1+20260623.114304.2566
+  - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.425310888Z"
     description: A Helm chart for Cluster Scoped objects for planning_analytics
@@ -48471,6 +48957,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/planning-analytics-cluster-scoped-5.2.0+20250604.210250.1608.tgz
     version: 5.2.0+20250604.210250.1608
   planning-analytics-instance:
+  - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.665015092Z"
+    description: A Helm chart for IBM Planning Analytics
+    digest: 5a718de2b6ac81af3341c8b7f359f92f804a4a8fa1acb3b5586d131127106057
+    name: planning-analytics-instance
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/planning-analytics-instance-5.4.1+20260623.114304.2566.tgz
+    version: 5.4.1+20260623.114304.2566
   - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.425687719Z"
@@ -48938,6 +49434,30 @@ entries:
     version: 0.0.0
   replication:
   - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.666674257Z"
+    description: Move and synchronize data between heterogenous data stores in near
+      real time with minimal impact. You can develop optimal solutions that improve
+      operational efficiency by combining data science capabilities, machine-learning
+      techniques, model management, and deployment. License See licenses at https://www.ibm.com/docs/en/software-hub/5.3.x?topic=replication-installing#cli-install__adv-cfg__title__1
+    digest: a1ed3bdded46a354b01882481c1603acff3bd4d7c94f7cbd4eebefe1e6bc12ca
+    icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnM+PHN0eWxlPi5he2lzb2xhdGlvbjppc29sYXRlO30uYntmaWxsOiNmZmY7fS5je2ZpbGw6dXJsKCNhKTt9LmR7bWFzazp1cmwoI2IpO30uZXtmaWxsOnVybCgjYyk7fS5me2ZpbGw6dXJsKCNkKTt9Lmd7bWFzazp1cmwoI2UpO30uaHtmaWxsOnVybCgjZik7fS5pe2ZpbGw6bm9uZTt9Lmp7Y2xpcC1wYXRoOnVybCgjZyk7fS5re21hc2s6dXJsKCNoKTt9Lmx7Y2xpcC1wYXRoOnVybCgjayk7fS5te2ZpbGw6I2JlOTVmZjt9Lm57ZmlsbDojYmQ5NWZmO30ub3tmaWxsOiNiYzk1ZmY7fS5we2ZpbGw6I2JiOTVmZjt9LnF7ZmlsbDojYmE5NWZmO30ucntmaWxsOiNiOTk1ZmY7fS5ze2ZpbGw6I2I4OTRmZjt9LnR7ZmlsbDojYjc5NGZmO30udXtmaWxsOiNiNjk0ZmY7fS52e2ZpbGw6I2I1OTRmZjt9Lnd7ZmlsbDojYjQ5NGZmO30ueHtmaWxsOiNiMzk0ZmY7fS55e2ZpbGw6I2IyOTRmZjt9Lnp7ZmlsbDojYjE5NGZmO30uYWF7ZmlsbDojYjA5NGZmO30uYWJ7ZmlsbDojYWY5NGZmO30uYWN7ZmlsbDojYWU5M2ZmO30uYWR7ZmlsbDojYWQ5M2ZmO30uYWV7ZmlsbDojYWM5M2ZmO30uYWZ7ZmlsbDojYWI5M2ZmO30uYWd7ZmlsbDojYWE5M2ZmO30uYWh7ZmlsbDojYTk5M2ZmO30uYWl7ZmlsbDojYTg5M2ZmO30uYWp7ZmlsbDojYTc5M2ZmO30uYWt7ZmlsbDojYTY5M2ZmO30uYWx7ZmlsbDojYTU5M2ZmO30uYW17ZmlsbDojYTQ5MmZmO30uYW57ZmlsbDojYTM5MmZmO30uYW97ZmlsbDojYTI5MmZmO30uYXB7ZmlsbDojYTE5MmZmO30uYXF7ZmlsbDojYTA5MmZmO30uYXJ7ZmlsbDojOWY5MmZmO30uYXN7ZmlsbDojOWU5MmZmO30uYXR7ZmlsbDojOWQ5MmZmO30uYXV7ZmlsbDojOWM5MmZmO30uYXZ7ZmlsbDojOWI5MmZmO30uYXd7ZmlsbDojOWE5MWZmO30uYXh7ZmlsbDojOTk5MWZmO30uYXl7ZmlsbDojOTg5MWZmO30uYXp7ZmlsbDojOTc5MWZmO30uYmF7ZmlsbDojOTY5MWZmO30uYmJ7ZmlsbDojOTU5MWZmO30uYmN7ZmlsbDojOTQ5MWZmO30uYmR7ZmlsbDojOTM5MWZmO30uYmV7ZmlsbDojOTI5MWZmO30uYmZ7ZmlsbDojOTE5MWZmO30uYmd7ZmlsbDojOTA5MGZmO30uYmh7ZmlsbDojOGY5MGZmO30uYml7ZmlsbDojOGU5MGZmO30uYmp7ZmlsbDojOGQ5MGZmO30uYmt7ZmlsbDojOGM5MGZmO30uYmx7ZmlsbDojOGI5MGZmO30uYm17ZmlsbDojOGE5MGZmO30uYm57ZmlsbDojODk5MGZmO30uYm97ZmlsbDojODg5MGZmO30uYnB7ZmlsbDojODc5MGZmO30uYnF7ZmlsbDojODY4ZmZmO30uYnJ7ZmlsbDojODU4ZmZmO30uYnN7ZmlsbDojODQ4ZmZmO30uYnR7ZmlsbDojODM4ZmZmO30uYnV7ZmlsbDojODI4ZmZmO30uYnZ7ZmlsbDojODE4ZmZmO30uYnd7ZmlsbDojODA4ZmZmO30uYnh7ZmlsbDojN2Y4ZmZmO30uYnl7ZmlsbDojN2U4ZmZmO30uYnp7ZmlsbDojN2Q4ZmZmO30uY2F7ZmlsbDojN2M4ZWZmO30uY2J7ZmlsbDojN2I4ZWZmO30uY2N7ZmlsbDojN2E4ZWZmO30uY2R7ZmlsbDojNzk4ZWZmO30uY2V7ZmlsbDojNzg4ZWZmO30uY2Z7ZmlsbDojNzc4ZWZmO30uY2d7ZmlsbDojNzY4ZWZmO30uY2h7ZmlsbDojNzU4ZWZmO30uY2l7ZmlsbDojNzQ4ZWZmO30uY2p7ZmlsbDojNzI4ZWZmO30uY2t7ZmlsbDojNzE4ZGZmO30uY2x7ZmlsbDojNzA4ZGZmO30uY217ZmlsbDojNmY4ZGZmO30uY257ZmlsbDojNmU4ZGZmO30uY297ZmlsbDojNmQ4ZGZmO30uY3B7ZmlsbDojNmM4ZGZmO30uY3F7ZmlsbDojNmI4ZGZmO30uY3J7ZmlsbDojNmE4ZGZmO30uY3N7ZmlsbDojNjk4ZGZmO30uY3R7ZmlsbDojNjg4ZGZmO30uY3V7ZmlsbDojNjc4Y2ZmO30uY3Z7ZmlsbDojNjY4Y2ZmO30uY3d7ZmlsbDojNjU4Y2ZmO30uY3h7ZmlsbDojNjQ4Y2ZmO30uY3l7ZmlsbDojNjM4Y2ZmO30uY3p7ZmlsbDojNjI4Y2ZmO30uZGF7ZmlsbDojNjE4Y2ZmO30uZGJ7ZmlsbDojNjA4Y2ZmO30uZGN7ZmlsbDojNWY4Y2ZmO30uZGR7ZmlsbDojNWU4Y2ZmO30uZGV7ZmlsbDojNWQ4YmZmO30uZGZ7ZmlsbDojNWM4YmZmO30uZGd7ZmlsbDojNWI4YmZmO30uZGh7ZmlsbDojNWE4YmZmO30uZGl7ZmlsbDojNTk4YmZmO30uZGp7ZmlsbDojNTg4YmZmO30uZGt7ZmlsbDojNTc4YmZmO30uZGx7ZmlsbDojNTY4YmZmO30uZG17ZmlsbDojNTU4YmZmO30uZG57ZmlsbDojNTQ4YmZmO30uZG97ZmlsbDojNTM4YWZmO30uZHB7ZmlsbDojNTI4YWZmO30uZHF7ZmlsbDojNTE4YWZmO30uZHJ7ZmlsbDojNTA4YWZmO30uZHN7ZmlsbDojNGY4YWZmO30uZHR7ZmlsbDojNGU4YWZmO30uZHV7ZmlsbDojNGQ4YWZmO30uZHZ7ZmlsbDojNGM4YWZmO30uZHd7ZmlsbDojNGI4YWZmO30uZHh7ZmlsbDojNGE4YWZmO30uZHl7ZmlsbDojNDk4OWZmO30uZHp7ZmlsbDojNDg4OWZmO30uZWF7ZmlsbDojNDc4OWZmO30uZWJ7ZmlsbDojNDY4OWZmO30uZWN7ZmlsbDojNDU4OWZmO30uZWR7ZmlsbDojMDIxNjc3O308L3N0eWxlPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9Ii0xNDAuMzkiIHkxPSIzMi45NCIgeDI9Ii0xMzkuMzkiIHkyPSIzMi45NCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMTgsIDAsIDAsIDE4LCAtMjQ5NywgLTU4Mi41KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZiIvPjxzdG9wIG9mZnNldD0iMC41IiBzdG9wLWNvbG9yPSIjZmZmIi8+PHN0b3Agb2Zmc2V0PSIwLjg0Ii8+PHN0b3Agb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48bWFzayBpZD0iYiIgeD0iMTIiIHk9IjIiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHJlY3QgY2xhc3M9ImMiIHg9IjEyIiB5PSIyIiB3aWR0aD0iMTgiIGhlaWdodD0iMTciLz48L21hc2s+PGxpbmVhckdyYWRpZW50IGlkPSJjIiB4MT0iLTE0MC4zOSIgeTE9IjMyLjk0IiB4Mj0iLTEzOS4zOSIgeTI9IjMyLjk0IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC0xOCwgMCwgMCwgMTgsIC0yNDk3LCAtNTgyLjUpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIi8+PHN0b3Agb2Zmc2V0PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjAuODQiLz48c3RvcCBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZCIgeDE9Ii0xMjUuNjEiIHkxPSIzMy4wNiIgeDI9Ii0xMjQuNjEiIHkyPSIzMy4wNiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxOCwgMCwgMCwgLTE4LCAyMjYzLCA2MTYuNSkiIHhsaW5rOmhyZWY9IiNhIi8+PG1hc2sgaWQ9ImUiIHg9IjIiIHk9IjEzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTciIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiPjxyZWN0IGNsYXNzPSJmIiB4PSIyIiB5PSIxMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE3Ii8+PC9tYXNrPjxsaW5lYXJHcmFkaWVudCBpZD0iZiIgeDE9Ii0xMjUuNjEiIHkxPSIzMy4wNiIgeDI9Ii0xMjQuNjEiIHkyPSIzMy4wNiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxOCwgMCwgMCwgLTE4LCAyMjYzLCA2MTYuNSkiIHhsaW5rOmhyZWY9IiNjIi8+PGNsaXBQYXRoIGlkPSJnIj48cmVjdCBjbGFzcz0iaSIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIi8+PC9jbGlwUGF0aD48bWFzayBpZD0iaCIgeD0iLTE2IiB5PSItMTYiIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIi8+PGcgY2xhc3M9ImEiPjxwYXRoIGNsYXNzPSJiIiBkPSJNMjAsMjB2Mmg1LjJhMTEsMTEsMCwwLDEtMjAtOGgtMkExMy4xNiwxMy4xNiwwLDAsMCwzLDE2YTEzLDEzLDAsMCwwLDIzLDguMjdWMjhoMlYyMFoiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTE2LDNBMTMsMTMsMCwwLDAsNiw3LjczVjRINHY4aDhWMTBINi44YTExLDExLDAsMCwxLDIwLDhoMkExMy4xNiwxMy4xNiwwLDAsMCwyOSwxNiwxMywxMywwLDAsMCwxNiwzIi8+PGcgY2xhc3M9ImQiPjxyZWN0IGNsYXNzPSJlIiB4PSIxMiIgeT0iMiIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE3Ii8+PC9nPjxnIGNsYXNzPSJnIj48cmVjdCBjbGFzcz0iaCIgeD0iMiIgeT0iMTMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIvPjwvZz48L2c+PC9tYXNrPjxjbGlwUGF0aCBpZD0iayI+PHJlY3QgY2xhc3M9ImkiIHg9Ii02LjYzIiB5PSItNi42MyIgd2lkdGg9IjQ1LjI1IiBoZWlnaHQ9IjQ1LjI1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNi42MyAxNikgcm90YXRlKC00NSkiLz48L2NsaXBQYXRoPjwvZGVmcz48ZyBjbGFzcz0iaiI+PGcgY2xhc3M9ImsiPjxnIGNsYXNzPSJqIj48ZyBjbGFzcz0iaiI+PGcgY2xhc3M9ImwiPjxwb2x5Z29uIGNsYXNzPSJtIiBwb2ludHM9Ii0xNiAxNiAxNiA0OCAtMTYgNDggLTE2IDE2Ii8+PHBvbHlnb24gY2xhc3M9Im0iIHBvaW50cz0iLTE2IDkuNiAyMi40IDQ4IDE2IDQ4IC0xNiAxNiAtMTYgOS42Ii8+PHBvbHlnb24gY2xhc3M9Im0iIHBvaW50cz0iLTE2IDkuMTggMjIuODIgNDggMjIuNCA0OCAtMTYgOS42IC0xNiA5LjE4Ii8+PHBvbHlnb24gY2xhc3M9Im4iIHBvaW50cz0iLTE2IDguNzUgMjMuMjUgNDggMjIuODIgNDggLTE2IDkuMTggLTE2IDguNzUiLz48cG9seWdvbiBjbGFzcz0ibyIgcG9pbnRzPSItMTYgOC4zMyAyMy42NyA0OCAyMy4yNSA0OCAtMTYgOC43NSAtMTYgOC4zMyIvPjxwb2x5Z29uIGNsYXNzPSJwIiBwb2ludHM9Ii0xNiA3LjkxIDI0LjA5IDQ4IDIzLjY3IDQ4IC0xNiA4LjMzIC0xNiA3LjkxIi8+PHBvbHlnb24gY2xhc3M9InEiIHBvaW50cz0iLTE2IDcuNDggMjQuNTIgNDggMjQuMDkgNDggLTE2IDcuOTEgLTE2IDcuNDgiLz48cG9seWdvbiBjbGFzcz0iciIgcG9pbnRzPSItMTYgNy4wNiAyNC45NCA0OCAyNC41MiA0OCAtMTYgNy40OCAtMTYgNy4wNiIvPjxwb2x5Z29uIGNsYXNzPSJzIiBwb2ludHM9Ii0xNiA2LjY0IDI1LjM2IDQ4IDI0Ljk0IDQ4IC0xNiA3LjA2IC0xNiA2LjY0Ii8+PHBvbHlnb24gY2xhc3M9InQiIHBvaW50cz0iLTE2IDYuMjEgMjUuNzkgNDggMjUuMzYgNDggLTE2IDYuNjQgLTE2IDYuMjEiLz48cG9seWdvbiBjbGFzcz0idSIgcG9pbnRzPSItMTYgNS43OSAyNi4yMSA0OCAyNS43OSA0OCAtMTYgNi4yMSAtMTYgNS43OSIvPjxwb2x5Z29uIGNsYXNzPSJ2IiBwb2ludHM9Ii0xNiA1LjM3IDI2LjYzIDQ4IDI2LjIxIDQ4IC0xNiA1Ljc5IC0xNiA1LjM3Ii8+PHBvbHlnb24gY2xhc3M9InciIHBvaW50cz0iLTE2IDQuOTUgMjcuMDUgNDggMjYuNjMgNDggLTE2IDUuMzcgLTE2IDQuOTUiLz48cG9seWdvbiBjbGFzcz0ieCIgcG9pbnRzPSItMTYgNC41MiAyNy40OCA0OCAyNy4wNSA0OCAtMTYgNC45NSAtMTYgNC41MiIvPjxwb2x5Z29uIGNsYXNzPSJ5IiBwb2ludHM9Ii0xNiA0LjEgMjcuOSA0OCAyNy40OCA0OCAtMTYgNC41MiAtMTYgNC4xIi8+PHBvbHlnb24gY2xhc3M9InoiIHBvaW50cz0iLTE2IDMuNjggMjguMzIgNDggMjcuOSA0OCAtMTYgNC4xIC0xNiAzLjY4Ii8+PHBvbHlnb24gY2xhc3M9ImFhIiBwb2ludHM9Ii0xNiAzLjI1IDI4Ljc1IDQ4IDI4LjMyIDQ4IC0xNiAzLjY4IC0xNiAzLjI1Ii8+PHBvbHlnb24gY2xhc3M9ImFiIiBwb2ludHM9Ii0xNiAyLjgzIDI5LjE3IDQ4IDI4Ljc1IDQ4IC0xNiAzLjI1IC0xNiAyLjgzIi8+PHBvbHlnb24gY2xhc3M9ImFjIiBwb2ludHM9Ii0xNiAyLjQxIDI5LjU5IDQ4IDI5LjE3IDQ4IC0xNiAyLjgzIC0xNiAyLjQxIi8+PHBvbHlnb24gY2xhc3M9ImFkIiBwb2ludHM9Ii0xNiAxLjk4IDMwLjAyIDQ4IDI5LjU5IDQ4IC0xNiAyLjQxIC0xNiAxLjk4Ii8+PHBvbHlnb24gY2xhc3M9ImFlIiBwb2ludHM9Ii0xNiAxLjU2IDMwLjQ0IDQ4IDMwLjAyIDQ4IC0xNiAxLjk4IC0xNiAxLjU2Ii8+PHBvbHlnb24gY2xhc3M9ImFmIiBwb2ludHM9Ii0xNiAxLjE0IDMwLjg2IDQ4IDMwLjQ0IDQ4IC0xNiAxLjU2IC0xNiAxLjE0Ii8+PHBvbHlnb24gY2xhc3M9ImFnIiBwb2ludHM9Ii0xNiAwLjcxIDMxLjI5IDQ4IDMwLjg2IDQ4IC0xNiAxLjE0IC0xNiAwLjcxIi8+PHBvbHlnb24gY2xhc3M9ImFoIiBwb2ludHM9Ii0xNiAwLjI5IDMxLjcxIDQ4IDMxLjI5IDQ4IC0xNiAwLjcxIC0xNiAwLjI5Ii8+PHBvbHlnb24gY2xhc3M9ImFpIiBwb2ludHM9Ii0xNiAtMC4xMyAzMi4xMyA0OCAzMS43MSA0OCAtMTYgMC4yOSAtMTYgLTAuMTMiLz48cG9seWdvbiBjbGFzcz0iYWoiIHBvaW50cz0iLTE2IC0wLjU2IDMyLjU1IDQ4IDMyLjEzIDQ4IC0xNiAtMC4xMyAtMTYgLTAuNTYiLz48cG9seWdvbiBjbGFzcz0iYWsiIHBvaW50cz0iLTE2IC0wLjk4IDMyLjk4IDQ4IDMyLjU1IDQ4IC0xNiAtMC41NiAtMTYgLTAuOTgiLz48cG9seWdvbiBjbGFzcz0iYWwiIHBvaW50cz0iLTE2IC0xLjQgMzMuNCA0OCAzMi45OCA0OCAtMTYgLTAuOTggLTE2IC0xLjQiLz48cG9seWdvbiBjbGFzcz0iYW0iIHBvaW50cz0iLTE2IC0xLjgyIDMzLjgzIDQ4IDMzLjQgNDggLTE2IC0xLjQgLTE2IC0xLjgyIi8+PHBvbHlnb24gY2xhc3M9ImFuIiBwb2ludHM9Ii0xNiAtMi4yNSAzNC4yNSA0OCAzMy44MyA0OCAtMTYgLTEuODIgLTE2IC0yLjI1Ii8+PHBvbHlnb24gY2xhc3M9ImFvIiBwb2ludHM9Ii0xNiAtMi42NyAzNC42NyA0OCAzNC4yNSA0OCAtMTYgLTIuMjUgLTE2IC0yLjY3Ii8+PHBvbHlnb24gY2xhc3M9ImFwIiBwb2ludHM9Ii0xNiAtMy4wOSAzNS4wOSA0OCAzNC42NyA0OCAtMTYgLTIuNjcgLTE2IC0zLjA5Ii8+PHBvbHlnb24gY2xhc3M9ImFxIiBwb2ludHM9Ii0xNiAtMy41MiAzNS41MiA0OCAzNS4wOSA0OCAtMTYgLTMuMDkgLTE2IC0zLjUyIi8+PHBvbHlnb24gY2xhc3M9ImFyIiBwb2ludHM9Ii0xNiAtMy45NCAzNS45NCA0OCAzNS41MiA0OCAtMTYgLTMuNTIgLTE2IC0zLjk0Ii8+PHBvbHlnb24gY2xhc3M9ImFzIiBwb2ludHM9Ii0xNiAtNC4zNiAzNi4zNiA0OCAzNS45NCA0OCAtMTYgLTMuOTQgLTE2IC00LjM2Ii8+PHBvbHlnb24gY2xhc3M9ImF0IiBwb2ludHM9Ii0xNiAtNC43OSAzNi43OSA0OCAzNi4zNiA0OCAtMTYgLTQuMzYgLTE2IC00Ljc5Ii8+PHBvbHlnb24gY2xhc3M9ImF1IiBwb2ludHM9Ii0xNiAtNS4yMSAzNy4yMSA0OCAzNi43OSA0OCAtMTYgLTQuNzkgLTE2IC01LjIxIi8+PHBvbHlnb24gY2xhc3M9ImF2IiBwb2ludHM9Ii0xNiAtNS42MyAzNy42MyA0OCAzNy4yMSA0OCAtMTYgLTUuMjEgLTE2IC01LjYzIi8+PHBvbHlnb24gY2xhc3M9ImF3IiBwb2ludHM9Ii0xNiAtNi4wNiAzOC4wNiA0OCAzNy42MyA0OCAtMTYgLTUuNjMgLTE2IC02LjA2Ii8+PHBvbHlnb24gY2xhc3M9ImF4IiBwb2ludHM9Ii0xNiAtNi40OCAzOC40OCA0OCAzOC4wNiA0OCAtMTYgLTYuMDYgLTE2IC02LjQ4Ii8+PHBvbHlnb24gY2xhc3M9ImF5IiBwb2ludHM9Ii0xNiAtNi45IDM4LjkgNDggMzguNDggNDggLTE2IC02LjQ4IC0xNiAtNi45Ii8+PHBvbHlnb24gY2xhc3M9ImF6IiBwb2ludHM9Ii0xNiAtNy4zMyAzOS4zMyA0OCAzOC45IDQ4IC0xNiAtNi45IC0xNiAtNy4zMyIvPjxwb2x5Z29uIGNsYXNzPSJiYSIgcG9pbnRzPSItMTYgLTcuNzUgMzkuNzUgNDggMzkuMzMgNDggLTE2IC03LjMzIC0xNiAtNy43NSIvPjxwb2x5Z29uIGNsYXNzPSJiYiIgcG9pbnRzPSItMTYgLTguMTcgNDAuMTcgNDggMzkuNzUgNDggLTE2IC03Ljc1IC0xNiAtOC4xNyIvPjxwb2x5Z29uIGNsYXNzPSJiYyIgcG9pbnRzPSItMTYgLTguNiA0MC41OSA0OCA0MC4xNyA0OCAtMTYgLTguMTcgLTE2IC04LjYiLz48cG9seWdvbiBjbGFzcz0iYmQiIHBvaW50cz0iLTE2IC05LjAyIDQxLjAyIDQ4IDQwLjU5IDQ4IC0xNiAtOC42IC0xNiAtOS4wMiIvPjxwb2x5Z29uIGNsYXNzPSJiZSIgcG9pbnRzPSItMTYgLTkuNDQgNDEuNDQgNDggNDEuMDIgNDggLTE2IC05LjAyIC0xNiAtOS40NCIvPjxwb2x5Z29uIGNsYXNzPSJiZiIgcG9pbnRzPSItMTYgLTkuODYgNDEuODYgNDggNDEuNDQgNDggLTE2IC05LjQ0IC0xNiAtOS44NiIvPjxwb2x5Z29uIGNsYXNzPSJiZyIgcG9pbnRzPSItMTYgLTEwLjI5IDQyLjI5IDQ4IDQxLjg2IDQ4IC0xNiAtOS44NiAtMTYgLTEwLjI5Ii8+PHBvbHlnb24gY2xhc3M9ImJoIiBwb2ludHM9Ii0xNiAtMTAuNzEgNDIuNzEgNDggNDIuMjkgNDggLTE2IC0xMC4yOSAtMTYgLTEwLjcxIi8+PHBvbHlnb24gY2xhc3M9ImJpIiBwb2ludHM9Ii0xNiAtMTEuMTMgNDMuMTMgNDggNDIuNzEgNDggLTE2IC0xMC43MSAtMTYgLTExLjEzIi8+PHBvbHlnb24gY2xhc3M9ImJqIiBwb2ludHM9Ii0xNiAtMTEuNTYgNDMuNTYgNDggNDMuMTMgNDggLTE2IC0xMS4xMyAtMTYgLTExLjU2Ii8+PHBvbHlnb24gY2xhc3M9ImJrIiBwb2ludHM9Ii0xNiAtMTEuOTggNDMuOTggNDggNDMuNTYgNDggLTE2IC0xMS41NiAtMTYgLTExLjk4Ii8+PHBvbHlnb24gY2xhc3M9ImJsIiBwb2ludHM9Ii0xNiAtMTIuNCA0NC40IDQ4IDQzLjk4IDQ4IC0xNiAtMTEuOTggLTE2IC0xMi40Ii8+PHBvbHlnb24gY2xhc3M9ImJtIiBwb2ludHM9Ii0xNiAtMTIuODMgNDQuODMgNDggNDQuNCA0OCAtMTYgLTEyLjQgLTE2IC0xMi44MyIvPjxwb2x5Z29uIGNsYXNzPSJibiIgcG9pbnRzPSItMTYgLTEzLjI1IDQ1LjI1IDQ4IDQ0LjgzIDQ4IC0xNiAtMTIuODMgLTE2IC0xMy4yNSIvPjxwb2x5Z29uIGNsYXNzPSJibyIgcG9pbnRzPSItMTYgLTEzLjY3IDQ1LjY3IDQ4IDQ1LjI1IDQ4IC0xNiAtMTMuMjUgLTE2IC0xMy42NyIvPjxwb2x5Z29uIGNsYXNzPSJicCIgcG9pbnRzPSItMTYgLTE0LjEgNDYuMSA0OCA0NS42NyA0OCAtMTYgLTEzLjY3IC0xNiAtMTQuMSIvPjxwb2x5Z29uIGNsYXNzPSJicSIgcG9pbnRzPSItMTYgLTE0LjUyIDQ2LjUyIDQ4IDQ2LjEgNDggLTE2IC0xNC4xIC0xNiAtMTQuNTIiLz48cG9seWdvbiBjbGFzcz0iYnIiIHBvaW50cz0iLTE2IC0xNC45NCA0Ni45NCA0OCA0Ni41MiA0OCAtMTYgLTE0LjUyIC0xNiAtMTQuOTQiLz48cG9seWdvbiBjbGFzcz0iYnMiIHBvaW50cz0iLTE2IC0xNS4zNyA0Ny4zNyA0OCA0Ni45NCA0OCAtMTYgLTE0Ljk0IC0xNiAtMTUuMzciLz48cG9seWdvbiBjbGFzcz0iYnQiIHBvaW50cz0iLTE2IC0xNS43OSA0Ny43OSA0OCA0Ny4zNyA0OCAtMTYgLTE1LjM3IC0xNiAtMTUuNzkiLz48cG9seWdvbiBjbGFzcz0iYnUiIHBvaW50cz0iLTE1Ljc5IC0xNiA0OCA0Ny43OSA0OCA0OCA0Ny43OSA0OCAtMTYgLTE1Ljc5IC0xNiAtMTYgLTE1Ljc5IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJidiIgcG9pbnRzPSItMTUuMzcgLTE2IDQ4IDQ3LjM3IDQ4IDQ3Ljc5IC0xNS43OSAtMTYgLTE1LjM3IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJidyIgcG9pbnRzPSItMTQuOTQgLTE2IDQ4IDQ2Ljk0IDQ4IDQ3LjM3IC0xNS4zNyAtMTYgLTE0Ljk0IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJieCIgcG9pbnRzPSItMTQuNTIgLTE2IDQ4IDQ2LjUyIDQ4IDQ2Ljk0IC0xNC45NCAtMTYgLTE0LjUyIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJieSIgcG9pbnRzPSItMTQuMSAtMTYgNDggNDYuMSA0OCA0Ni41MiAtMTQuNTIgLTE2IC0xNC4xIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJieiIgcG9pbnRzPSItMTMuNjcgLTE2IDQ4IDQ1LjY3IDQ4IDQ2LjEgLTE0LjEgLTE2IC0xMy42NyAtMTYiLz48cG9seWdvbiBjbGFzcz0iY2EiIHBvaW50cz0iLTEzLjI1IC0xNiA0OCA0NS4yNSA0OCA0NS42NyAtMTMuNjcgLTE2IC0xMy4yNSAtMTYiLz48cG9seWdvbiBjbGFzcz0iY2IiIHBvaW50cz0iLTEyLjgzIC0xNiA0OCA0NC44MyA0OCA0NS4yNSAtMTMuMjUgLTE2IC0xMi44MyAtMTYiLz48cG9seWdvbiBjbGFzcz0iY2MiIHBvaW50cz0iLTEyLjQgLTE2IDQ4IDQ0LjQgNDggNDQuODMgLTEyLjgzIC0xNiAtMTIuNCAtMTYiLz48cG9seWdvbiBjbGFzcz0iY2QiIHBvaW50cz0iLTExLjk4IC0xNiA0OCA0My45OCA0OCA0NC40IC0xMi40IC0xNiAtMTEuOTggLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImNlIiBwb2ludHM9Ii0xMS41NiAtMTYgNDggNDMuNTYgNDggNDMuOTggLTExLjk4IC0xNiAtMTEuNTYgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImNmIiBwb2ludHM9Ii0xMS4xMyAtMTYgNDggNDMuMTMgNDggNDMuNTYgLTExLjU2IC0xNiAtMTEuMTMgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImNnIiBwb2ludHM9Ii0xMC43MSAtMTYgNDggNDIuNzEgNDggNDMuMTMgLTExLjEzIC0xNiAtMTAuNzEgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImNoIiBwb2ludHM9Ii0xMC4yOSAtMTYgNDggNDIuMjkgNDggNDIuNzEgLTEwLjcxIC0xNiAtMTAuMjkgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImNpIiBwb2ludHM9Ii05Ljg2IC0xNiA0OCA0MS44NiA0OCA0Mi4yOSAtMTAuMjkgLTE2IC05Ljg2IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjaiIgcG9pbnRzPSItOS40NCAtMTYgNDggNDEuNDQgNDggNDEuODYgLTkuODYgLTE2IC05LjQ0IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjayIgcG9pbnRzPSItOS4wMiAtMTYgNDggNDEuMDIgNDggNDEuNDQgLTkuNDQgLTE2IC05LjAyIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjbCIgcG9pbnRzPSItOC42IC0xNiA0OCA0MC41OSA0OCA0MS4wMiAtOS4wMiAtMTYgLTguNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iY20iIHBvaW50cz0iLTguMTcgLTE2IDQ4IDQwLjE3IDQ4IDQwLjU5IC04LjYgLTE2IC04LjE3IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjbiIgcG9pbnRzPSItNy43NSAtMTYgNDggMzkuNzUgNDggNDAuMTcgLTguMTcgLTE2IC03Ljc1IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjbyIgcG9pbnRzPSItNy4zMyAtMTYgNDggMzkuMzMgNDggMzkuNzUgLTcuNzUgLTE2IC03LjMzIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjcCIgcG9pbnRzPSItNi45IC0xNiA0OCAzOC45IDQ4IDM5LjMzIC03LjMzIC0xNiAtNi45IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjcSIgcG9pbnRzPSItNi40OCAtMTYgNDggMzguNDggNDggMzguOSAtNi45IC0xNiAtNi40OCAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3IiIHBvaW50cz0iLTYuMDYgLTE2IDQ4IDM4LjA2IDQ4IDM4LjQ4IC02LjQ4IC0xNiAtNi4wNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3MiIHBvaW50cz0iLTUuNjMgLTE2IDQ4IDM3LjYzIDQ4IDM4LjA2IC02LjA2IC0xNiAtNS42MyAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3QiIHBvaW50cz0iLTUuMjEgLTE2IDQ4IDM3LjIxIDQ4IDM3LjYzIC01LjYzIC0xNiAtNS4yMSAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3UiIHBvaW50cz0iLTQuNzkgLTE2IDQ4IDM2Ljc5IDQ4IDM3LjIxIC01LjIxIC0xNiAtNC43OSAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3YiIHBvaW50cz0iLTQuMzYgLTE2IDQ4IDM2LjM2IDQ4IDM2Ljc5IC00Ljc5IC0xNiAtNC4zNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3ciIHBvaW50cz0iLTMuOTQgLTE2IDQ4IDM1Ljk0IDQ4IDM2LjM2IC00LjM2IC0xNiAtMy45NCAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3giIHBvaW50cz0iLTMuNTIgLTE2IDQ4IDM1LjUyIDQ4IDM1Ljk0IC0zLjk0IC0xNiAtMy41MiAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3kiIHBvaW50cz0iLTMuMDkgLTE2IDQ4IDM1LjA5IDQ4IDM1LjUyIC0zLjUyIC0xNiAtMy4wOSAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3oiIHBvaW50cz0iLTIuNjcgLTE2IDQ4IDM0LjY3IDQ4IDM1LjA5IC0zLjA5IC0xNiAtMi42NyAtMTYiLz48cG9seWdvbiBjbGFzcz0iZGEiIHBvaW50cz0iLTIuMjUgLTE2IDQ4IDM0LjI1IDQ4IDM0LjY3IC0yLjY3IC0xNiAtMi4yNSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZGIiIHBvaW50cz0iLTEuODIgLTE2IDQ4IDMzLjgzIDQ4IDM0LjI1IC0yLjI1IC0xNiAtMS44MiAtMTYiLz48cG9seWdvbiBjbGFzcz0iZGMiIHBvaW50cz0iLTEuNCAtMTYgNDggMzMuNCA0OCAzMy44MyAtMS44MiAtMTYgLTEuNCAtMTYiLz48cG9seWdvbiBjbGFzcz0iZGQiIHBvaW50cz0iLTAuOTggLTE2IDQ4IDMyLjk4IDQ4IDMzLjQgLTEuNCAtMTYgLTAuOTggLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImRlIiBwb2ludHM9Ii0wLjU2IC0xNiA0OCAzMi41NSA0OCAzMi45OCAtMC45OCAtMTYgLTAuNTYgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImRmIiBwb2ludHM9Ii0wLjEzIC0xNiA0OCAzMi4xMyA0OCAzMi41NSAtMC41NiAtMTYgLTAuMTMgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImRnIiBwb2ludHM9IjAuMjkgLTE2IDQ4IDMxLjcxIDQ4IDMyLjEzIC0wLjEzIC0xNiAwLjI5IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkaCIgcG9pbnRzPSIwLjcxIC0xNiA0OCAzMS4yOSA0OCAzMS43MSAwLjI5IC0xNiAwLjcxIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkaSIgcG9pbnRzPSIxLjE0IC0xNiA0OCAzMC44NiA0OCAzMS4yOSAwLjcxIC0xNiAxLjE0IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkaiIgcG9pbnRzPSIxLjU2IC0xNiA0OCAzMC40NCA0OCAzMC44NiAxLjE0IC0xNiAxLjU2IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkayIgcG9pbnRzPSIxLjk4IC0xNiA0OCAzMC4wMiA0OCAzMC40NCAxLjU2IC0xNiAxLjk4IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkbCIgcG9pbnRzPSIyLjQxIC0xNiA0OCAyOS41OSA0OCAzMC4wMiAxLjk4IC0xNiAyLjQxIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkbSIgcG9pbnRzPSIyLjgzIC0xNiA0OCAyOS4xNyA0OCAyOS41OSAyLjQxIC0xNiAyLjgzIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkbiIgcG9pbnRzPSIzLjI1IC0xNiA0OCAyOC43NSA0OCAyOS4xNyAyLjgzIC0xNiAzLjI1IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkbyIgcG9pbnRzPSIzLjY4IC0xNiA0OCAyOC4zMiA0OCAyOC43NSAzLjI1IC0xNiAzLjY4IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkcCIgcG9pbnRzPSI0LjEgLTE2IDQ4IDI3LjkgNDggMjguMzIgMy42OCAtMTYgNC4xIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkcSIgcG9pbnRzPSI0LjUyIC0xNiA0OCAyNy40OCA0OCAyNy45IDQuMSAtMTYgNC41MiAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHIiIHBvaW50cz0iNC45NSAtMTYgNDggMjcuMDUgNDggMjcuNDggNC41MiAtMTYgNC45NSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHMiIHBvaW50cz0iNS4zNyAtMTYgNDggMjYuNjMgNDggMjcuMDUgNC45NSAtMTYgNS4zNyAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHQiIHBvaW50cz0iNS43OSAtMTYgNDggMjYuMjEgNDggMjYuNjMgNS4zNyAtMTYgNS43OSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHUiIHBvaW50cz0iNi4yMSAtMTYgNDggMjUuNzkgNDggMjYuMjEgNS43OSAtMTYgNi4yMSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHYiIHBvaW50cz0iNi42NCAtMTYgNDggMjUuMzYgNDggMjUuNzkgNi4yMSAtMTYgNi42NCAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHciIHBvaW50cz0iNy4wNiAtMTYgNDggMjQuOTQgNDggMjUuMzYgNi42NCAtMTYgNy4wNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHgiIHBvaW50cz0iNy40OCAtMTYgNDggMjQuNTIgNDggMjQuOTQgNy4wNiAtMTYgNy40OCAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHkiIHBvaW50cz0iNy45MSAtMTYgNDggMjQuMDkgNDggMjQuNTIgNy40OCAtMTYgNy45MSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHoiIHBvaW50cz0iOC4zMyAtMTYgNDggMjMuNjcgNDggMjQuMDkgNy45MSAtMTYgOC4zMyAtMTYiLz48cG9seWdvbiBjbGFzcz0iZWEiIHBvaW50cz0iOC43NSAtMTYgNDggMjMuMjUgNDggMjMuNjcgOC4zMyAtMTYgOC43NSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZWIiIHBvaW50cz0iOS4xOCAtMTYgNDggMjIuODIgNDggMjMuMjUgOC43NSAtMTYgOS4xOCAtMTYiLz48cG9seWdvbiBjbGFzcz0iZWMiIHBvaW50cz0iOS42IC0xNiA0OCAyMi40IDQ4IDIyLjgyIDkuMTggLTE2IDkuNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iZWMiIHBvaW50cz0iMTYgLTE2IDQ4IDE2IDQ4IDIyLjQgOS42IC0xNiAxNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iZWMiIHBvaW50cz0iNDggMTYgMTYgLTE2IDQ4IC0xNiA0OCAxNiIvPjwvZz48L2c+PC9nPjwvZz48cGF0aCBjbGFzcz0iZWQiIGQ9Ik0yNSwzYTQsNCwwLDAsMC0zLjQzLDZMOSwyMS41N0E0LjA1LDQuMDUsMCwxLDAsMTAuNDMsMjNMMjMsMTAuNDNBMy44OSwzLjg5LDAsMCwwLDI1LDExYTQsNCwwLDAsMCwwLThNNywyN2EyLDIsMCwxLDEsMi0yLDIsMiwwLDAsMS0yLDJNMjUsOWEyLDIsMCwxLDEsMi0yLDIsMiwwLDAsMS0yLDIiLz48cmVjdCBjbGFzcz0iaSIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIi8+PC9nPjwvc3ZnPg==
+    keywords:
+    - Commercial
+    - Limited
+    - amd64
+    - database
+    - Integration
+    - RHOCP
+    - Other
+    maintainers:
+    - name: IBM
+    name: replication
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/replication-5.4.1+20260619.184834.3235.tgz
+    version: 5.4.1+20260619.184834.3235
+  - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.430887331Z"
     description: Move and synchronize data between heterogenous data stores in near
@@ -49082,6 +49602,30 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/replication-5.3.1+20260217.170417.144.tgz
     version: 5.3.1+20260217.170417.144
   replication-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.668173897Z"
+    description: Move and synchronize data between heterogenous data stores in near
+      real time with minimal impact. You can develop optimal solutions that improve
+      operational efficiency by combining data science capabilities, machine-learning
+      techniques, model management, and deployment. License See licenses at https://www.ibm.com/docs/en/software-hub/5.3.x?topic=replication-installing#cli-install__adv-cfg__title__1
+    digest: 383730ee1b7c08f26321033c52a9d23485769cf64943b875c3348234084c1598
+    icon: data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnM+PHN0eWxlPi5he2lzb2xhdGlvbjppc29sYXRlO30uYntmaWxsOiNmZmY7fS5je2ZpbGw6dXJsKCNhKTt9LmR7bWFzazp1cmwoI2IpO30uZXtmaWxsOnVybCgjYyk7fS5me2ZpbGw6dXJsKCNkKTt9Lmd7bWFzazp1cmwoI2UpO30uaHtmaWxsOnVybCgjZik7fS5pe2ZpbGw6bm9uZTt9Lmp7Y2xpcC1wYXRoOnVybCgjZyk7fS5re21hc2s6dXJsKCNoKTt9Lmx7Y2xpcC1wYXRoOnVybCgjayk7fS5te2ZpbGw6I2JlOTVmZjt9Lm57ZmlsbDojYmQ5NWZmO30ub3tmaWxsOiNiYzk1ZmY7fS5we2ZpbGw6I2JiOTVmZjt9LnF7ZmlsbDojYmE5NWZmO30ucntmaWxsOiNiOTk1ZmY7fS5ze2ZpbGw6I2I4OTRmZjt9LnR7ZmlsbDojYjc5NGZmO30udXtmaWxsOiNiNjk0ZmY7fS52e2ZpbGw6I2I1OTRmZjt9Lnd7ZmlsbDojYjQ5NGZmO30ueHtmaWxsOiNiMzk0ZmY7fS55e2ZpbGw6I2IyOTRmZjt9Lnp7ZmlsbDojYjE5NGZmO30uYWF7ZmlsbDojYjA5NGZmO30uYWJ7ZmlsbDojYWY5NGZmO30uYWN7ZmlsbDojYWU5M2ZmO30uYWR7ZmlsbDojYWQ5M2ZmO30uYWV7ZmlsbDojYWM5M2ZmO30uYWZ7ZmlsbDojYWI5M2ZmO30uYWd7ZmlsbDojYWE5M2ZmO30uYWh7ZmlsbDojYTk5M2ZmO30uYWl7ZmlsbDojYTg5M2ZmO30uYWp7ZmlsbDojYTc5M2ZmO30uYWt7ZmlsbDojYTY5M2ZmO30uYWx7ZmlsbDojYTU5M2ZmO30uYW17ZmlsbDojYTQ5MmZmO30uYW57ZmlsbDojYTM5MmZmO30uYW97ZmlsbDojYTI5MmZmO30uYXB7ZmlsbDojYTE5MmZmO30uYXF7ZmlsbDojYTA5MmZmO30uYXJ7ZmlsbDojOWY5MmZmO30uYXN7ZmlsbDojOWU5MmZmO30uYXR7ZmlsbDojOWQ5MmZmO30uYXV7ZmlsbDojOWM5MmZmO30uYXZ7ZmlsbDojOWI5MmZmO30uYXd7ZmlsbDojOWE5MWZmO30uYXh7ZmlsbDojOTk5MWZmO30uYXl7ZmlsbDojOTg5MWZmO30uYXp7ZmlsbDojOTc5MWZmO30uYmF7ZmlsbDojOTY5MWZmO30uYmJ7ZmlsbDojOTU5MWZmO30uYmN7ZmlsbDojOTQ5MWZmO30uYmR7ZmlsbDojOTM5MWZmO30uYmV7ZmlsbDojOTI5MWZmO30uYmZ7ZmlsbDojOTE5MWZmO30uYmd7ZmlsbDojOTA5MGZmO30uYmh7ZmlsbDojOGY5MGZmO30uYml7ZmlsbDojOGU5MGZmO30uYmp7ZmlsbDojOGQ5MGZmO30uYmt7ZmlsbDojOGM5MGZmO30uYmx7ZmlsbDojOGI5MGZmO30uYm17ZmlsbDojOGE5MGZmO30uYm57ZmlsbDojODk5MGZmO30uYm97ZmlsbDojODg5MGZmO30uYnB7ZmlsbDojODc5MGZmO30uYnF7ZmlsbDojODY4ZmZmO30uYnJ7ZmlsbDojODU4ZmZmO30uYnN7ZmlsbDojODQ4ZmZmO30uYnR7ZmlsbDojODM4ZmZmO30uYnV7ZmlsbDojODI4ZmZmO30uYnZ7ZmlsbDojODE4ZmZmO30uYnd7ZmlsbDojODA4ZmZmO30uYnh7ZmlsbDojN2Y4ZmZmO30uYnl7ZmlsbDojN2U4ZmZmO30uYnp7ZmlsbDojN2Q4ZmZmO30uY2F7ZmlsbDojN2M4ZWZmO30uY2J7ZmlsbDojN2I4ZWZmO30uY2N7ZmlsbDojN2E4ZWZmO30uY2R7ZmlsbDojNzk4ZWZmO30uY2V7ZmlsbDojNzg4ZWZmO30uY2Z7ZmlsbDojNzc4ZWZmO30uY2d7ZmlsbDojNzY4ZWZmO30uY2h7ZmlsbDojNzU4ZWZmO30uY2l7ZmlsbDojNzQ4ZWZmO30uY2p7ZmlsbDojNzI4ZWZmO30uY2t7ZmlsbDojNzE4ZGZmO30uY2x7ZmlsbDojNzA4ZGZmO30uY217ZmlsbDojNmY4ZGZmO30uY257ZmlsbDojNmU4ZGZmO30uY297ZmlsbDojNmQ4ZGZmO30uY3B7ZmlsbDojNmM4ZGZmO30uY3F7ZmlsbDojNmI4ZGZmO30uY3J7ZmlsbDojNmE4ZGZmO30uY3N7ZmlsbDojNjk4ZGZmO30uY3R7ZmlsbDojNjg4ZGZmO30uY3V7ZmlsbDojNjc4Y2ZmO30uY3Z7ZmlsbDojNjY4Y2ZmO30uY3d7ZmlsbDojNjU4Y2ZmO30uY3h7ZmlsbDojNjQ4Y2ZmO30uY3l7ZmlsbDojNjM4Y2ZmO30uY3p7ZmlsbDojNjI4Y2ZmO30uZGF7ZmlsbDojNjE4Y2ZmO30uZGJ7ZmlsbDojNjA4Y2ZmO30uZGN7ZmlsbDojNWY4Y2ZmO30uZGR7ZmlsbDojNWU4Y2ZmO30uZGV7ZmlsbDojNWQ4YmZmO30uZGZ7ZmlsbDojNWM4YmZmO30uZGd7ZmlsbDojNWI4YmZmO30uZGh7ZmlsbDojNWE4YmZmO30uZGl7ZmlsbDojNTk4YmZmO30uZGp7ZmlsbDojNTg4YmZmO30uZGt7ZmlsbDojNTc4YmZmO30uZGx7ZmlsbDojNTY4YmZmO30uZG17ZmlsbDojNTU4YmZmO30uZG57ZmlsbDojNTQ4YmZmO30uZG97ZmlsbDojNTM4YWZmO30uZHB7ZmlsbDojNTI4YWZmO30uZHF7ZmlsbDojNTE4YWZmO30uZHJ7ZmlsbDojNTA4YWZmO30uZHN7ZmlsbDojNGY4YWZmO30uZHR7ZmlsbDojNGU4YWZmO30uZHV7ZmlsbDojNGQ4YWZmO30uZHZ7ZmlsbDojNGM4YWZmO30uZHd7ZmlsbDojNGI4YWZmO30uZHh7ZmlsbDojNGE4YWZmO30uZHl7ZmlsbDojNDk4OWZmO30uZHp7ZmlsbDojNDg4OWZmO30uZWF7ZmlsbDojNDc4OWZmO30uZWJ7ZmlsbDojNDY4OWZmO30uZWN7ZmlsbDojNDU4OWZmO30uZWR7ZmlsbDojMDIxNjc3O308L3N0eWxlPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9Ii0xNDAuMzkiIHkxPSIzMi45NCIgeDI9Ii0xMzkuMzkiIHkyPSIzMi45NCIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMTgsIDAsIDAsIDE4LCAtMjQ5NywgLTU4Mi41KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZiIvPjxzdG9wIG9mZnNldD0iMC41IiBzdG9wLWNvbG9yPSIjZmZmIi8+PHN0b3Agb2Zmc2V0PSIwLjg0Ii8+PHN0b3Agb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48bWFzayBpZD0iYiIgeD0iMTIiIHk9IjIiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHJlY3QgY2xhc3M9ImMiIHg9IjEyIiB5PSIyIiB3aWR0aD0iMTgiIGhlaWdodD0iMTciLz48L21hc2s+PGxpbmVhckdyYWRpZW50IGlkPSJjIiB4MT0iLTE0MC4zOSIgeTE9IjMyLjk0IiB4Mj0iLTEzOS4zOSIgeTI9IjMyLjk0IiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC0xOCwgMCwgMCwgMTgsIC0yNDk3LCAtNTgyLjUpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIi8+PHN0b3Agb2Zmc2V0PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjAuODQiLz48c3RvcCBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iZCIgeDE9Ii0xMjUuNjEiIHkxPSIzMy4wNiIgeDI9Ii0xMjQuNjEiIHkyPSIzMy4wNiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxOCwgMCwgMCwgLTE4LCAyMjYzLCA2MTYuNSkiIHhsaW5rOmhyZWY9IiNhIi8+PG1hc2sgaWQ9ImUiIHg9IjIiIHk9IjEzIiB3aWR0aD0iMTgiIGhlaWdodD0iMTciIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiPjxyZWN0IGNsYXNzPSJmIiB4PSIyIiB5PSIxMyIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE3Ii8+PC9tYXNrPjxsaW5lYXJHcmFkaWVudCBpZD0iZiIgeDE9Ii0xMjUuNjEiIHkxPSIzMy4wNiIgeDI9Ii0xMjQuNjEiIHkyPSIzMy4wNiIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxOCwgMCwgMCwgLTE4LCAyMjYzLCA2MTYuNSkiIHhsaW5rOmhyZWY9IiNjIi8+PGNsaXBQYXRoIGlkPSJnIj48cmVjdCBjbGFzcz0iaSIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIi8+PC9jbGlwUGF0aD48bWFzayBpZD0iaCIgeD0iLTE2IiB5PSItMTYiIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIi8+PGcgY2xhc3M9ImEiPjxwYXRoIGNsYXNzPSJiIiBkPSJNMjAsMjB2Mmg1LjJhMTEsMTEsMCwwLDEtMjAtOGgtMkExMy4xNiwxMy4xNiwwLDAsMCwzLDE2YTEzLDEzLDAsMCwwLDIzLDguMjdWMjhoMlYyMFoiLz48cGF0aCBjbGFzcz0iYiIgZD0iTTE2LDNBMTMsMTMsMCwwLDAsNiw3LjczVjRINHY4aDhWMTBINi44YTExLDExLDAsMCwxLDIwLDhoMkExMy4xNiwxMy4xNiwwLDAsMCwyOSwxNiwxMywxMywwLDAsMCwxNiwzIi8+PGcgY2xhc3M9ImQiPjxyZWN0IGNsYXNzPSJlIiB4PSIxMiIgeT0iMiIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE3Ii8+PC9nPjxnIGNsYXNzPSJnIj48cmVjdCBjbGFzcz0iaCIgeD0iMiIgeT0iMTMiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIvPjwvZz48L2c+PC9tYXNrPjxjbGlwUGF0aCBpZD0iayI+PHJlY3QgY2xhc3M9ImkiIHg9Ii02LjYzIiB5PSItNi42MyIgd2lkdGg9IjQ1LjI1IiBoZWlnaHQ9IjQ1LjI1IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNi42MyAxNikgcm90YXRlKC00NSkiLz48L2NsaXBQYXRoPjwvZGVmcz48ZyBjbGFzcz0iaiI+PGcgY2xhc3M9ImsiPjxnIGNsYXNzPSJqIj48ZyBjbGFzcz0iaiI+PGcgY2xhc3M9ImwiPjxwb2x5Z29uIGNsYXNzPSJtIiBwb2ludHM9Ii0xNiAxNiAxNiA0OCAtMTYgNDggLTE2IDE2Ii8+PHBvbHlnb24gY2xhc3M9Im0iIHBvaW50cz0iLTE2IDkuNiAyMi40IDQ4IDE2IDQ4IC0xNiAxNiAtMTYgOS42Ii8+PHBvbHlnb24gY2xhc3M9Im0iIHBvaW50cz0iLTE2IDkuMTggMjIuODIgNDggMjIuNCA0OCAtMTYgOS42IC0xNiA5LjE4Ii8+PHBvbHlnb24gY2xhc3M9Im4iIHBvaW50cz0iLTE2IDguNzUgMjMuMjUgNDggMjIuODIgNDggLTE2IDkuMTggLTE2IDguNzUiLz48cG9seWdvbiBjbGFzcz0ibyIgcG9pbnRzPSItMTYgOC4zMyAyMy42NyA0OCAyMy4yNSA0OCAtMTYgOC43NSAtMTYgOC4zMyIvPjxwb2x5Z29uIGNsYXNzPSJwIiBwb2ludHM9Ii0xNiA3LjkxIDI0LjA5IDQ4IDIzLjY3IDQ4IC0xNiA4LjMzIC0xNiA3LjkxIi8+PHBvbHlnb24gY2xhc3M9InEiIHBvaW50cz0iLTE2IDcuNDggMjQuNTIgNDggMjQuMDkgNDggLTE2IDcuOTEgLTE2IDcuNDgiLz48cG9seWdvbiBjbGFzcz0iciIgcG9pbnRzPSItMTYgNy4wNiAyNC45NCA0OCAyNC41MiA0OCAtMTYgNy40OCAtMTYgNy4wNiIvPjxwb2x5Z29uIGNsYXNzPSJzIiBwb2ludHM9Ii0xNiA2LjY0IDI1LjM2IDQ4IDI0Ljk0IDQ4IC0xNiA3LjA2IC0xNiA2LjY0Ii8+PHBvbHlnb24gY2xhc3M9InQiIHBvaW50cz0iLTE2IDYuMjEgMjUuNzkgNDggMjUuMzYgNDggLTE2IDYuNjQgLTE2IDYuMjEiLz48cG9seWdvbiBjbGFzcz0idSIgcG9pbnRzPSItMTYgNS43OSAyNi4yMSA0OCAyNS43OSA0OCAtMTYgNi4yMSAtMTYgNS43OSIvPjxwb2x5Z29uIGNsYXNzPSJ2IiBwb2ludHM9Ii0xNiA1LjM3IDI2LjYzIDQ4IDI2LjIxIDQ4IC0xNiA1Ljc5IC0xNiA1LjM3Ii8+PHBvbHlnb24gY2xhc3M9InciIHBvaW50cz0iLTE2IDQuOTUgMjcuMDUgNDggMjYuNjMgNDggLTE2IDUuMzcgLTE2IDQuOTUiLz48cG9seWdvbiBjbGFzcz0ieCIgcG9pbnRzPSItMTYgNC41MiAyNy40OCA0OCAyNy4wNSA0OCAtMTYgNC45NSAtMTYgNC41MiIvPjxwb2x5Z29uIGNsYXNzPSJ5IiBwb2ludHM9Ii0xNiA0LjEgMjcuOSA0OCAyNy40OCA0OCAtMTYgNC41MiAtMTYgNC4xIi8+PHBvbHlnb24gY2xhc3M9InoiIHBvaW50cz0iLTE2IDMuNjggMjguMzIgNDggMjcuOSA0OCAtMTYgNC4xIC0xNiAzLjY4Ii8+PHBvbHlnb24gY2xhc3M9ImFhIiBwb2ludHM9Ii0xNiAzLjI1IDI4Ljc1IDQ4IDI4LjMyIDQ4IC0xNiAzLjY4IC0xNiAzLjI1Ii8+PHBvbHlnb24gY2xhc3M9ImFiIiBwb2ludHM9Ii0xNiAyLjgzIDI5LjE3IDQ4IDI4Ljc1IDQ4IC0xNiAzLjI1IC0xNiAyLjgzIi8+PHBvbHlnb24gY2xhc3M9ImFjIiBwb2ludHM9Ii0xNiAyLjQxIDI5LjU5IDQ4IDI5LjE3IDQ4IC0xNiAyLjgzIC0xNiAyLjQxIi8+PHBvbHlnb24gY2xhc3M9ImFkIiBwb2ludHM9Ii0xNiAxLjk4IDMwLjAyIDQ4IDI5LjU5IDQ4IC0xNiAyLjQxIC0xNiAxLjk4Ii8+PHBvbHlnb24gY2xhc3M9ImFlIiBwb2ludHM9Ii0xNiAxLjU2IDMwLjQ0IDQ4IDMwLjAyIDQ4IC0xNiAxLjk4IC0xNiAxLjU2Ii8+PHBvbHlnb24gY2xhc3M9ImFmIiBwb2ludHM9Ii0xNiAxLjE0IDMwLjg2IDQ4IDMwLjQ0IDQ4IC0xNiAxLjU2IC0xNiAxLjE0Ii8+PHBvbHlnb24gY2xhc3M9ImFnIiBwb2ludHM9Ii0xNiAwLjcxIDMxLjI5IDQ4IDMwLjg2IDQ4IC0xNiAxLjE0IC0xNiAwLjcxIi8+PHBvbHlnb24gY2xhc3M9ImFoIiBwb2ludHM9Ii0xNiAwLjI5IDMxLjcxIDQ4IDMxLjI5IDQ4IC0xNiAwLjcxIC0xNiAwLjI5Ii8+PHBvbHlnb24gY2xhc3M9ImFpIiBwb2ludHM9Ii0xNiAtMC4xMyAzMi4xMyA0OCAzMS43MSA0OCAtMTYgMC4yOSAtMTYgLTAuMTMiLz48cG9seWdvbiBjbGFzcz0iYWoiIHBvaW50cz0iLTE2IC0wLjU2IDMyLjU1IDQ4IDMyLjEzIDQ4IC0xNiAtMC4xMyAtMTYgLTAuNTYiLz48cG9seWdvbiBjbGFzcz0iYWsiIHBvaW50cz0iLTE2IC0wLjk4IDMyLjk4IDQ4IDMyLjU1IDQ4IC0xNiAtMC41NiAtMTYgLTAuOTgiLz48cG9seWdvbiBjbGFzcz0iYWwiIHBvaW50cz0iLTE2IC0xLjQgMzMuNCA0OCAzMi45OCA0OCAtMTYgLTAuOTggLTE2IC0xLjQiLz48cG9seWdvbiBjbGFzcz0iYW0iIHBvaW50cz0iLTE2IC0xLjgyIDMzLjgzIDQ4IDMzLjQgNDggLTE2IC0xLjQgLTE2IC0xLjgyIi8+PHBvbHlnb24gY2xhc3M9ImFuIiBwb2ludHM9Ii0xNiAtMi4yNSAzNC4yNSA0OCAzMy44MyA0OCAtMTYgLTEuODIgLTE2IC0yLjI1Ii8+PHBvbHlnb24gY2xhc3M9ImFvIiBwb2ludHM9Ii0xNiAtMi42NyAzNC42NyA0OCAzNC4yNSA0OCAtMTYgLTIuMjUgLTE2IC0yLjY3Ii8+PHBvbHlnb24gY2xhc3M9ImFwIiBwb2ludHM9Ii0xNiAtMy4wOSAzNS4wOSA0OCAzNC42NyA0OCAtMTYgLTIuNjcgLTE2IC0zLjA5Ii8+PHBvbHlnb24gY2xhc3M9ImFxIiBwb2ludHM9Ii0xNiAtMy41MiAzNS41MiA0OCAzNS4wOSA0OCAtMTYgLTMuMDkgLTE2IC0zLjUyIi8+PHBvbHlnb24gY2xhc3M9ImFyIiBwb2ludHM9Ii0xNiAtMy45NCAzNS45NCA0OCAzNS41MiA0OCAtMTYgLTMuNTIgLTE2IC0zLjk0Ii8+PHBvbHlnb24gY2xhc3M9ImFzIiBwb2ludHM9Ii0xNiAtNC4zNiAzNi4zNiA0OCAzNS45NCA0OCAtMTYgLTMuOTQgLTE2IC00LjM2Ii8+PHBvbHlnb24gY2xhc3M9ImF0IiBwb2ludHM9Ii0xNiAtNC43OSAzNi43OSA0OCAzNi4zNiA0OCAtMTYgLTQuMzYgLTE2IC00Ljc5Ii8+PHBvbHlnb24gY2xhc3M9ImF1IiBwb2ludHM9Ii0xNiAtNS4yMSAzNy4yMSA0OCAzNi43OSA0OCAtMTYgLTQuNzkgLTE2IC01LjIxIi8+PHBvbHlnb24gY2xhc3M9ImF2IiBwb2ludHM9Ii0xNiAtNS42MyAzNy42MyA0OCAzNy4yMSA0OCAtMTYgLTUuMjEgLTE2IC01LjYzIi8+PHBvbHlnb24gY2xhc3M9ImF3IiBwb2ludHM9Ii0xNiAtNi4wNiAzOC4wNiA0OCAzNy42MyA0OCAtMTYgLTUuNjMgLTE2IC02LjA2Ii8+PHBvbHlnb24gY2xhc3M9ImF4IiBwb2ludHM9Ii0xNiAtNi40OCAzOC40OCA0OCAzOC4wNiA0OCAtMTYgLTYuMDYgLTE2IC02LjQ4Ii8+PHBvbHlnb24gY2xhc3M9ImF5IiBwb2ludHM9Ii0xNiAtNi45IDM4LjkgNDggMzguNDggNDggLTE2IC02LjQ4IC0xNiAtNi45Ii8+PHBvbHlnb24gY2xhc3M9ImF6IiBwb2ludHM9Ii0xNiAtNy4zMyAzOS4zMyA0OCAzOC45IDQ4IC0xNiAtNi45IC0xNiAtNy4zMyIvPjxwb2x5Z29uIGNsYXNzPSJiYSIgcG9pbnRzPSItMTYgLTcuNzUgMzkuNzUgNDggMzkuMzMgNDggLTE2IC03LjMzIC0xNiAtNy43NSIvPjxwb2x5Z29uIGNsYXNzPSJiYiIgcG9pbnRzPSItMTYgLTguMTcgNDAuMTcgNDggMzkuNzUgNDggLTE2IC03Ljc1IC0xNiAtOC4xNyIvPjxwb2x5Z29uIGNsYXNzPSJiYyIgcG9pbnRzPSItMTYgLTguNiA0MC41OSA0OCA0MC4xNyA0OCAtMTYgLTguMTcgLTE2IC04LjYiLz48cG9seWdvbiBjbGFzcz0iYmQiIHBvaW50cz0iLTE2IC05LjAyIDQxLjAyIDQ4IDQwLjU5IDQ4IC0xNiAtOC42IC0xNiAtOS4wMiIvPjxwb2x5Z29uIGNsYXNzPSJiZSIgcG9pbnRzPSItMTYgLTkuNDQgNDEuNDQgNDggNDEuMDIgNDggLTE2IC05LjAyIC0xNiAtOS40NCIvPjxwb2x5Z29uIGNsYXNzPSJiZiIgcG9pbnRzPSItMTYgLTkuODYgNDEuODYgNDggNDEuNDQgNDggLTE2IC05LjQ0IC0xNiAtOS44NiIvPjxwb2x5Z29uIGNsYXNzPSJiZyIgcG9pbnRzPSItMTYgLTEwLjI5IDQyLjI5IDQ4IDQxLjg2IDQ4IC0xNiAtOS44NiAtMTYgLTEwLjI5Ii8+PHBvbHlnb24gY2xhc3M9ImJoIiBwb2ludHM9Ii0xNiAtMTAuNzEgNDIuNzEgNDggNDIuMjkgNDggLTE2IC0xMC4yOSAtMTYgLTEwLjcxIi8+PHBvbHlnb24gY2xhc3M9ImJpIiBwb2ludHM9Ii0xNiAtMTEuMTMgNDMuMTMgNDggNDIuNzEgNDggLTE2IC0xMC43MSAtMTYgLTExLjEzIi8+PHBvbHlnb24gY2xhc3M9ImJqIiBwb2ludHM9Ii0xNiAtMTEuNTYgNDMuNTYgNDggNDMuMTMgNDggLTE2IC0xMS4xMyAtMTYgLTExLjU2Ii8+PHBvbHlnb24gY2xhc3M9ImJrIiBwb2ludHM9Ii0xNiAtMTEuOTggNDMuOTggNDggNDMuNTYgNDggLTE2IC0xMS41NiAtMTYgLTExLjk4Ii8+PHBvbHlnb24gY2xhc3M9ImJsIiBwb2ludHM9Ii0xNiAtMTIuNCA0NC40IDQ4IDQzLjk4IDQ4IC0xNiAtMTEuOTggLTE2IC0xMi40Ii8+PHBvbHlnb24gY2xhc3M9ImJtIiBwb2ludHM9Ii0xNiAtMTIuODMgNDQuODMgNDggNDQuNCA0OCAtMTYgLTEyLjQgLTE2IC0xMi44MyIvPjxwb2x5Z29uIGNsYXNzPSJibiIgcG9pbnRzPSItMTYgLTEzLjI1IDQ1LjI1IDQ4IDQ0LjgzIDQ4IC0xNiAtMTIuODMgLTE2IC0xMy4yNSIvPjxwb2x5Z29uIGNsYXNzPSJibyIgcG9pbnRzPSItMTYgLTEzLjY3IDQ1LjY3IDQ4IDQ1LjI1IDQ4IC0xNiAtMTMuMjUgLTE2IC0xMy42NyIvPjxwb2x5Z29uIGNsYXNzPSJicCIgcG9pbnRzPSItMTYgLTE0LjEgNDYuMSA0OCA0NS42NyA0OCAtMTYgLTEzLjY3IC0xNiAtMTQuMSIvPjxwb2x5Z29uIGNsYXNzPSJicSIgcG9pbnRzPSItMTYgLTE0LjUyIDQ2LjUyIDQ4IDQ2LjEgNDggLTE2IC0xNC4xIC0xNiAtMTQuNTIiLz48cG9seWdvbiBjbGFzcz0iYnIiIHBvaW50cz0iLTE2IC0xNC45NCA0Ni45NCA0OCA0Ni41MiA0OCAtMTYgLTE0LjUyIC0xNiAtMTQuOTQiLz48cG9seWdvbiBjbGFzcz0iYnMiIHBvaW50cz0iLTE2IC0xNS4zNyA0Ny4zNyA0OCA0Ni45NCA0OCAtMTYgLTE0Ljk0IC0xNiAtMTUuMzciLz48cG9seWdvbiBjbGFzcz0iYnQiIHBvaW50cz0iLTE2IC0xNS43OSA0Ny43OSA0OCA0Ny4zNyA0OCAtMTYgLTE1LjM3IC0xNiAtMTUuNzkiLz48cG9seWdvbiBjbGFzcz0iYnUiIHBvaW50cz0iLTE1Ljc5IC0xNiA0OCA0Ny43OSA0OCA0OCA0Ny43OSA0OCAtMTYgLTE1Ljc5IC0xNiAtMTYgLTE1Ljc5IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJidiIgcG9pbnRzPSItMTUuMzcgLTE2IDQ4IDQ3LjM3IDQ4IDQ3Ljc5IC0xNS43OSAtMTYgLTE1LjM3IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJidyIgcG9pbnRzPSItMTQuOTQgLTE2IDQ4IDQ2Ljk0IDQ4IDQ3LjM3IC0xNS4zNyAtMTYgLTE0Ljk0IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJieCIgcG9pbnRzPSItMTQuNTIgLTE2IDQ4IDQ2LjUyIDQ4IDQ2Ljk0IC0xNC45NCAtMTYgLTE0LjUyIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJieSIgcG9pbnRzPSItMTQuMSAtMTYgNDggNDYuMSA0OCA0Ni41MiAtMTQuNTIgLTE2IC0xNC4xIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJieiIgcG9pbnRzPSItMTMuNjcgLTE2IDQ4IDQ1LjY3IDQ4IDQ2LjEgLTE0LjEgLTE2IC0xMy42NyAtMTYiLz48cG9seWdvbiBjbGFzcz0iY2EiIHBvaW50cz0iLTEzLjI1IC0xNiA0OCA0NS4yNSA0OCA0NS42NyAtMTMuNjcgLTE2IC0xMy4yNSAtMTYiLz48cG9seWdvbiBjbGFzcz0iY2IiIHBvaW50cz0iLTEyLjgzIC0xNiA0OCA0NC44MyA0OCA0NS4yNSAtMTMuMjUgLTE2IC0xMi44MyAtMTYiLz48cG9seWdvbiBjbGFzcz0iY2MiIHBvaW50cz0iLTEyLjQgLTE2IDQ4IDQ0LjQgNDggNDQuODMgLTEyLjgzIC0xNiAtMTIuNCAtMTYiLz48cG9seWdvbiBjbGFzcz0iY2QiIHBvaW50cz0iLTExLjk4IC0xNiA0OCA0My45OCA0OCA0NC40IC0xMi40IC0xNiAtMTEuOTggLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImNlIiBwb2ludHM9Ii0xMS41NiAtMTYgNDggNDMuNTYgNDggNDMuOTggLTExLjk4IC0xNiAtMTEuNTYgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImNmIiBwb2ludHM9Ii0xMS4xMyAtMTYgNDggNDMuMTMgNDggNDMuNTYgLTExLjU2IC0xNiAtMTEuMTMgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImNnIiBwb2ludHM9Ii0xMC43MSAtMTYgNDggNDIuNzEgNDggNDMuMTMgLTExLjEzIC0xNiAtMTAuNzEgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImNoIiBwb2ludHM9Ii0xMC4yOSAtMTYgNDggNDIuMjkgNDggNDIuNzEgLTEwLjcxIC0xNiAtMTAuMjkgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImNpIiBwb2ludHM9Ii05Ljg2IC0xNiA0OCA0MS44NiA0OCA0Mi4yOSAtMTAuMjkgLTE2IC05Ljg2IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjaiIgcG9pbnRzPSItOS40NCAtMTYgNDggNDEuNDQgNDggNDEuODYgLTkuODYgLTE2IC05LjQ0IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjayIgcG9pbnRzPSItOS4wMiAtMTYgNDggNDEuMDIgNDggNDEuNDQgLTkuNDQgLTE2IC05LjAyIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjbCIgcG9pbnRzPSItOC42IC0xNiA0OCA0MC41OSA0OCA0MS4wMiAtOS4wMiAtMTYgLTguNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iY20iIHBvaW50cz0iLTguMTcgLTE2IDQ4IDQwLjE3IDQ4IDQwLjU5IC04LjYgLTE2IC04LjE3IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjbiIgcG9pbnRzPSItNy43NSAtMTYgNDggMzkuNzUgNDggNDAuMTcgLTguMTcgLTE2IC03Ljc1IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjbyIgcG9pbnRzPSItNy4zMyAtMTYgNDggMzkuMzMgNDggMzkuNzUgLTcuNzUgLTE2IC03LjMzIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjcCIgcG9pbnRzPSItNi45IC0xNiA0OCAzOC45IDQ4IDM5LjMzIC03LjMzIC0xNiAtNi45IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJjcSIgcG9pbnRzPSItNi40OCAtMTYgNDggMzguNDggNDggMzguOSAtNi45IC0xNiAtNi40OCAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3IiIHBvaW50cz0iLTYuMDYgLTE2IDQ4IDM4LjA2IDQ4IDM4LjQ4IC02LjQ4IC0xNiAtNi4wNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3MiIHBvaW50cz0iLTUuNjMgLTE2IDQ4IDM3LjYzIDQ4IDM4LjA2IC02LjA2IC0xNiAtNS42MyAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3QiIHBvaW50cz0iLTUuMjEgLTE2IDQ4IDM3LjIxIDQ4IDM3LjYzIC01LjYzIC0xNiAtNS4yMSAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3UiIHBvaW50cz0iLTQuNzkgLTE2IDQ4IDM2Ljc5IDQ4IDM3LjIxIC01LjIxIC0xNiAtNC43OSAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3YiIHBvaW50cz0iLTQuMzYgLTE2IDQ4IDM2LjM2IDQ4IDM2Ljc5IC00Ljc5IC0xNiAtNC4zNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3ciIHBvaW50cz0iLTMuOTQgLTE2IDQ4IDM1Ljk0IDQ4IDM2LjM2IC00LjM2IC0xNiAtMy45NCAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3giIHBvaW50cz0iLTMuNTIgLTE2IDQ4IDM1LjUyIDQ4IDM1Ljk0IC0zLjk0IC0xNiAtMy41MiAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3kiIHBvaW50cz0iLTMuMDkgLTE2IDQ4IDM1LjA5IDQ4IDM1LjUyIC0zLjUyIC0xNiAtMy4wOSAtMTYiLz48cG9seWdvbiBjbGFzcz0iY3oiIHBvaW50cz0iLTIuNjcgLTE2IDQ4IDM0LjY3IDQ4IDM1LjA5IC0zLjA5IC0xNiAtMi42NyAtMTYiLz48cG9seWdvbiBjbGFzcz0iZGEiIHBvaW50cz0iLTIuMjUgLTE2IDQ4IDM0LjI1IDQ4IDM0LjY3IC0yLjY3IC0xNiAtMi4yNSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZGIiIHBvaW50cz0iLTEuODIgLTE2IDQ4IDMzLjgzIDQ4IDM0LjI1IC0yLjI1IC0xNiAtMS44MiAtMTYiLz48cG9seWdvbiBjbGFzcz0iZGMiIHBvaW50cz0iLTEuNCAtMTYgNDggMzMuNCA0OCAzMy44MyAtMS44MiAtMTYgLTEuNCAtMTYiLz48cG9seWdvbiBjbGFzcz0iZGQiIHBvaW50cz0iLTAuOTggLTE2IDQ4IDMyLjk4IDQ4IDMzLjQgLTEuNCAtMTYgLTAuOTggLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImRlIiBwb2ludHM9Ii0wLjU2IC0xNiA0OCAzMi41NSA0OCAzMi45OCAtMC45OCAtMTYgLTAuNTYgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImRmIiBwb2ludHM9Ii0wLjEzIC0xNiA0OCAzMi4xMyA0OCAzMi41NSAtMC41NiAtMTYgLTAuMTMgLTE2Ii8+PHBvbHlnb24gY2xhc3M9ImRnIiBwb2ludHM9IjAuMjkgLTE2IDQ4IDMxLjcxIDQ4IDMyLjEzIC0wLjEzIC0xNiAwLjI5IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkaCIgcG9pbnRzPSIwLjcxIC0xNiA0OCAzMS4yOSA0OCAzMS43MSAwLjI5IC0xNiAwLjcxIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkaSIgcG9pbnRzPSIxLjE0IC0xNiA0OCAzMC44NiA0OCAzMS4yOSAwLjcxIC0xNiAxLjE0IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkaiIgcG9pbnRzPSIxLjU2IC0xNiA0OCAzMC40NCA0OCAzMC44NiAxLjE0IC0xNiAxLjU2IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkayIgcG9pbnRzPSIxLjk4IC0xNiA0OCAzMC4wMiA0OCAzMC40NCAxLjU2IC0xNiAxLjk4IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkbCIgcG9pbnRzPSIyLjQxIC0xNiA0OCAyOS41OSA0OCAzMC4wMiAxLjk4IC0xNiAyLjQxIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkbSIgcG9pbnRzPSIyLjgzIC0xNiA0OCAyOS4xNyA0OCAyOS41OSAyLjQxIC0xNiAyLjgzIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkbiIgcG9pbnRzPSIzLjI1IC0xNiA0OCAyOC43NSA0OCAyOS4xNyAyLjgzIC0xNiAzLjI1IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkbyIgcG9pbnRzPSIzLjY4IC0xNiA0OCAyOC4zMiA0OCAyOC43NSAzLjI1IC0xNiAzLjY4IC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkcCIgcG9pbnRzPSI0LjEgLTE2IDQ4IDI3LjkgNDggMjguMzIgMy42OCAtMTYgNC4xIC0xNiIvPjxwb2x5Z29uIGNsYXNzPSJkcSIgcG9pbnRzPSI0LjUyIC0xNiA0OCAyNy40OCA0OCAyNy45IDQuMSAtMTYgNC41MiAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHIiIHBvaW50cz0iNC45NSAtMTYgNDggMjcuMDUgNDggMjcuNDggNC41MiAtMTYgNC45NSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHMiIHBvaW50cz0iNS4zNyAtMTYgNDggMjYuNjMgNDggMjcuMDUgNC45NSAtMTYgNS4zNyAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHQiIHBvaW50cz0iNS43OSAtMTYgNDggMjYuMjEgNDggMjYuNjMgNS4zNyAtMTYgNS43OSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHUiIHBvaW50cz0iNi4yMSAtMTYgNDggMjUuNzkgNDggMjYuMjEgNS43OSAtMTYgNi4yMSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHYiIHBvaW50cz0iNi42NCAtMTYgNDggMjUuMzYgNDggMjUuNzkgNi4yMSAtMTYgNi42NCAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHciIHBvaW50cz0iNy4wNiAtMTYgNDggMjQuOTQgNDggMjUuMzYgNi42NCAtMTYgNy4wNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHgiIHBvaW50cz0iNy40OCAtMTYgNDggMjQuNTIgNDggMjQuOTQgNy4wNiAtMTYgNy40OCAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHkiIHBvaW50cz0iNy45MSAtMTYgNDggMjQuMDkgNDggMjQuNTIgNy40OCAtMTYgNy45MSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZHoiIHBvaW50cz0iOC4zMyAtMTYgNDggMjMuNjcgNDggMjQuMDkgNy45MSAtMTYgOC4zMyAtMTYiLz48cG9seWdvbiBjbGFzcz0iZWEiIHBvaW50cz0iOC43NSAtMTYgNDggMjMuMjUgNDggMjMuNjcgOC4zMyAtMTYgOC43NSAtMTYiLz48cG9seWdvbiBjbGFzcz0iZWIiIHBvaW50cz0iOS4xOCAtMTYgNDggMjIuODIgNDggMjMuMjUgOC43NSAtMTYgOS4xOCAtMTYiLz48cG9seWdvbiBjbGFzcz0iZWMiIHBvaW50cz0iOS42IC0xNiA0OCAyMi40IDQ4IDIyLjgyIDkuMTggLTE2IDkuNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iZWMiIHBvaW50cz0iMTYgLTE2IDQ4IDE2IDQ4IDIyLjQgOS42IC0xNiAxNiAtMTYiLz48cG9seWdvbiBjbGFzcz0iZWMiIHBvaW50cz0iNDggMTYgMTYgLTE2IDQ4IC0xNiA0OCAxNiIvPjwvZz48L2c+PC9nPjwvZz48cGF0aCBjbGFzcz0iZWQiIGQ9Ik0yNSwzYTQsNCwwLDAsMC0zLjQzLDZMOSwyMS41N0E0LjA1LDQuMDUsMCwxLDAsMTAuNDMsMjNMMjMsMTAuNDNBMy44OSwzLjg5LDAsMCwwLDI1LDExYTQsNCwwLDAsMCwwLThNNywyN2EyLDIsMCwxLDEsMi0yLDIsMiwwLDAsMS0yLDJNMjUsOWEyLDIsMCwxLDEsMi0yLDIsMiwwLDAsMS0yLDIiLz48cmVjdCBjbGFzcz0iaSIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIi8+PC9nPjwvc3ZnPg==
+    keywords:
+    - Commercial
+    - Limited
+    - amd64
+    - database
+    - Integration
+    - RHOCP
+    - Other
+    maintainers:
+    - name: IBM
+    name: replication-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/replication-cluster-scoped-5.4.1+20260619.184834.3235.tgz
+    version: 5.4.1+20260619.184834.3235
   - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.43277176Z"
@@ -49275,6 +49819,16 @@ entries:
     version: 1.1.5+20250516.133900
   rstudio:
   - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.668569932Z"
+    description: RStudio Helm chart for operator
+    digest: 6610e09ec92830d1fd92a95b61ba5706998f68ee0605e52a1ec862bec6c18f72
+    name: rstudio
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/rstudio-13.0.2+20260618.235818.299.tgz
+    version: 13.0.2+20260618.235818.299
+  - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-11T08:11:12.223082752Z"
     description: RStudio Helm chart for operator
@@ -49335,6 +49889,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/rstudio-12.0.0+20251121.171719.160.tgz
     version: 12.0.0+20251121.171719.160
   rstudio-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.668799264Z"
+    description: RStudio Helm chart for operator
+    digest: 403ddf41c472780791084c3a4be50f54d0a63b3bc82a8f2246820e149c59856e
+    name: rstudio-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/rstudio-cluster-scoped-13.0.2+20260618.235818.299.tgz
+    version: 13.0.2+20260618.235818.299
   - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-11T08:11:12.22343785Z"
@@ -49607,6 +50171,16 @@ entries:
     version: 0.0.0
   spss:
   - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.669139539Z"
+    description: CPD SPSS Modeler Helm chart for operator
+    digest: 6f4d215c304473ede8f8dc3e526a58ec25e4b78b25ffb53229af750e7ba7b124
+    name: spss
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/spss-13.0.2+20260624.193256.34.tgz
+    version: 13.0.2+20260624.193256.34
+  - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.434299697Z"
     description: CPD SPSS Modeler Helm chart for operator
@@ -49677,6 +50251,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/spss-12.0.0+20251208.045744.50.tgz
     version: 12.0.0+20251208.045744.50
   spss-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.669352136Z"
+    description: CPD SPSS Modeler   Helm chart for operator
+    digest: e79145ee2a650a3e028be4d0306eb5eec58196e4ae64db3ff3978b6cc6099ffa
+    name: spss-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/spss-cluster-scoped-13.0.2+20260624.193256.34.tgz
+    version: 13.0.2+20260624.193256.34
   - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.434512504Z"
@@ -50032,6 +50616,16 @@ entries:
     version: 0.0.0
   udp:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.669818858Z"
+    description: CPD IBM Datasift operator helm chart
+    digest: 3b6ffd454ecff618c47b18467a24c496a35c96c529164861ae1994e6165b6e26
+    name: udp
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/udp-5.4.2+20260623.234403.2008.tgz
+    version: 5.4.2+20260623.234403.2008
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.323207279Z"
     description: CPD IBM Datasift operator helm chart
@@ -50112,6 +50706,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/udp-5.3.0+20251126.172229.74.tgz
     version: 5.3.0+20251126.172229.74
   udp-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.670073298Z"
+    description: CPD IBM Datasift operator helm chart
+    digest: 17f4f107d0a9058d15cddb696147afac2e78b6d31f4fc0b44992377ef15c357f
+    name: udp-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/udp-cluster-scoped-5.4.2+20260623.234403.2008.tgz
+    version: 5.4.2+20260623.234403.2008
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.323617064Z"
@@ -50697,6 +51301,16 @@ entries:
     version: 0.0.0
   watsonx-ai:
   - apiVersion: v2
+    appVersion: 13.0.1
+    created: "2026-07-06T22:17:31.670471487Z"
+    description: Watsonx.ai Service Helm char for operator
+    digest: 7e7556e8b0a2b714f8ea210d313f30866670cdd63bdeb1b21efc1d44c66f2406
+    name: watsonx-ai
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-ai-13.0.1+20260618.070948.9.tgz
+    version: 13.0.1+20260618.070948.9
+  - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.444497687Z"
     description: Watsonx.ai Service Helm char for operator
@@ -50767,6 +51381,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-ai-12.0.0+20251121.170045.60.tgz
     version: 12.0.0+20251121.170045.60
   watsonx-ai-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 13.0.1
+    created: "2026-07-06T22:17:31.670927658Z"
+    description: CPD watsonx.ai Service Helm chart for cluster scoped resources
+    digest: a190fd753acbddf77481a0e6d753474103505f1ae7c439867e410ad25acd6333
+    name: watsonx-ai-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-ai-cluster-scoped-13.0.1+20260618.070948.9.tgz
+    version: 13.0.1+20260618.070948.9
   - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.444964222Z"
@@ -51010,13 +51634,13 @@ entries:
   watsonx-ai-migration:
   - apiVersion: v2
     appVersion: 0.0.3
-    created: "2026-06-10T08:35:18.445218693Z"
-    digest: fd0e5b988de3f3b1c06a14bcb7ae90b3d0d4fd04501717af01a5b0841161195e
+    created: "2026-07-06T22:17:31.671289623Z"
+    digest: 5a267eaef855731d9f9d6d2f7909d973d5b4de377ef0d9a173181a56ff13ddb6
     name: watsonx-ai-migration
     type: application
     urls:
-    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-ai-migration-0.0.3+20260521.141816.46.tgz
-    version: 0.0.3+20260521.141816.46
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-ai-migration-0.0.3+20260618.070948.9.tgz
+    version: 0.0.3+20260618.070948.9
   - apiVersion: v2
     appVersion: 0.0.2
     created: "2026-04-09T23:43:36.604726882Z"
@@ -51525,6 +52149,22 @@ entries:
     version: 0.0.0
   watsonx-dataintegration:
   - apiVersion: v2
+    appVersion: 2.4.2
+    created: "2026-07-06T22:17:31.671871073Z"
+    description: CPD IBM watsonx.data integration operator helm chart. License See
+      licenses at https://www.ibm.com/docs/en/software-hub/5.3.x?topic=integration-installing
+    digest: c731b10645edaae21e4d33aa46072cc9626282d02133919f575b6b926bff0f65
+    keywords:
+    - amd64
+    - Integration
+    maintainers:
+    - name: IBM
+    name: watsonx-dataintegration
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintegration-2.5.2+20260622.154802.2.tgz
+    version: 2.5.2+20260622.154802.2
+  - apiVersion: v2
     appVersion: 2.4.1
     created: "2026-06-23T08:11:43.325650328Z"
     description: CPD IBM watsonx.data integration operator helm chart. License See
@@ -51557,6 +52197,22 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintegration-2.5.0+20260506.145449.15.tgz
     version: 2.5.0+20260506.145449.15
   watsonx-dataintegration-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 2.4.2
+    created: "2026-07-06T22:17:31.672274125Z"
+    description: A Helm chart for watsonx.data integration cluster scoped resources
+      License See licenses at https://www.ibm.com/docs/en/software-hub/5.3.x?topic=integration-installing
+    digest: 47655fbb4ddcd38b75b8a3c4884def428281b824897252b4b9b1c588b77f7612
+    keywords:
+    - amd64
+    - Integration
+    maintainers:
+    - name: IBM
+    name: watsonx-dataintegration-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintegration-cluster-scoped-2.5.2+20260622.154802.2.tgz
+    version: 2.5.2+20260622.154802.2
   - apiVersion: v2
     appVersion: 2.4.1
     created: "2026-06-23T08:11:43.326080171Z"
@@ -51623,6 +52279,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintegration-migration-0.0.0.tgz
     version: 0.0.0
   watsonx-dataintelligence:
+  - apiVersion: v2
+    appVersion: 2.4.2
+    created: "2026-07-06T22:17:31.673788488Z"
+    description: CPD IBM Watsonx Data Intelligence operator helm chart
+    digest: cb7f75817e1c0a22be76f910eb7c011c1ace2e1e9efcfbbdea0b5345a6597047
+    name: watsonx-dataintelligence
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintelligence-2.4.2+20260623.234628.2003.tgz
+    version: 2.4.2+20260623.234628.2003
   - apiVersion: v2
     appVersion: 2.4.1
     created: "2026-06-23T08:11:43.32704525Z"
@@ -51704,6 +52370,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintelligence-2.3.0+20251203.225121.66.tgz
     version: 2.3.0+20251203.225121.66
   watsonx-dataintelligence-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 2.4.2
+    created: "2026-07-06T22:17:31.67504963Z"
+    description: CPD IBM WatsonxDataIntelligence operator helm chart
+    digest: f6a4225554e8e15753502c4b880a86948732bfda168ea61f09fbae8110c4a03d
+    name: watsonx-dataintelligence-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintelligence-cluster-scoped-2.4.2+20260623.234628.2003.tgz
+    version: 2.4.2+20260623.234628.2003
   - apiVersion: v2
     appVersion: 2.4.1
     created: "2026-06-23T08:11:43.327350933Z"
@@ -51805,6 +52481,16 @@ entries:
     version: 0.0.0
   watsonx-governance:
   - apiVersion: v2
+    appVersion: 2.4.1
+    created: "2026-07-06T22:17:31.676136005Z"
+    description: Helm chart for watsonx_governance
+    digest: a029a3d886343d20712277914d80adb2ce752077981d48f10ed78015849c4231
+    name: watsonx-governance
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-governance-6.0.1+20260624.201052.20.tgz
+    version: 6.0.1+20260624.201052.20
+  - apiVersion: v2
     appVersion: 2.4.0
     created: "2026-06-12T18:08:22.981219099Z"
     description: Helm chart for watsonx_governance
@@ -51855,6 +52541,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-governance-5.0.0+20251120.210249.68.tgz
     version: 5.0.0+20251120.210249.68
   watsonx-governance-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 2.4.1
+    created: "2026-07-06T22:17:31.676430332Z"
+    description: Cluster Scoped Helm chart for WatsonxGovernance
+    digest: 4f96123de947031fa42c7339003f270bce8a8212d236f4cae4ae797accb1ad91
+    name: watsonx-governance-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-governance-cluster-scoped-6.0.1+20260624.201052.20.tgz
+    version: 6.0.1+20260624.201052.20
   - apiVersion: v2
     appVersion: 2.4.0
     created: "2026-06-12T18:08:22.981470378Z"
@@ -52041,6 +52737,18 @@ entries:
     version: 0.0.0
   wca:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.676960684Z"
+    description: watsonx Code Assistant chart
+    digest: 3a519992ac018b391a0b903b58dac655173275c08852ba08508d465b2e7d0c90
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAADYUlEQVRYhe2WT2gcdRTHP29mYg1W40VaajaiJOkhVLTQapWexFuMf2g9iCKVXWubWUJLIYWo3fbUQNHK7lpN2tKLFVELGj14EES6FrsKheIhqJd0PaggNi3dhc78nofJzM5Ot+uu3VgPfuEHv/fmvd/7zu/3fu/94H/cZEg4eeEVLfmCOXlENgM8vd2oD0RDwSRkH/h21pIm67YNJ5xYgkHRULYF6tIS1VbyP8QNsY9j0y7trV1h2PMYVmHYwwx5SMoHy6iervVY+V/fkd+Sfla3CAD0ALYdLGoDDvQ6sM4WefXWq/rT3WndkvSJdmDHDtXk+QZDG3Sfvhuc+eMvm5IB8+WMtfl6hDbt0t4/FllvRCd9eMJX1BN59pej8lFoE+2AHR8Sl6VBF9kLRqR1Fpx5U6rzx6T041FrzEGmbEEc1WOrt+ldrfyWDUNpM3df2ug9L/kHQl1Xc+DvYBl5wwYsS0ZDXXQN9+zUkgfm8NtBHeg0J9rEd0vHOBiRCic2GCd2szvNiXYwf1wuLa1ze4eu3cP9aaMjaRP9qNPKeDmQrLARgdx48zM3CXnmiAhc2zvaJgAN9ddp+BCijbqf7B0dEbiZeCRj9KHMfygHIhxyVadd7UKD7QzNc+BfRL0QKZdsoLhTV3Zl5TUTa0m586TcqfYICD/bQM1hQ8fBBtwc/eOvN+gc7ylgGHSwbpM9eF0ClsWcLeAYdnccXNmHyGsMjI9EesMYAGrN0e+uQ5lCdJIBN9eUwAolb8OiI4y+5WrLbbsmeNCjtrFQ/AGAeydWIfIwUOXqii+oFM4jPAd4KPviO9HQyWaz+owPH/pgecpnBg5evMz3uRNSax1cXqSSfy/61p/NIDoDOseF4ljdJ7sF1fcBB5VpKvm9DXUgk5dTs1ndChxHGDXKg30rKR/Katk3lKs9lHOH5c/AWqt1/ppoyfrkkvqThD5mp1Vo8iDJ5OWU3MKgDQcs4bwDtfCR2Rc3XChOI7qXoEOfoN99HoBVe25DeAwwOObz2I5tRTkZ/D05KoX90I1nef0oPJT1IEOIfozqN1SKjwY24yOonAMchP0sFHKh+43Xn4tnv+LOjYLIaS4UPqBv4yTwAEiBxbOlwKb8O3dsECz5Oh58eZByp0i586yZWLu8gbqEvwC3Y1q4xjzF/QAAAABJRU5ErkJggg==
+    kubeVersion: '>= 1.27'
+    name: wca
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-5.4.2+20260622.074303.3.tgz
+    version: 5.4.2+20260622.074303.3
+  - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.449949212Z"
     description: watsonx Code Assistant chart
@@ -52114,6 +52822,18 @@ entries:
     version: 3.0.0+20251119.171134.15
   wca-ansible:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.677597987Z"
+    description: watsonx Code Assistant for Red Hat Ansible Lightspeed chart
+    digest: 0a0570fcf91efbbf8644507a38e59675d4fee5bf1f1aa5d8f147ff87f38c1205
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAADYUlEQVRYhe2WT2gcdRTHP29mYg1W40VaajaiJOkhVLTQapWexFuMf2g9iCKVXWubWUJLIYWo3fbUQNHK7lpN2tKLFVELGj14EES6FrsKheIhqJd0PaggNi3dhc78nofJzM5Ot+uu3VgPfuEHv/fmvd/7zu/3fu/94H/cZEg4eeEVLfmCOXlENgM8vd2oD0RDwSRkH/h21pIm67YNJ5xYgkHRULYF6tIS1VbyP8QNsY9j0y7trV1h2PMYVmHYwwx5SMoHy6iervVY+V/fkd+Sfla3CAD0ALYdLGoDDvQ6sM4WefXWq/rT3WndkvSJdmDHDtXk+QZDG3Sfvhuc+eMvm5IB8+WMtfl6hDbt0t4/FllvRCd9eMJX1BN59pej8lFoE+2AHR8Sl6VBF9kLRqR1Fpx5U6rzx6T041FrzEGmbEEc1WOrt+ldrfyWDUNpM3df2ug9L/kHQl1Xc+DvYBl5wwYsS0ZDXXQN9+zUkgfm8NtBHeg0J9rEd0vHOBiRCic2GCd2szvNiXYwf1wuLa1ze4eu3cP9aaMjaRP9qNPKeDmQrLARgdx48zM3CXnmiAhc2zvaJgAN9ddp+BCijbqf7B0dEbiZeCRj9KHMfygHIhxyVadd7UKD7QzNc+BfRL0QKZdsoLhTV3Zl5TUTa0m586TcqfYICD/bQM1hQ8fBBtwc/eOvN+gc7ylgGHSwbpM9eF0ClsWcLeAYdnccXNmHyGsMjI9EesMYAGrN0e+uQ5lCdJIBN9eUwAolb8OiI4y+5WrLbbsmeNCjtrFQ/AGAeydWIfIwUOXqii+oFM4jPAd4KPviO9HQyWaz+owPH/pgecpnBg5evMz3uRNSax1cXqSSfy/61p/NIDoDOseF4ljdJ7sF1fcBB5VpKvm9DXUgk5dTs1ndChxHGDXKg30rKR/Katk3lKs9lHOH5c/AWqt1/ppoyfrkkvqThD5mp1Vo8iDJ5OWU3MKgDQcs4bwDtfCR2Rc3XChOI7qXoEOfoN99HoBVe25DeAwwOObz2I5tRTkZ/D05KoX90I1nef0oPJT1IEOIfozqN1SKjwY24yOonAMchP0sFHKh+43Xn4tnv+LOjYLIaS4UPqBv4yTwAEiBxbOlwKb8O3dsECz5Oh58eZByp0i586yZWLu8gbqEvwC3Y1q4xjzF/QAAAABJRU5ErkJggg==
+    kubeVersion: '>= 1.27'
+    name: wca-ansible
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-ansible-5.4.2+20260622.071456.3.tgz
+    version: 5.4.2+20260622.071456.3
+  - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.450298219Z"
     description: watsonx Code Assistant for Red Hat Ansible Lightspeed chart
@@ -52186,6 +52906,18 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-ansible-4.0.0+20251118.093156.16.tgz
     version: 4.0.0+20251118.093156.16
   wca-ansible-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.678122627Z"
+    description: watsonx Code Assistant for Red Hat Ansible Lightspeed cluster scoped
+      resources chart
+    digest: 68458a970b5d41372231fc624c1930d60e561e51e78350c4417ccbf397b904a0
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAADYUlEQVRYhe2WT2gcdRTHP29mYg1W40VaajaiJOkhVLTQapWexFuMf2g9iCKVXWubWUJLIYWo3fbUQNHK7lpN2tKLFVELGj14EES6FrsKheIhqJd0PaggNi3dhc78nofJzM5Ot+uu3VgPfuEHv/fmvd/7zu/3fu/94H/cZEg4eeEVLfmCOXlENgM8vd2oD0RDwSRkH/h21pIm67YNJ5xYgkHRULYF6tIS1VbyP8QNsY9j0y7trV1h2PMYVmHYwwx5SMoHy6iervVY+V/fkd+Sfla3CAD0ALYdLGoDDvQ6sM4WefXWq/rT3WndkvSJdmDHDtXk+QZDG3Sfvhuc+eMvm5IB8+WMtfl6hDbt0t4/FllvRCd9eMJX1BN59pej8lFoE+2AHR8Sl6VBF9kLRqR1Fpx5U6rzx6T041FrzEGmbEEc1WOrt+ldrfyWDUNpM3df2ug9L/kHQl1Xc+DvYBl5wwYsS0ZDXXQN9+zUkgfm8NtBHeg0J9rEd0vHOBiRCic2GCd2szvNiXYwf1wuLa1ze4eu3cP9aaMjaRP9qNPKeDmQrLARgdx48zM3CXnmiAhc2zvaJgAN9ddp+BCijbqf7B0dEbiZeCRj9KHMfygHIhxyVadd7UKD7QzNc+BfRL0QKZdsoLhTV3Zl5TUTa0m586TcqfYICD/bQM1hQ8fBBtwc/eOvN+gc7ylgGHSwbpM9eF0ClsWcLeAYdnccXNmHyGsMjI9EesMYAGrN0e+uQ5lCdJIBN9eUwAolb8OiI4y+5WrLbbsmeNCjtrFQ/AGAeydWIfIwUOXqii+oFM4jPAd4KPviO9HQyWaz+owPH/pgecpnBg5evMz3uRNSax1cXqSSfy/61p/NIDoDOseF4ljdJ7sF1fcBB5VpKvm9DXUgk5dTs1ndChxHGDXKg30rKR/Katk3lKs9lHOH5c/AWqt1/ppoyfrkkvqThD5mp1Vo8iDJ5OWU3MKgDQcs4bwDtfCR2Rc3XChOI7qXoEOfoN99HoBVe25DeAwwOObz2I5tRTkZ/D05KoX90I1nef0oPJT1IEOIfozqN1SKjwY24yOonAMchP0sFHKh+43Xn4tnv+LOjYLIaS4UPqBv4yTwAEiBxbOlwKb8O3dsECz5Oh58eZByp0i586yZWLu8gbqEvwC3Y1q4xjzF/QAAAABJRU5ErkJggg==
+    name: wca-ansible-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-ansible-cluster-scoped-5.4.2+20260622.071456.3.tgz
+    version: 5.4.2+20260622.071456.3
   - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.451684519Z"
@@ -52283,6 +53015,18 @@ entries:
     version: 0.0.0
   wca-base:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.678663113Z"
+    description: watsonx Code Assistant Base chart
+    digest: b16dec4c80865addc00197c36a84b6d82c3f0e49cb0cb57eb00b4b4d45c1b375
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAADYUlEQVRYhe2WT2gcdRTHP29mYg1W40VaajaiJOkhVLTQapWexFuMf2g9iCKVXWubWUJLIYWo3fbUQNHK7lpN2tKLFVELGj14EES6FrsKheIhqJd0PaggNi3dhc78nofJzM5Ot+uu3VgPfuEHv/fmvd/7zu/3fu/94H/cZEg4eeEVLfmCOXlENgM8vd2oD0RDwSRkH/h21pIm67YNJ5xYgkHRULYF6tIS1VbyP8QNsY9j0y7trV1h2PMYVmHYwwx5SMoHy6iervVY+V/fkd+Sfla3CAD0ALYdLGoDDvQ6sM4WefXWq/rT3WndkvSJdmDHDtXk+QZDG3Sfvhuc+eMvm5IB8+WMtfl6hDbt0t4/FllvRCd9eMJX1BN59pej8lFoE+2AHR8Sl6VBF9kLRqR1Fpx5U6rzx6T041FrzEGmbEEc1WOrt+ldrfyWDUNpM3df2ug9L/kHQl1Xc+DvYBl5wwYsS0ZDXXQN9+zUkgfm8NtBHeg0J9rEd0vHOBiRCic2GCd2szvNiXYwf1wuLa1ze4eu3cP9aaMjaRP9qNPKeDmQrLARgdx48zM3CXnmiAhc2zvaJgAN9ddp+BCijbqf7B0dEbiZeCRj9KHMfygHIhxyVadd7UKD7QzNc+BfRL0QKZdsoLhTV3Zl5TUTa0m586TcqfYICD/bQM1hQ8fBBtwc/eOvN+gc7ylgGHSwbpM9eF0ClsWcLeAYdnccXNmHyGsMjI9EesMYAGrN0e+uQ5lCdJIBN9eUwAolb8OiI4y+5WrLbbsmeNCjtrFQ/AGAeydWIfIwUOXqii+oFM4jPAd4KPviO9HQyWaz+owPH/pgecpnBg5evMz3uRNSax1cXqSSfy/61p/NIDoDOseF4ljdJ7sF1fcBB5VpKvm9DXUgk5dTs1ndChxHGDXKg30rKR/Katk3lKs9lHOH5c/AWqt1/ppoyfrkkvqThD5mp1Vo8iDJ5OWU3MKgDQcs4bwDtfCR2Rc3XChOI7qXoEOfoN99HoBVe25DeAwwOObz2I5tRTkZ/D05KoX90I1nef0oPJT1IEOIfozqN1SKjwY24yOonAMchP0sFHKh+43Xn4tnv+LOjYLIaS4UPqBv4yTwAEiBxbOlwKb8O3dsECz5Oh58eZByp0i586yZWLu8gbqEvwC3Y1q4xjzF/QAAAABJRU5ErkJggg==
+    kubeVersion: '>= 1.27'
+    name: wca-base
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-base-5.4.2+20260622.065709.3.tgz
+    version: 5.4.2+20260622.065709.3
+  - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.452327822Z"
     description: watsonx Code Assistant Base chart
@@ -52367,6 +53111,17 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-base-4.0.0+20251118.093224.17.tgz
     version: 4.0.0+20251118.093224.17
   wca-base-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.679083766Z"
+    description: watsonx Code Assistant Base cluster scoped resources chart
+    digest: 9dbeeb3b894f0be1b19db7dbafe1e8cdaf4eb76e656afff297636fccbafba2e8
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAADYUlEQVRYhe2WT2gcdRTHP29mYg1W40VaajaiJOkhVLTQapWexFuMf2g9iCKVXWubWUJLIYWo3fbUQNHK7lpN2tKLFVELGj14EES6FrsKheIhqJd0PaggNi3dhc78nofJzM5Ot+uu3VgPfuEHv/fmvd/7zu/3fu/94H/cZEg4eeEVLfmCOXlENgM8vd2oD0RDwSRkH/h21pIm67YNJ5xYgkHRULYF6tIS1VbyP8QNsY9j0y7trV1h2PMYVmHYwwx5SMoHy6iervVY+V/fkd+Sfla3CAD0ALYdLGoDDvQ6sM4WefXWq/rT3WndkvSJdmDHDtXk+QZDG3Sfvhuc+eMvm5IB8+WMtfl6hDbt0t4/FllvRCd9eMJX1BN59pej8lFoE+2AHR8Sl6VBF9kLRqR1Fpx5U6rzx6T041FrzEGmbEEc1WOrt+ldrfyWDUNpM3df2ug9L/kHQl1Xc+DvYBl5wwYsS0ZDXXQN9+zUkgfm8NtBHeg0J9rEd0vHOBiRCic2GCd2szvNiXYwf1wuLa1ze4eu3cP9aaMjaRP9qNPKeDmQrLARgdx48zM3CXnmiAhc2zvaJgAN9ddp+BCijbqf7B0dEbiZeCRj9KHMfygHIhxyVadd7UKD7QzNc+BfRL0QKZdsoLhTV3Zl5TUTa0m586TcqfYICD/bQM1hQ8fBBtwc/eOvN+gc7ylgGHSwbpM9eF0ClsWcLeAYdnccXNmHyGsMjI9EesMYAGrN0e+uQ5lCdJIBN9eUwAolb8OiI4y+5WrLbbsmeNCjtrFQ/AGAeydWIfIwUOXqii+oFM4jPAd4KPviO9HQyWaz+owPH/pgecpnBg5evMz3uRNSax1cXqSSfy/61p/NIDoDOseF4ljdJ7sF1fcBB5VpKvm9DXUgk5dTs1ndChxHGDXKg30rKR/Katk3lKs9lHOH5c/AWqt1/ppoyfrkkvqThD5mp1Vo8iDJ5OWU3MKgDQcs4bwDtfCR2Rc3XChOI7qXoEOfoN99HoBVe25DeAwwOObz2I5tRTkZ/D05KoX90I1nef0oPJT1IEOIfozqN1SKjwY24yOonAMchP0sFHKh+43Xn4tnv+LOjYLIaS4UPqBv4yTwAEiBxbOlwKb8O3dsECz5Oh58eZByp0i586yZWLu8gbqEvwC3Y1q4xjzF/QAAAABJRU5ErkJggg==
+    name: wca-base-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-base-cluster-scoped-5.4.2+20260622.065709.3.tgz
+    version: 5.4.2+20260622.065709.3
   - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.453129675Z"
@@ -52468,6 +53223,17 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-base-migration-0.0.0.tgz
     version: 0.0.0
   wca-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.67958973Z"
+    description: watsonx Code Assistant cluster scoped resources chart
+    digest: 28749f6614d305b0f1c013a8d453fe95c1b6614db25bbd3add1b3b392de0c3c3
+    icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAADYUlEQVRYhe2WT2gcdRTHP29mYg1W40VaajaiJOkhVLTQapWexFuMf2g9iCKVXWubWUJLIYWo3fbUQNHK7lpN2tKLFVELGj14EES6FrsKheIhqJd0PaggNi3dhc78nofJzM5Ot+uu3VgPfuEHv/fmvd/7zu/3fu/94H/cZEg4eeEVLfmCOXlENgM8vd2oD0RDwSRkH/h21pIm67YNJ5xYgkHRULYF6tIS1VbyP8QNsY9j0y7trV1h2PMYVmHYwwx5SMoHy6iervVY+V/fkd+Sfla3CAD0ALYdLGoDDvQ6sM4WefXWq/rT3WndkvSJdmDHDtXk+QZDG3Sfvhuc+eMvm5IB8+WMtfl6hDbt0t4/FllvRCd9eMJX1BN59pej8lFoE+2AHR8Sl6VBF9kLRqR1Fpx5U6rzx6T041FrzEGmbEEc1WOrt+ldrfyWDUNpM3df2ug9L/kHQl1Xc+DvYBl5wwYsS0ZDXXQN9+zUkgfm8NtBHeg0J9rEd0vHOBiRCic2GCd2szvNiXYwf1wuLa1ze4eu3cP9aaMjaRP9qNPKeDmQrLARgdx48zM3CXnmiAhc2zvaJgAN9ddp+BCijbqf7B0dEbiZeCRj9KHMfygHIhxyVadd7UKD7QzNc+BfRL0QKZdsoLhTV3Zl5TUTa0m586TcqfYICD/bQM1hQ8fBBtwc/eOvN+gc7ylgGHSwbpM9eF0ClsWcLeAYdnccXNmHyGsMjI9EesMYAGrN0e+uQ5lCdJIBN9eUwAolb8OiI4y+5WrLbbsmeNCjtrFQ/AGAeydWIfIwUOXqii+oFM4jPAd4KPviO9HQyWaz+owPH/pgecpnBg5evMz3uRNSax1cXqSSfy/61p/NIDoDOseF4ljdJ7sF1fcBB5VpKvm9DXUgk5dTs1ndChxHGDXKg30rKR/Katk3lKs9lHOH5c/AWqt1/ppoyfrkkvqThD5mp1Vo8iDJ5OWU3MKgDQcs4bwDtfCR2Rc3XChOI7qXoEOfoN99HoBVe25DeAwwOObz2I5tRTkZ/D05KoX90I1nef0oPJT1IEOIfozqN1SKjwY24yOonAMchP0sFHKh+43Xn4tnv+LOjYLIaS4UPqBv4yTwAEiBxbOlwKb8O3dsECz5Oh58eZByp0i586yZWLu8gbqEvwC3Y1q4xjzF/QAAAABJRU5ErkJggg==
+    name: wca-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-cluster-scoped-5.4.2+20260622.074303.3.tgz
+    version: 5.4.2+20260622.074303.3
   - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.454300412Z"
@@ -52608,6 +53374,16 @@ entries:
     version: 4.1.0+20260209.055640.25
   wca-z-agentic:
   - apiVersion: v2
+    appVersion: 2.8.30
+    created: "2026-07-06T22:17:31.680157579Z"
+    description: Namespace-scoped resources for IBM watsonx Code Assistant for Z Agentic
+    digest: bd0c596fe604585a5476f0ff71196bee9887adc4a242247a50cbbf1d4ed00398
+    name: wca-z-agentic
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-z-agentic-2.2.0+20260623.190106.6064.tgz
+    version: 2.2.0+20260623.190106.6064
+  - apiVersion: v2
     appVersion: 2.8.0
     created: "2026-06-11T03:05:48.13868101Z"
     description: Namespace-scoped resources for IBM watsonx Code Assistant for Z Agentic
@@ -52648,6 +53424,17 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-z-agentic-2.0.1+20260217.123720.22.tgz
     version: 2.0.1+20260217.123720.22
   wca-z-agentic-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 2.8.30
+    created: "2026-07-06T22:17:31.680584244Z"
+    description: Cluster-scoped resources for IBM watsonx Code Assistant for Z Agentic
+      Operator
+    digest: 8c35541554912c5bedba7de1f4b88ef43d2a73ee974ac4a0d1eaf127d7f98fec
+    name: wca-z-agentic-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-z-agentic-cluster-scoped-2.2.0+20260623.190106.6064.tgz
+    version: 2.2.0+20260623.190106.6064
   - apiVersion: v2
     appVersion: 2.8.0
     created: "2026-06-11T03:05:48.139019466Z"
@@ -53120,6 +53907,16 @@ entries:
     version: 0.0.1
   wkc:
   - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.681226994Z"
+    description: CPD IBM Knowledge Catalog operator helm chart
+    digest: 553bdc65fb870112eca65d3e4609b9c72f4855331ad2c202aa316aa78dd95770
+    name: wkc
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wkc-5.4.2+20260626.113039.2010.tgz
+    version: 5.4.2+20260626.113039.2010
+  - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.327921046Z"
     description: CPD IBM Knowledge Catalog operator helm chart
@@ -53200,6 +53997,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wkc-5.3.0+20251203.234930.305.tgz
     version: 5.3.0+20251203.234930.305
   wkc-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.681842483Z"
+    description: CPD IBM Knowledge Catalog operator helm chart
+    digest: f01a8220c778fbccea756341d7c8f3ee0af3733d11c15e102671baebeed2b4de
+    name: wkc-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wkc-cluster-scoped-5.4.2+20260626.113039.2010.tgz
+    version: 5.4.2+20260626.113039.2010
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.328487528Z"
@@ -53301,6 +54108,16 @@ entries:
     version: 0.0.0
   wml:
   - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.682433869Z"
+    description: CPD Watson machine learning Service Helm chart for operator
+    digest: 9c347cbf18408a3114a82df087175e0f1e6a8ec8c6cca6576a9c13c7d5addc5b
+    name: wml
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wml-13.0.1+20260622.101546.26.tgz
+    version: 13.0.1+20260622.101546.26
+  - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.457002341Z"
     description: CPD Watson machine learning Service Helm chart for operator
@@ -53371,6 +54188,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wml-12.0.0+20251201.131555.330.tgz
     version: 12.0.0+20251201.131555.330
   wml-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.1
+    created: "2026-07-06T22:17:31.682738287Z"
+    description: CPD Watson machine learning Service Helm chart for operator
+    digest: a7bcc0a4c4372a1b3689c8f7e0a823af729e1775aacd0a2232ca00797017d691
+    name: wml-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wml-cluster-scoped-13.0.1+20260622.101546.26.tgz
+    version: 13.0.1+20260622.101546.26
   - apiVersion: v2
     appVersion: 5.4.0
     created: "2026-06-10T08:35:18.45733494Z"
@@ -53444,13 +54271,13 @@ entries:
   wml-migration:
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2026-06-10T08:35:18.457639311Z"
-    digest: 8a25d0989791004e80c757fe50be09dbffec8bd27a2f0d7f97d3ae8d7e684a6d
+    created: "2026-07-06T22:17:31.683144945Z"
+    digest: 88bb321d013fa7d0facea2966648887b0984aefce20b129857a5c57f2ebfed47
     name: wml-migration
     type: application
     urls:
-    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wml-migration-0.0.2+20260603.114418.178.tgz
-    version: 0.0.2+20260603.114418.178
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wml-migration-0.0.2+20260622.101546.26.tgz
+    version: 0.0.2+20260622.101546.26
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2026-02-26T10:39:49.11296255Z"
@@ -53470,6 +54297,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wml-migration-0.0.0.tgz
     version: 0.0.0
   ws:
+  - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.683709177Z"
+    description: CPD Watson Studio Helm chart for operator
+    digest: ddbdcab174afc143d21a77cacc4ca0217b99051e0fa40d08f83a0e41fc866581
+    name: ws
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-13.0.2+20260624.185530.9.tgz
+    version: 13.0.2+20260624.185530.9
   - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.458071321Z"
@@ -53541,6 +54378,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-12.0.0+20251125.183217.56.tgz
     version: 12.0.0+20251125.183217.56
   ws-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 13.0.2
+    created: "2026-07-06T22:17:31.683981552Z"
+    description: CPD WS Helm chart for operator
+    digest: 70443bb9b9593ab25eedd8bb2f85f094d14a66171cd182b5bab5a2e1183829c7
+    name: ws-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-cluster-scoped-13.0.2+20260624.185530.9.tgz
+    version: 13.0.2+20260624.185530.9
   - apiVersion: v2
     appVersion: 13.0.0
     created: "2026-06-10T08:35:18.458380138Z"
@@ -53649,6 +54496,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-migration-0.0.0.tgz
     version: 0.0.0
   ws-pipelines:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.685523876Z"
+    description: CPD Orchestration Pipelines Helm chart for operator
+    digest: 8bdabb5080f6de61652d0c9c1de9485da68b1dff14cb8f1adc07570568e432f5
+    name: ws-pipelines
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-pipelines-13.0.2+20260624.073001.6.tgz
+    version: 13.0.2+20260624.073001.6
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.329069898Z"
@@ -53760,6 +54617,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-pipelines-12.0.0+20251208.115837.94.tgz
     version: 12.0.0+20251208.115837.94
   ws-pipelines-cluster-scoped:
+  - apiVersion: v2
+    appVersion: 5.4.2
+    created: "2026-07-06T22:17:31.686086898Z"
+    description: CPD Orchestration Pipelines Helm chart for operator
+    digest: 84d78359705d76fe748081709b7e1829371ad89c65fe4856b71acd3791514bd0
+    name: ws-pipelines-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-pipelines-cluster-scoped-13.0.2+20260624.073001.6.tgz
+    version: 13.0.2+20260624.073001.6
   - apiVersion: v2
     appVersion: 5.4.1
     created: "2026-06-23T08:11:43.329373352Z"
@@ -54430,4 +55297,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-04T08:35:18.99433507Z"
+generated: "2026-07-06T22:17:31.634708035Z"
