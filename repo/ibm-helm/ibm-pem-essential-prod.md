@@ -7,11 +7,11 @@ This chart deploys IBM Partner Engagement Manager Essential cluster on a contain
 
 ## Prerequisites
 
-1. Kubernetes version >=1.31 and <=1.34
+1. Kubernetes version >=1.32 and <=1.36
 
-2. Red Hat OpenShift Container Platform Version 4.18, 4.19, 4.20 and 4.21 or later fixes
+2. Red Hat OpenShift Container Platform Version 4.19, 4.20, 4.21, 4.22 or later fixes
 
-3. Helm version >= 3.19.x
+3. Helm version >= 3.20.x
 
 4. Ensure that one of the supported database server (Oracle/DB2/MSSQL) is installed and the database is accessible from inside the cluster.
 
@@ -506,8 +506,8 @@ The following table lists the configurable parameters of the Ibm-pem-essential c
 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
-| `image.name` | Provide the value in double quotes | `"cp.icr.io/cp/ibm-pem-ng/pemng"` |
-| `image.tag` | Specify the tag name | `"6.3.0.0"` |
+| `image.name` | Provide the value in double quotes | `"cp.icr.io/cp/ibm-pem/pem"` |
+| `image.tag` | Specify the tag name | `"6.3.0.1"` |
 | `image.pullPolicy` |  | `null` |
 | `image.pullSecret` | Provide the pull secret name | `""` |
 | `arch` | Specify architecture (amd64, s390x) | `"amd64"` |
@@ -810,7 +810,7 @@ The following table lists the configurable parameters of the Ibm-pem-essential c
 `identityService.license`                               | Accept Identity/PEM license                                          |false
 `identityService.replicaCount`                          | Identity Service deployment replica count            | 1
 `identityService.image.repository`                      | Repository for Identity docker images                                     |
-`identityService.image.tag          `                   | Docker image tag                                                     | `1.0.1.0`
+`identityService.image.tag          `                   | Docker image tag                                                     | `1.0.1.1`
 `identityService.image.digest          `                | Docker image digest. Takes precedence over tag                       |
 `identityService.image.pullPolicy`                      | Pull policy for repository                                      | `IfNotPresent`
 `identityService.image.pullSecret `                     | Pull secret for repository access                              |
