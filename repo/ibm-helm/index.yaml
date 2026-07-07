@@ -20923,6 +20923,29 @@ entries:
     version: 1.0.0
   ibm-mq-operator:
   - apiVersion: v2
+    appVersion: 4.0.1
+    created: "2026-07-07T08:05:11.250709329Z"
+    description: A Helm chart for deploying the IBM MQ Operator
+    digest: 50fa646f4c09acd00ffe48a715bb0ab4431c42a58fc995d69cf30b515b6bb5e2
+    home: https://www.ibm.com/docs/en/ibm-mq/10.0.x?topic=mq-in-containers-cloud-pak-integration
+    icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-mq-blue-icon.png
+    keywords:
+    - mq
+    - queue
+    - messaging
+    - publish
+    - subscribe
+    - integration
+    kubeVersion: '>=1.30.0-0'
+    maintainers:
+    - email: askmessaging@uk.ibm.com
+      name: IBM MQ
+    name: ibm-mq-operator
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-mq-operator-4.0.1.tgz
+    version: 4.0.1
+  - apiVersion: v2
     appVersion: 4.0.0
     created: "2026-06-16T07:36:49.411005846Z"
     description: A Helm chart for deploying the IBM MQ Operator
@@ -55297,4 +55320,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-06T22:17:31.634708035Z"
+generated: "2026-07-07T08:05:11.245606828Z"
