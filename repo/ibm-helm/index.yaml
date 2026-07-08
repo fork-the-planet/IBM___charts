@@ -10345,6 +10345,41 @@ entries:
     version: 4.8.0+20250403.101125.0
   ibm-connect-direct:
   - apiVersion: v2
+    appVersion: 6.4.0.6-iFix004-2026-07-02
+    created: "2026-07-08T12:36:02.630237909Z"
+    dependencies:
+    - alias: sch
+      name: ibm-sch
+      repository: '@sch'
+      version: 1.2.20
+    description: A Helm chart to deploy IBM Connect:Direct for Unix on a containerized
+      platform  Documentation For additional details regarding install parameters
+      check https://ibm.biz/Bdfgni  License By installing this product you accept
+      the license terms https://ibm.biz/BdfgnZ
+    digest: 33b77370d0710f6e5d39aef511df18bf44bfec74a6f10c34e3580b2c3a002779
+    home: https://www.ibm.com/docs/en/connect-direct/6.4.0?topic=sterling-connectdirect-unix-v63
+    icon: https://ibm.biz/Bdfgn2
+    keywords:
+    - C:D
+    - mft
+    - cdu
+    - connect direct
+    - amd64
+    - DevOps
+    - Commercial
+    - Limited
+    - IKS
+    - RHOCP
+    - Other
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - name: IBM
+    name: ibm-connect-direct
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-connect-direct-1.4.21.tgz
+    version: 1.4.21
+  - apiVersion: v2
     appVersion: 6.4.0.6-iFix000-2026-06-09
     created: "2026-06-10T10:06:39.202119193Z"
     dependencies:
@@ -55464,4 +55499,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-08T10:07:23.97777907Z"
+generated: "2026-07-08T12:36:02.621452255Z"
