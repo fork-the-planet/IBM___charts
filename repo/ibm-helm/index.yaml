@@ -497,25 +497,25 @@ entries:
   br-orchestration:
   - apiVersion: v2
     appVersion: 5.4.0
-    created: "2026-06-25T17:06:31.476632001Z"
+    created: "2026-07-08T00:07:11.708081187Z"
     description: A Helm chart for Kubernetes
-    digest: 2ed235446f0737c6163d79debf037e35907de637e97e58685a68a7d12edb0c94
+    digest: 6e425f001570854b19f7e8f1bbbaf553cb8a48dd725f90f9bb6c7fe1069f1e87
     name: br-orchestration
     type: application
     urls:
-    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/br-orchestration-5.4.0+20260619.152941.302.tgz
-    version: 5.4.0+20260619.152941.302
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/br-orchestration-5.4.0+20260707.091835.325.tgz
+    version: 5.4.0+20260707.091835.325
   br-orchestration-cluster-scoped:
   - apiVersion: v2
     appVersion: 5.4.0
-    created: "2026-06-25T17:06:31.477439759Z"
+    created: "2026-07-08T00:07:11.708864916Z"
     description: A Helm chart for Kubernetes
-    digest: 66256eb90379e1d13de2eca93ddc2e7799da1e2be651877fdffe3eb601083da5
+    digest: 3c35a4c0245170cbb49449291915b23cbd9758f9f33e6b5232e293a284034bde
     name: br-orchestration-cluster-scoped
     type: application
     urls:
-    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/br-orchestration-cluster-scoped-5.4.0+20260619.152941.302.tgz
-    version: 5.4.0+20260619.152941.302
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/br-orchestration-cluster-scoped-5.4.0+20260707.091835.325.tgz
+    version: 5.4.0+20260707.091835.325
   br-orchestration-migration:
   - apiVersion: v2
     appVersion: 0.0.0
@@ -8224,6 +8224,27 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-b2bi-prod-2.0.0.tgz
     version: 2.0.0
   ibm-cacc-prod:
+  - apiVersion: v2
+    appVersion: 12.1.3-2606251736
+    created: "2026-07-08T00:07:11.718484254Z"
+    description: Helm chart for IBM Cognos Analytics certified containers License
+      By installing this product you accept the product license terms
+    digest: abaa037f45877ac4c061616b1109ed8e4bb5ffc88494b7f330340ebd6a442952
+    home: https://github.com/IBM/charts/blob/master/ibm-cacc/README.md
+    keywords:
+    - amd64
+    - Analytics
+    - Commercial
+    - RHOCP
+    - Other
+    kubeVersion: '>= 1.27.0-0'
+    maintainers:
+    - name: IBM
+    name: ibm-cacc-prod
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-cacc-prod-1.3.0.tgz
+    version: 1.3.0
   - apiVersion: v2
     appVersion: 12.1.2-2603010829
     created: "2026-05-07T20:36:33.361752416Z"
@@ -55382,4 +55403,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-07T23:04:37.657905458Z"
+generated: "2026-07-08T00:07:11.706921434Z"
