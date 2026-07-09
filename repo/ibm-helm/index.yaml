@@ -30661,6 +30661,31 @@ entries:
       category: Database
       licenses: Apache-2.0
     apiVersion: v2
+    appVersion: 28.4.0
+    created: "2026-07-09T21:05:32.820852032Z"
+    description: ibm-pg-operator manages Postgres Clusters embedded in IBM Products
+    digest: 59f597e0bdfa0e89a9d1ec2f4caf47be041d4c69957ce9a8a2f39babbed128bf
+    home: https://www.ibm.com
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - ibm-pg-operator
+    maintainers:
+    - email: support@ibm.com
+      name: IBM Support
+    name: ibm-pg-operator
+    sources:
+    - https://www.ibm.com
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-pg-operator-28.4.0+20260709.173920.543.tgz
+    version: 28.4.0+20260709.173920.543
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
     appVersion: 28.3.3
     created: "2026-06-25T18:05:57.650247606Z"
     description: ibm-pg-operator manages Postgres Clusters embedded in IBM Products
@@ -30758,6 +30783,32 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-pg-operator-28.3.0+20260513.164335.508.tgz
     version: 28.3.0+20260513.164335.508
   ibm-pg-operator-cluster-scoped:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 28.4.0
+    created: "2026-07-09T21:05:32.831556832Z"
+    description: ibm-pg-operator manages Postgres Clusters embedded in IBM Products
+      - Cluster-scoped resources
+    digest: 7f48fb3de090d8e62b60b2099769f983466389252c2d204bbddb2e607643ffd1
+    home: https://www.ibm.com
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - ibm-pg-operator
+    maintainers:
+    - email: support@ibm.com
+      name: IBM Support
+    name: ibm-pg-operator-cluster-scoped
+    sources:
+    - https://www.ibm.com
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-pg-operator-cluster-scoped-28.4.0+20260709.173919.543.tgz
+    version: 28.4.0+20260709.173919.543
   - annotations:
       category: Database
       licenses: Apache-2.0
@@ -55519,4 +55570,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-08T23:04:25.329016329Z"
+generated: "2026-07-09T21:05:32.819574764Z"
