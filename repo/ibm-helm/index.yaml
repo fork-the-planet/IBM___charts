@@ -31957,6 +31957,39 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-sccm-4.2.0.tgz
     version: 4.2.0
   - apiVersion: v2
+    appVersion: V6.4.1.0 iFix04 - build July 02 2026 20:24
+    created: "2026-07-10T10:35:03.673171293Z"
+    dependencies:
+    - alias: sch
+      name: ibm-sch
+      repository: '@sch'
+      version: ^1.2.19
+    description: 'A Helm chart to deploy IBM Sterling Control Center Monitor - Configuration
+      Manager on a containerized platform. Documentation For additional details regarding
+      install parameters check CM Helm Chart documentation at https://www.ibm.com/docs/en/control-center/6.4.1?topic=sterling-control-center-monitor-641
+      License By installing this product you accept the following license terms: https://www.ibm.com/support/customer/csol/terms/?id=L-MBLY-9ARX3J&lc=en'
+    digest: 5ebc98ae5a7ecaf48ecd09018a25e1e95e3281b2aa8dc3b43cb23f040901d6b1
+    home: https://www.ibm.com/docs/en/control-center/6.4.1?topic=sterling-control-center-monitor-641
+    icon: https://www.ibm.com/support/knowledgecenter/SS4Q96_6.3.1/com.ibm.help.scc.doc/com.ibm.help.scc.overview.doc/accent_graphics/L1_Product-Overview.gif
+    keywords:
+    - SCCM
+    - IBM Sterling Control Center Monitor
+    - DevOps
+    - amd64
+    - ppc64le
+    - Commercial
+    - Limited
+    - IKS
+    - RHOCP
+    - CI/CD
+    kubeVersion: '>=1.28.0'
+    maintainers:
+    - name: IBM
+    name: ibm-sccm
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-sccm-4.1.5.tgz
+    version: 4.1.5
+  - apiVersion: v2
     appVersion: V6.4.1.0 iFix03 - build May 15 2026 03:55
     created: "2026-05-21T09:35:06.621730391Z"
     dependencies:
@@ -55570,4 +55603,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-09T21:05:32.819574764Z"
+generated: "2026-07-10T10:35:03.661321942Z"
