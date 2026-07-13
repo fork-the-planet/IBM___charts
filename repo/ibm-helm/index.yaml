@@ -549,6 +549,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/canvasbase-13.0.0+20260515.163758.26.tgz
     version: 13.0.0+20260515.163758.26
   - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.68830187Z"
+    description: CPD Canvas Base Helm chart for operator
+    digest: 2069993d73b6327ffcc56225e8998acfc200b8a08e1c687b74554f7d8dee28df
+    name: canvasbase
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/canvasbase-12.1.9+20260625.211825.28.tgz
+    version: 12.1.9+20260625.211825.28
+  - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.904497906Z"
     description: CPD Canvas Base Helm chart for operator
@@ -629,6 +639,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/canvasbase-cluster-scoped-13.0.0+20260515.163758.26.tgz
     version: 13.0.0+20260515.163758.26
+  - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.688602482Z"
+    description: CPD Canvas Base Helm chart for operator
+    digest: b03fb722f5ce35de45b1db3552bdfc2da8dc64a9007bdc35c00b0dbdcef8d563
+    name: canvasbase-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/canvasbase-cluster-scoped-12.1.9+20260625.211825.28.tgz
+    version: 12.1.9+20260625.211825.28
   - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.904852225Z"
@@ -751,6 +771,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ccs-13.0.0+20260521.231601.428.tgz
     version: 13.0.0+20260521.231601.428
+  - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.689054892Z"
+    description: CPD Common Core Service Helm chart for operator
+    digest: 38074d710add01a09f0046ef09c354f8468d251d097219cc99129ace52322336
+    name: ccs
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ccs-12.1.9+20260629.171950.80.tgz
+    version: 12.1.9+20260629.171950.80
   - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.905609416Z"
@@ -902,6 +932,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ccs-cluster-scoped-13.0.0+20260521.231601.428.tgz
     version: 13.0.0+20260521.231601.428
+  - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.68968646Z"
+    description: CPD Common Core Service Helm chart for operator
+    digest: ea88ff07f9f80390db5e869d3a406ffec65fa7d9d6b70d4bc70a1358076684aa
+    name: ccs-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ccs-cluster-scoped-12.1.9+20260629.171950.80.tgz
+    version: 12.1.9+20260629.171950.80
   - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.906450358Z"
@@ -1218,6 +1258,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/cpd-platform-5.10.0+20260526.162139.68.tgz
     version: 5.10.0+20260526.162139.68
   - apiVersion: v2
+    appVersion: 5.4.9
+    created: "2026-07-13T22:44:10.690081072Z"
+    description: A Helm chart for Kubernetes
+    digest: 719615a822e7b11ef381b26e8c5466cd3e85dd0d168b762a686dd0cb6e961e10
+    name: cpd-platform
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/cpd-platform-5.4.9+20260624.074357.1.tgz
+    version: 5.4.9+20260624.074357.1
+  - apiVersion: v2
     appVersion: 5.4.7
     created: "2026-06-16T03:14:12.863395697Z"
     description: A Helm chart for Kubernetes
@@ -1338,6 +1388,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/cpd-platform-cluster-scoped-5.10.0+20260526.162139.68.tgz
     version: 5.10.0+20260526.162139.68
+  - apiVersion: v2
+    appVersion: 5.4.9
+    created: "2026-07-13T22:44:10.690326917Z"
+    description: A Helm chart for Kubernetes
+    digest: 271a2e05279fee010425a235ec02f5d4dfd7901cf4379f2dfae00805adf70424
+    name: cpd-platform-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/cpd-platform-cluster-scoped-5.4.9+20260624.074357.1.tgz
+    version: 5.4.9+20260624.074357.1
   - apiVersion: v2
     appVersion: 5.4.7
     created: "2026-06-16T03:14:12.863623808Z"
@@ -1531,6 +1591,15 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dashboard-5.0.0+20260610.090556.990B1599C.tgz
     version: 5.0.0+20260610.090556.990B1599C
   - apiVersion: v2
+    appVersion: 5.3.9
+    created: "2026-07-13T22:44:10.690905695Z"
+    digest: 3f3871cc153729c7b15b2506687e074961d5ae133a599325d002952e985c2a26
+    name: dashboard
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dashboard-4.0.9+20260708.101203.E952E1E32.tgz
+    version: 4.0.9+20260708.101203.E952E1E32
+  - apiVersion: v2
     appVersion: 5.3.1
     created: "2026-04-09T23:43:36.572000736Z"
     digest: 7ca94d2991e1ff064ccbeb0526b6d906b6da4f843e69909b70ff48b7f4de9d4f
@@ -1558,6 +1627,15 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dashboard-cluster-scoped-5.0.0+20260610.090556.990B1599C.tgz
     version: 5.0.0+20260610.090556.990B1599C
+  - apiVersion: v2
+    appVersion: 5.3.9
+    created: "2026-07-13T22:44:10.691183068Z"
+    digest: 825e32b16c3b6ddf9a83328a8f2ba5fc45b98e3c2256ec7577f6eddf2f028b26
+    name: dashboard-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dashboard-cluster-scoped-4.0.9+20260708.101203.E952E1E32.tgz
+    version: 4.0.9+20260708.101203.E952E1E32
   - apiVersion: v2
     appVersion: 5.3.1
     created: "2026-04-09T23:43:36.572427379Z"
@@ -1802,6 +1880,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datalineage-5.4.0+20260610.155629.84.tgz
     version: 5.4.0+20260610.155629.84
   - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.691602659Z"
+    description: CPD IBM Datalineage operator helm chart
+    digest: 68ad87fdad8df3782d058fe1f1c05019dc69609a213af39994b094c46a37c896
+    name: datalineage
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datalineage-5.3.19+20260630.130019.1914.tgz
+    version: 5.3.19+20260630.130019.1914
+  - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.864060639Z"
     description: CPD IBM Datalineage operator helm chart
@@ -1892,6 +1980,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datalineage-cluster-scoped-5.4.0+20260610.155629.84.tgz
     version: 5.4.0+20260610.155629.84
+  - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.691792986Z"
+    description: CPD IBM Datalineage operator helm chart
+    digest: 78fefde010620f71033aee2f07110b70569e2859167ea5c9acc139b1e57a9e34
+    name: datalineage-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datalineage-cluster-scoped-5.3.19+20260630.130019.1914.tgz
+    version: 5.3.19+20260630.130019.1914
   - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.864252474Z"
@@ -2003,6 +2101,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dataproduct-5.4.0+20260528.033208.294.tgz
     version: 5.4.0+20260528.033208.294
   - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.692180323Z"
+    description: CPD Data Product Hub operator helm chart
+    digest: 3fef5ffbeefada74513e13c5d72591a607855be77a98fb6f0813221cb6d7b569
+    name: dataproduct
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dataproduct-5.3.19+20260630.222604.1909.tgz
+    version: 5.3.19+20260630.222604.1909
+  - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.86458829Z"
     description: CPD Data Product Hub operator helm chart
@@ -2093,6 +2201,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dataproduct-cluster-scoped-5.4.0+20260528.033208.294.tgz
     version: 5.4.0+20260528.033208.294
+  - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.692541422Z"
+    description: CPD Data Product Hub operator helm chart
+    digest: 9a3c315a5c08ca326ed8b250fcdaea397288d3cec56f057dd15782c0c7e4ba02
+    name: dataproduct-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dataproduct-cluster-scoped-5.3.19+20260630.222604.1909.tgz
+    version: 5.3.19+20260630.222604.1909
   - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.864982762Z"
@@ -2367,6 +2485,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-12.0.0+20260514.074135.234.tgz
     version: 12.0.0+20260514.074135.234
   - apiVersion: v2
+    appVersion: 5.3.8
+    created: "2026-07-13T22:44:10.692947033Z"
+    description: A Helm chart for DataStage.
+    digest: 41be845bccd6d1457b82e5df8cfd66dde54756b47ea4571c627dac57f70e824d
+    name: datastage-ent
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-11.1.7+20260626.062339.10.tgz
+    version: 11.1.7+20260626.062339.10
+  - apiVersion: v2
     appVersion: 5.3.7
     created: "2026-06-29T21:15:10.909021458Z"
     description: A Helm chart for DataStage.
@@ -2477,6 +2605,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-cluster-scoped-12.0.0+20260514.074135.234.tgz
     version: 12.0.0+20260514.074135.234
+  - apiVersion: v2
+    appVersion: 5.3.8
+    created: "2026-07-13T22:44:10.693893537Z"
+    description: A Helm chart for DataStage cluster scoped crd.
+    digest: 59712fb3a66244e7cbbe3beb24c378820375c34de186518c2f1170d8df7f0ed5
+    name: datastage-ent-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-cluster-scoped-11.1.7+20260626.062339.10.tgz
+    version: 11.1.7+20260626.062339.10
   - apiVersion: v2
     appVersion: 5.3.7
     created: "2026-06-29T21:15:10.909493384Z"
@@ -2589,6 +2727,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-migration-0.1.0+20260514.074135.234.tgz
     version: 0.1.0+20260514.074135.234
   - apiVersion: v2
+    appVersion: 0.0.8
+    created: "2026-07-13T22:44:10.695898084Z"
+    description: A Helm chart for DataStage migration.
+    digest: 35ed32b15e87da9832c8ca72736d92b8af5cd9ec307393f9f073380e2c4d3e89
+    name: datastage-ent-migration
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-migration-0.0.8+20260626.062339.10.tgz
+    version: 0.0.8+20260626.062339.10
+  - apiVersion: v2
     appVersion: 0.0.7
     created: "2026-06-29T21:15:10.909919069Z"
     description: A Helm chart for DataStage migration.
@@ -2699,6 +2847,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-plus-12.0.0+20260514.074135.234.tgz
     version: 12.0.0+20260514.074135.234
+  - apiVersion: v2
+    appVersion: 5.3.8
+    created: "2026-07-13T22:44:10.696683715Z"
+    description: A Helm chart for DataStage.
+    digest: 70474842f5c2c4eb44646addc56946644fec87ba2264033f6addd98aa4c55066
+    name: datastage-ent-plus
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-plus-11.1.7+20260626.062339.10.tgz
+    version: 11.1.7+20260626.062339.10
   - apiVersion: v2
     appVersion: 5.3.7
     created: "2026-06-29T21:15:10.910557754Z"
@@ -2811,6 +2969,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-plus-cluster-scoped-12.0.0+20260514.074135.234.tgz
     version: 12.0.0+20260514.074135.234
   - apiVersion: v2
+    appVersion: 5.3.8
+    created: "2026-07-13T22:44:10.697006805Z"
+    description: A Helm chart for DataStage cluster scoped crd.
+    digest: 98b923603c466ad0b6744461b5e88e3d1d502d78a1decd7e9b866166437f5bd7
+    name: datastage-ent-plus-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-plus-cluster-scoped-11.1.7+20260626.062339.10.tgz
+    version: 11.1.7+20260626.062339.10
+  - apiVersion: v2
     appVersion: 5.3.7
     created: "2026-06-29T21:15:10.910927936Z"
     description: A Helm chart for DataStage cluster scoped crd.
@@ -2921,6 +3089,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-plus-migration-0.1.0+20260514.074135.234.tgz
     version: 0.1.0+20260514.074135.234
+  - apiVersion: v2
+    appVersion: 0.0.8
+    created: "2026-07-13T22:44:10.697277109Z"
+    description: A Helm chart for DataStage migration.
+    digest: 410d5d77d7117c48e6875bd83e7594fa4129cf12a5278727e04c854f0b312635
+    name: datastage-ent-plus-migration
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/datastage-ent-plus-migration-0.0.8+20260626.062339.10.tgz
+    version: 0.0.8+20260626.062339.10
   - apiVersion: v2
     appVersion: 0.0.7
     created: "2026-06-29T21:15:10.911364075Z"
@@ -3699,6 +3877,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dmc-8.12.0+20260517.063145.73.tgz
     version: 8.12.0+20260517.063145.73
   - apiVersion: v2
+    appVersion: 5.3.5
+    created: "2026-07-13T22:44:10.697746755Z"
+    description: Helm chart for DMC
+    digest: 382254967faf2ae37033249fa5db87d9c75ed733ff52e6b0a88ab6f79b2fcd7f
+    name: dmc
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dmc-8.11.4+20260701.055004.68.tgz
+    version: 8.11.4+20260701.055004.68
+  - apiVersion: v2
     appVersion: 5.3.4
     created: "2026-06-30T19:05:39.434183838Z"
     description: Helm chart for DMC
@@ -3767,6 +3955,15 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dmc-cluster-scoped-8.12.0+20260517.063145.73.tgz
     version: 8.12.0+20260517.063145.73
+  - apiVersion: v2
+    appVersion: 5.3.5
+    created: "2026-07-13T22:44:10.698018648Z"
+    digest: 195df09a291c2076c5872190cf38d19bef8bbde2e169c9f22eb2ed42096b6c45
+    name: dmc-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dmc-cluster-scoped-8.11.4+20260701.055004.68.tgz
+    version: 8.11.4+20260701.055004.68
   - apiVersion: v2
     appVersion: 5.3.4
     created: "2026-06-30T19:05:39.434510947Z"
@@ -3878,6 +4075,28 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dods-13.0.0+20260512.135032.1PL771.tgz
     version: 13.0.0+20260512.135032.1PL771
+  - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.69882636Z"
+    description: Decision Optimization addon for CP4D License By installing this product
+      you accept the license terms https://ibm.biz/Bdbq3H or https://ibm.biz/Bdbq3x
+    digest: cedb324198d63de422e1e88f46941191e62908bf66313a8f3025c624a336fa9e
+    icon: data:image/png;base64,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
+    keywords:
+    - Commercial
+    - Limited
+    - amd64
+    - ppc64le
+    - Data Science
+    - RHOCP
+    - Other
+    maintainers:
+    - name: IBM
+    name: dods
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dods-12.1.9+20260625.093202.1PL807.tgz
+    version: 12.1.9+20260625.093202.1PL807
   - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.921196593Z"
@@ -4057,6 +4276,29 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dods-cluster-scoped-13.0.0+20260512.135032.1PL771.tgz
     version: 13.0.0+20260512.135032.1PL771
+  - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.69955129Z"
+    description: Decision Optimization addon for CP4D - cluster scope installation
+      License By installing this product you accept the license terms https://ibm.biz/Bdbq3H
+      or https://ibm.biz/Bdbq3x
+    digest: 112faf7b42e6df3e61f3a433844f31a506408c442e7701796baad9e134881aa7
+    icon: data:image/png;base64,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
+    keywords:
+    - Commercial
+    - Limited
+    - amd64
+    - ppc64le
+    - Data Science
+    - RHOCP
+    - Other
+    maintainers:
+    - name: IBM
+    name: dods-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dods-cluster-scoped-12.1.9+20260625.093202.1PL807.tgz
+    version: 12.1.9+20260625.093202.1PL807
   - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.922079213Z"
@@ -4274,6 +4516,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dp-12.0.0+20260603.181702.109.tgz
     version: 12.0.0+20260603.181702.109
   - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.700047662Z"
+    description: CPD IBM Data Privacy operator helm chart
+    digest: c669bc6d5a9ec20cfb4515c5b9ea8ea86064dd919896e6144eebcd3b8b9fa295
+    name: dp
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dp-11.1.9+20260627.023958.2904.tgz
+    version: 11.1.9+20260627.023958.2904
+  - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.870274594Z"
     description: CPD IBM Data Privacy operator helm chart
@@ -4364,6 +4616,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dp-cluster-scoped-12.0.0+20260603.181702.109.tgz
     version: 12.0.0+20260603.181702.109
+  - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.70026957Z"
+    description: CPD IBM Data Privacy operator helm chart
+    digest: 8ef71cd261cf308f786dd4bc472625e5ae6ee43d49c349cd9fbd2e1b749a3f19
+    name: dp-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/dp-cluster-scoped-11.1.9+20260627.023958.2904.tgz
+    version: 11.1.9+20260627.023958.2904
   - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.87052557Z"
@@ -21446,6 +21708,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-neo4j-1.4.0+20260514.124334.390.tgz
     version: 1.4.0+20260514.124334.390
   - apiVersion: v2
+    appVersion: 1.3.19
+    created: "2026-07-13T22:44:10.700761892Z"
+    description: A Helm chart for Kubernetes
+    digest: df03a53af88be7fef094cc751aa9978f4cfc24a0687d570453cd1e032ba23d07
+    name: ibm-neo4j
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-neo4j-1.3.19+20260629.132853.504.tgz
+    version: 1.3.19+20260629.132853.504
+  - apiVersion: v2
     appVersion: 1.3.17
     created: "2026-06-16T03:14:12.871652033Z"
     description: A Helm chart for Kubernetes
@@ -21536,6 +21808,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-neo4j-cluster-scoped-1.4.0+20260514.124334.390.tgz
     version: 1.4.0+20260514.124334.390
+  - apiVersion: v2
+    appVersion: 1.3.19
+    created: "2026-07-13T22:44:10.701008549Z"
+    description: A Helm chart for ibm-neo4j
+    digest: be34550091575e6f1c803a03edd998794125288676a10d64f1512d163eceac87
+    name: ibm-neo4j-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-neo4j-cluster-scoped-1.3.19+20260629.132853.504.tgz
+    version: 1.3.19+20260629.132853.504
   - apiVersion: v2
     appVersion: 1.3.17
     created: "2026-06-16T03:14:12.871940846Z"
@@ -47302,6 +47584,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-premium-5.4.0+20260602.180920.108.tgz
     version: 5.4.0+20260602.180920.108
   - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.701347795Z"
+    description: CPD IBM Knowledge Catalog Cartridge operator helm chart
+    digest: f6e86173ebcbb156af358fc6d1a0f98b8b4967354edbf48cb8b722665ffb05b1
+    name: ikc-premium
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-premium-5.3.19+20260626.210258.1903.tgz
+    version: 5.3.19+20260626.210258.1903
+  - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.872230692Z"
     description: CPD IBM Knowledge Catalog Cartridge operator helm chart
@@ -47392,6 +47684,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-premium-cluster-scoped-5.4.0+20260602.180920.108.tgz
     version: 5.4.0+20260602.180920.108
+  - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.701620882Z"
+    description: CPD IBM Knowledge Catalog Cartridge operator helm chart
+    digest: 28f830420b8142bac912cbeb4d13702a9d677711b5519904579272062e44103c
+    name: ikc-premium-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-premium-cluster-scoped-5.3.19+20260626.210258.1903.tgz
+    version: 5.3.19+20260626.210258.1903
   - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.872453511Z"
@@ -47505,6 +47807,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-standard-5.4.0+20260602.180920.108.tgz
     version: 5.4.0+20260602.180920.108
   - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.702050121Z"
+    description: CPD IKC Cartradge operator helm chart
+    digest: ad007dd91abc6d627da147479ab3acf660030716b74456f274d662a4873d58ed
+    name: ikc-standard
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-standard-5.3.19+20260626.210258.1903.tgz
+    version: 5.3.19+20260626.210258.1903
+  - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.872913789Z"
     description: CPD IKC Cartradge operator helm chart
@@ -47595,6 +47907,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-standard-cluster-scoped-5.4.0+20260602.180920.108.tgz
     version: 5.4.0+20260602.180920.108
+  - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.702306491Z"
+    description: CPD IKC Cartradge operator helm chart
+    digest: 09a83e0f04a4fd79d7f90c4aa6a7a8e0758181a619cab0de5d460e2794245ed1
+    name: ikc-standard-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ikc-standard-cluster-scoped-5.3.19+20260626.210258.1903.tgz
+    version: 5.3.19+20260626.210258.1903
   - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.873206273Z"
@@ -48366,6 +48688,19 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/opencontent-fdb-5.4.0+20260504.115420.2.tgz
     version: 5.4.0+20260504.115420.2
   - apiVersion: v2
+    appVersion: 5.3.6
+    created: "2026-07-13T22:44:10.704223459Z"
+    description: A Helm chart for foundationDB operator
+    digest: 8116243c82c915a3b6e1c1ffc6c34bd521de6cbe759157e0e2faed2b0537fef9
+    home: https://www.ibm.com/
+    name: opencontent-fdb
+    sources:
+    - https://github.ibm.com/foundationdb/fdb-operator/tree/master/helm/fdb-operator
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/opencontent-fdb-5.3.6+20260625.161841.7.tgz
+    version: 5.3.6+20260625.161841.7
+  - apiVersion: v2
     appVersion: 5.3.5
     created: "2026-05-13T22:43:37.012817113Z"
     description: A Helm chart for foundationDB operator
@@ -48483,6 +48818,19 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/opencontent-fdb-cluster-scoped-5.4.0+20260504.115420.2.tgz
     version: 5.4.0+20260504.115420.2
+  - apiVersion: v2
+    appVersion: 5.3.6
+    created: "2026-07-13T22:44:10.709695738Z"
+    description: A Helm chart for foundationDB operator
+    digest: c92933e86cf709e791e167bc989ee4f035d19dfc31c6368df5983babe2f1185b
+    home: https://www.ibm.com/
+    name: opencontent-fdb-cluster-scoped
+    sources:
+    - https://github.ibm.com/foundationdb/fdb-operator/tree/master/helm/fdb-operator
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/opencontent-fdb-cluster-scoped-5.3.6+20260625.161841.7.tgz
+    version: 5.3.6+20260625.161841.7
   - apiVersion: v2
     appVersion: 5.3.5
     created: "2026-05-13T22:43:37.021028908Z"
@@ -49438,6 +49786,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/platform-config-5.10.0+20260526.162139.68.tgz
     version: 5.10.0+20260526.162139.68
   - apiVersion: v2
+    appVersion: 5.4.9
+    created: "2026-07-13T22:44:10.710133674Z"
+    description: A Helm chart for Kubernetes
+    digest: 5bb25e8c426b7b671d3311e24d267ef844070b3b708bf1c8cd2f8a065a2e61cc
+    name: platform-config
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/platform-config-5.4.9+20260624.074357.1.tgz
+    version: 5.4.9+20260624.074357.1
+  - apiVersion: v2
     appVersion: 5.4.7
     created: "2026-06-16T03:14:12.874288112Z"
     description: A Helm chart for Kubernetes
@@ -50222,6 +50580,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/rstudio-13.0.0+20260610.190445.290.tgz
     version: 13.0.0+20260610.190445.290
   - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.710689326Z"
+    description: RStudio Helm chart for operator
+    digest: 867b76c4b7dce4a72b5d5069bfb9096f9620ae6847e79e97dd6b3d6e8913f748
+    name: rstudio
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/rstudio-12.1.9+20260625.035204.302.tgz
+    version: 12.1.9+20260625.035204.302
+  - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.928372148Z"
     description: RStudio Helm chart for operator
@@ -50292,6 +50660,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/rstudio-cluster-scoped-13.0.0+20260610.190445.290.tgz
     version: 13.0.0+20260610.190445.290
+  - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.710971645Z"
+    description: RStudio Helm chart for operator
+    digest: 70f598669c8e37d2fa31f7853649000587fbb6693d815a79e63d71fa705bf21f
+    name: rstudio-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/rstudio-cluster-scoped-12.1.9+20260625.035204.302.tgz
+    version: 12.1.9+20260625.035204.302
   - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.92857382Z"
@@ -50385,6 +50763,17 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/scheduler-2.0.0+20260514.000438.d9eaa227.tgz
     version: 2.0.0+20260514.000438.d9eaa227
   - apiVersion: v2
+    appVersion: 1.61.6
+    created: "2026-07-13T22:44:10.711431873Z"
+    description: A helm chart for namespace scoped resources for the ibm-cpd-scheduling
+      service
+    digest: 1b0bd8fad8cc3550bb4c78a7b090adff5e667222b562d66605a933f4ed8acf49
+    name: scheduler
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/scheduler-1.61.6+20260626.000545.6f7d1649.tgz
+    version: 1.61.6+20260626.000545.6f7d1649
+  - apiVersion: v2
     appVersion: 1.61.5
     created: "2026-06-29T21:15:10.928880685Z"
     description: A helm chart for namespace scoped resources for the ibm-cpd-scheduling
@@ -50471,6 +50860,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/scheduler-cluster-scoped-2.0.0+20260514.000438.d9eaa227.tgz
     version: 2.0.0+20260514.000438.d9eaa227
+  - apiVersion: v2
+    appVersion: 1.61.6
+    created: "2026-07-13T22:44:10.711968707Z"
+    description: Helm chart for ibm-cpd-scheduling cluster scoped objects
+    digest: e0e334cd0c4ad7e9117a4f89933bdc90d781299734e0ad478c43c7c0e0e3ab55
+    name: scheduler-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/scheduler-cluster-scoped-1.61.6+20260626.000545.6f7d1649.tgz
+    version: 1.61.6+20260626.000545.6f7d1649
   - apiVersion: v2
     appVersion: 1.61.5
     created: "2026-06-29T21:15:10.929220174Z"
@@ -50574,6 +50973,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/spss-13.0.0+20260515.164055.26.tgz
     version: 13.0.0+20260515.164055.26
   - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.712762935Z"
+    description: CPD SPSS Modeler Helm chart for operator
+    digest: c650385484bd9c30d633c073d9fa40ad857b36133b5f0973c8de7f6c093b4312
+    name: spss
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/spss-12.1.9+20260625.223024.28.tgz
+    version: 12.1.9+20260625.223024.28
+  - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.929594968Z"
     description: CPD SPSS Modeler Helm chart for operator
@@ -50654,6 +51063,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/spss-cluster-scoped-13.0.0+20260515.164055.26.tgz
     version: 13.0.0+20260515.164055.26
+  - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.713033143Z"
+    description: CPD SPSS Modeler   Helm chart for operator
+    digest: 762613f2b66e135dac0ffc8453d3e6bbaa8638e59845d2cd1a9047289161a7e4
+    name: spss-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/spss-cluster-scoped-12.1.9+20260625.223024.28.tgz
+    version: 12.1.9+20260625.223024.28
   - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.930424606Z"
@@ -50843,6 +51262,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/syntheticdata-13.0.0+20260521.160345.28.tgz
     version: 13.0.0+20260521.160345.28
   - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.713997851Z"
+    description: CPD SyntheticData Operator Helm charts
+    digest: 1cf4948fea3a9676645303040b857c315c04be516ae028890b44914da61595cc
+    name: syntheticdata
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/syntheticdata-12.1.9+20260625.222636.28.tgz
+    version: 12.1.9+20260625.222636.28
+  - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.930993765Z"
     description: CPD SyntheticData Operator Helm charts
@@ -50912,6 +51341,15 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/syntheticdata-cluster-scoped-13.0.0+20260521.160345.28.tgz
     version: 13.0.0+20260521.160345.28
+  - apiVersion: v2
+    appVersion: 12.1.9
+    created: "2026-07-13T22:44:10.714392944Z"
+    digest: 4df9c62a88a4fc4b8111ade66db59448080386783318fd340a37292406dfe714
+    name: syntheticdata-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/syntheticdata-cluster-scoped-12.1.9+20260625.222636.28.tgz
+    version: 12.1.9+20260625.222636.28
   - apiVersion: v2
     appVersion: 12.1.8
     created: "2026-06-29T21:15:10.93136142Z"
@@ -51029,6 +51467,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/udp-5.4.0+20260610.155641.77.tgz
     version: 5.4.0+20260610.155641.77
   - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.714957369Z"
+    description: CPD IBM Datasift operator helm chart
+    digest: 2908ac050082fdd08c151a43598493a7826742d8e7ca22f8a5fac53e91d55cdc
+    name: udp
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/udp-5.3.19+20260630.161014.906.tgz
+    version: 5.3.19+20260630.161014.906
+  - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.874696695Z"
     description: CPD IBM Datasift operator helm chart
@@ -51119,6 +51567,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/udp-cluster-scoped-5.4.0+20260610.155641.77.tgz
     version: 5.4.0+20260610.155641.77
+  - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.71522161Z"
+    description: CPD IBM Datasift operator helm chart
+    digest: 9aeaf4f2bbc1f9b6613722eae93ce3f4383f425b81ff41d528e701fb8af62d1c
+    name: udp-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/udp-cluster-scoped-5.3.19+20260630.161014.906.tgz
+    version: 5.3.19+20260630.161014.906
   - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.875006835Z"
@@ -52083,6 +52541,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-bi-assistant-3.5.0+20260610.105926.20790.tgz
     version: 3.5.0+20260610.105926.20790
   - apiVersion: v2
+    appVersion: 3.4.9
+    created: "2026-07-13T22:44:10.715610271Z"
+    description: A Helm chart for Kubernetes
+    digest: e8781968177b083851f21401d50f55adbc8541750f24145da5f99963f14713b3
+    name: watsonx-bi-assistant
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-bi-assistant-3.4.9+20260706.142333.11303.tgz
+    version: 3.4.9+20260706.142333.11303
+  - apiVersion: v2
     appVersion: 3.4.3
     created: "2026-04-21T19:12:17.643764953Z"
     description: A Helm chart for Kubernetes
@@ -52133,6 +52601,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-bi-assistant-cluster-scoped-3.5.0+20260610.105926.20790.tgz
     version: 3.5.0+20260610.105926.20790
+  - apiVersion: v2
+    appVersion: 3.4.9
+    created: "2026-07-13T22:44:10.715971249Z"
+    description: A Helm chart for Kubernetes
+    digest: 7ffd02328ce1ca4e1d6b330acae1609aa27d778d147a6acab51d02f344e55bd9
+    name: watsonx-bi-assistant-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-bi-assistant-cluster-scoped-3.4.9+20260706.142333.11303.tgz
+    version: 3.4.9+20260706.142333.11303
   - apiVersion: v2
     appVersion: 3.4.3
     created: "2026-04-21T19:12:17.644331804Z"
@@ -52205,6 +52683,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-data-7.0.0+20260616.021732.253.tgz
     version: 7.0.0+20260616.021732.253
+  - apiVersion: v2
+    appVersion: 2.3.6
+    created: "2026-07-13T22:44:10.716505775Z"
+    description: A Helm chart for watsonx_data installation
+    digest: 58e10f8b68744b48e74654ede91aa880d276a77fc3cf1be1e7694fde84dd99d2
+    name: watsonx-data
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-data-6.6.0+20260707.075657.286.tgz
+    version: 6.6.0+20260707.075657.286
   - apiVersion: v2
     appVersion: 2.3.5
     created: "2026-06-29T21:15:10.934038706Z"
@@ -52286,6 +52774,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-data-cluster-scoped-7.0.0+20260616.021732.253.tgz
     version: 7.0.0+20260616.021732.253
+  - apiVersion: v2
+    appVersion: 2.3.6
+    created: "2026-07-13T22:44:10.716874477Z"
+    description: A Helm chart for watsonx_data installation
+    digest: 71f2f6acacf2f0bca1b7bea225b2deac851faa8e073d02ef69d0c6068e0694be
+    name: watsonx-data-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-data-cluster-scoped-6.6.0+20260707.075657.286.tgz
+    version: 6.6.0+20260707.075657.286
   - apiVersion: v2
     appVersion: 2.3.5
     created: "2026-06-29T21:15:10.934384931Z"
@@ -52389,6 +52887,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-data-premium-7.0.0+20260616.021732.253.tgz
     version: 7.0.0+20260616.021732.253
   - apiVersion: v2
+    appVersion: 2.3.6
+    created: "2026-07-13T22:44:10.71719247Z"
+    description: A Helm chart for watsonx_data premium installation
+    digest: fe2e225e6ebe1ecf71e5185999fe8c61e6835ebfc9dc187cb10f285736556d71
+    name: watsonx-data-premium
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-data-premium-6.6.0+20260707.075657.286.tgz
+    version: 6.6.0+20260707.075657.286
+  - apiVersion: v2
     appVersion: 2.3.5
     created: "2026-06-29T21:15:10.934619153Z"
     description: A Helm chart for watsonx_data premium installation
@@ -52469,6 +52977,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-data-premium-cluster-scoped-7.0.0+20260616.021732.253.tgz
     version: 7.0.0+20260616.021732.253
+  - apiVersion: v2
+    appVersion: 2.3.6
+    created: "2026-07-13T22:44:10.717406029Z"
+    description: A Helm chart for watsonx_data_premium installation
+    digest: c6982df0b8e7f034a8bfab5d7eb85dbdf31da509e739227ab266b4e9afc297c8
+    name: watsonx-data-premium-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-data-premium-cluster-scoped-6.6.0+20260707.075657.286.tgz
+    version: 6.6.0+20260707.075657.286
   - apiVersion: v2
     appVersion: 2.3.5
     created: "2026-06-29T21:15:10.93479532Z"
@@ -52713,6 +53231,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintelligence-2.4.0+20260602.133828.38.tgz
     version: 2.4.0+20260602.133828.38
   - apiVersion: v2
+    appVersion: 2.3.19
+    created: "2026-07-13T22:44:10.717843627Z"
+    description: CPD IBM Watsonx Data Intelligence operator helm chart
+    digest: 958235aac6ae225f48d2f730b5f0c472cd039a51a7e24ad8d9f5dbf2f136a6d1
+    name: watsonx-dataintelligence
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintelligence-2.3.19+20260626.153304.904.tgz
+    version: 2.3.19+20260626.153304.904
+  - apiVersion: v2
     appVersion: 2.3.17
     created: "2026-06-16T03:14:12.875460429Z"
     description: CPD IBM Watsonx Data Intelligence operator helm chart
@@ -52803,6 +53331,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintelligence-cluster-scoped-2.4.0+20260602.133828.38.tgz
     version: 2.4.0+20260602.133828.38
+  - apiVersion: v2
+    appVersion: 2.3.19
+    created: "2026-07-13T22:44:10.718067014Z"
+    description: CPD IBM WatsonxDataIntelligence operator helm chart
+    digest: 58fa899306734133fbc72acfa326c4943335f36edd726e4951a17f08f7acd766
+    name: watsonx-dataintelligence-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/watsonx-dataintelligence-cluster-scoped-2.3.19+20260626.153304.904.tgz
+    version: 2.3.19+20260626.153304.904
   - apiVersion: v2
     appVersion: 2.3.17
     created: "2026-06-16T03:14:12.875782056Z"
@@ -53787,6 +54325,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-z-agentic-2.2.0+20260623.190106.6064.tgz
     version: 2.2.0+20260623.190106.6064
   - apiVersion: v2
+    appVersion: 2.8.1
+    created: "2026-07-13T22:44:10.718430697Z"
+    description: Namespace-scoped resources for IBM watsonx Code Assistant for Z Agentic
+    digest: 996265941993d9371bf5d58e7001a65d6475dd16f4ac8a6d3cc13e49d0f92fc5
+    name: wca-z-agentic
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-z-agentic-2.1.1+20260701.150150.60.tgz
+    version: 2.1.1+20260701.150150.60
+  - apiVersion: v2
     appVersion: 2.8.0
     created: "2026-06-11T03:05:48.13868101Z"
     description: Namespace-scoped resources for IBM watsonx Code Assistant for Z Agentic
@@ -53838,6 +54386,17 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-z-agentic-cluster-scoped-2.2.0+20260623.190106.6064.tgz
     version: 2.2.0+20260623.190106.6064
+  - apiVersion: v2
+    appVersion: 2.8.1
+    created: "2026-07-13T22:44:10.71872843Z"
+    description: Cluster-scoped resources for IBM watsonx Code Assistant for Z Agentic
+      Operator
+    digest: 28af60ae2da4154724c61538dcc64d0216b31e382a8cc4cf785ee6951f3ed216
+    name: wca-z-agentic-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wca-z-agentic-cluster-scoped-2.1.1+20260701.150150.60.tgz
+    version: 2.1.1+20260701.150150.60
   - apiVersion: v2
     appVersion: 2.8.0
     created: "2026-06-11T03:05:48.139019466Z"
@@ -54340,6 +54899,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wkc-5.4.0+20260610.083013.233.tgz
     version: 5.4.0+20260610.083013.233
   - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.719120534Z"
+    description: CPD IBM Knowledge Catalog operator helm chart
+    digest: 3f2da1708c689cc1e811d5a5d872e3af55d94dc6f5b674309c8f8102941f6844
+    name: wkc
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wkc-5.3.19+20260709.074028.1931.tgz
+    version: 5.3.19+20260709.074028.1931
+  - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.876270368Z"
     description: CPD IBM Knowledge Catalog operator helm chart
@@ -54430,6 +54999,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wkc-cluster-scoped-5.4.0+20260610.083013.233.tgz
     version: 5.4.0+20260610.083013.233
+  - apiVersion: v2
+    appVersion: 5.3.19
+    created: "2026-07-13T22:44:10.719672269Z"
+    description: CPD IBM Knowledge Catalog operator helm chart
+    digest: b9800e1b33d16a0bed963d6559a699f1ce5f9802b215784332fc860aeb09f621
+    name: wkc-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/wkc-cluster-scoped-5.3.19+20260709.074028.1931.tgz
+    version: 5.3.19+20260709.074028.1931
   - apiVersion: v2
     appVersion: 5.3.17
     created: "2026-06-16T03:14:12.877642216Z"
@@ -54930,6 +55509,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-pipelines-13.0.0+20260513.154825.83.tgz
     version: 13.0.0+20260513.154825.83
   - apiVersion: v2
+    appVersion: 5.3.9
+    created: "2026-07-13T22:44:10.720106077Z"
+    description: CPD Orchestration Pipelines Helm chart for operator
+    digest: 26a36ea5b99b73d35c9499354e51ca146e06b05b4103f5752e00f87242d1e012
+    name: ws-pipelines
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-pipelines-12.1.9+20260630.140053.12.tgz
+    version: 12.1.9+20260630.140053.12
+  - apiVersion: v2
     appVersion: 5.3.8
     created: "2026-06-29T21:15:10.941633847Z"
     description: CPD Orchestration Pipelines Helm chart for operator
@@ -55050,6 +55639,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-pipelines-cluster-scoped-13.0.0+20260513.154825.83.tgz
     version: 13.0.0+20260513.154825.83
+  - apiVersion: v2
+    appVersion: 5.3.9
+    created: "2026-07-13T22:44:10.720403551Z"
+    description: CPD Orchestration Pipelines Helm chart for operator
+    digest: 3c0a31aa2d654eb1724b31539735286c3edc750191e4df09a8d52bcc232a7de5
+    name: ws-pipelines-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ws-pipelines-cluster-scoped-12.1.9+20260630.140053.12.tgz
+    version: 12.1.9+20260630.140053.12
   - apiVersion: v2
     appVersion: 5.3.8
     created: "2026-06-29T21:15:10.94187089Z"
@@ -55409,6 +56008,16 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-6.10.0+20260529.144051.189.tgz
     version: 6.10.0+20260529.144051.189
   - apiVersion: v2
+    appVersion: 6.4.9
+    created: "2026-07-13T22:44:10.722375836Z"
+    description: A Helm chart for Kubernetes
+    digest: b4462022f0e6462fb1018322cd99edb9e8f15c46557975dc35e8ca3b9a8bd394
+    name: zen
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-6.4.9+20260626.141315.13.tgz
+    version: 6.4.9+20260626.141315.13
+  - apiVersion: v2
     appVersion: 6.4.7
     created: "2026-06-16T03:14:12.882361612Z"
     description: A Helm chart for Kubernetes
@@ -55539,6 +56148,16 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-cluster-scoped-6.10.0+20260529.144051.189.tgz
     version: 6.10.0+20260529.144051.189
+  - apiVersion: v2
+    appVersion: 6.4.9
+    created: "2026-07-13T22:44:10.723450898Z"
+    description: A Helm chart for Kubernetes
+    digest: 6eb838eb80c4502fd2ca31a515a15c9709f2b8f428683725b6e26d300bcf257e
+    name: zen-cluster-scoped
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-cluster-scoped-6.4.9+20260626.141315.13.tgz
+    version: 6.4.9+20260626.141315.13
   - apiVersion: v2
     appVersion: 6.4.7
     created: "2026-06-16T03:14:12.882606766Z"
@@ -55700,4 +56319,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-13T06:35:15.072542507Z"
+generated: "2026-07-13T22:44:10.687686973Z"
