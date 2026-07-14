@@ -20058,6 +20058,16 @@ entries:
     version: 4.11.0+20250421.145348.0
   ibm-informix-standalone-container:
   - apiVersion: v2
+    appVersion: 15.0.1.10
+    created: "2026-07-14T11:35:12.38646455Z"
+    description: A Helm chart for informix and it associated services
+    digest: 41185446bfc4e39131113d67b99db2de4f9fe18cff61e3f56f0f864ff8cee892
+    name: ibm-informix-standalone-container
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-informix-standalone-container-2.0.2.tgz
+    version: 2.0.2
+  - apiVersion: v2
     appVersion: 15.0.1.0
     created: "2026-03-13T13:05:15.226095605Z"
     description: A Helm chart for informix and it associated services
@@ -56319,4 +56329,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-13T22:44:10.687686973Z"
+generated: "2026-07-14T11:35:12.385397256Z"
