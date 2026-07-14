@@ -43125,6 +43125,35 @@ entries:
   ibm-ucd-prod:
   - apiVersion: v2
     appVersion: 8.2.2
+    created: "2026-07-14T12:35:51.347615257Z"
+    description: 'IBM DevOps Deploy is a versatile, enterprise-level continuous delivery
+      solution which tackles everything from mainframe to microservices. DevOps Deploy
+      is the tool for automating application deployments through multiple environments
+      and is designed to facilitate continuous delivery while providing the audit
+      trails, versioning, and approvals needed in production. License By installing
+      this product you accept the following license terms: https://ibm.biz/devops-deploy-license.'
+    digest: e5ae47d45b6a27ca4eab87ea343c1ba0a738210a7236e61e47bdd587374ca009
+    home: https://github.com/IBM/charts/blob/master/repo/ibm-helm/ibm-ucd-prod.md
+    icon: https://developer.ibm.com/urbancode/wp-content/uploads/sites/16/2017/09/ucdicon.png
+    keywords:
+    - ucd
+    - deploy
+    - amd64
+    - Commercial
+    - RHOCP
+    - IKS
+    - DevOps
+    - CI/CD
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - name: IBM
+    - name: IBM DevOps Deploy
+    name: ibm-ucd-prod
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-ucd-prod-8.0.26.tgz
+    version: 8.0.26
+  - apiVersion: v2
+    appVersion: 8.2.2
     created: "2026-06-15T17:39:06.655450643Z"
     description: 'IBM DevOps Deploy is a versatile, enterprise-level continuous delivery
       solution which tackles everything from mainframe to microservices. DevOps Deploy
@@ -45544,6 +45573,31 @@ entries:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-ucda-prod-3.0.0.tgz
     version: 3.0.0
   ibm-ucdr-prod:
+  - apiVersion: v2
+    appVersion: 8.2.2
+    created: "2026-07-14T12:35:51.354246187Z"
+    description: IBM DevOps Deploy agent relay License By installing this product
+      you accept the terms https://ibm.biz/devops-deploy-license.
+    digest: 9ee014d8cb93f681f1997b1aec1f37d1fe6f500de29333e8627e330653b050cd
+    home: https://github.com/IBM/charts/blob/master/repo/ibm-helm/ibm-ucdr-prod.md
+    icon: https://developer.ibm.com/urbancode/wp-content/uploads/sites/16/2017/09/ucdicon.png
+    keywords:
+    - ucd
+    - deploy
+    - amd64
+    - Commercial
+    - RHOCP
+    - IKS
+    - DevOps
+    - CI/CD
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - name: IBM
+    - name: IBM DevOps Deploy
+    name: ibm-ucdr-prod
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-ucdr-prod-3.3.33.tgz
+    version: 3.3.33
   - apiVersion: v2
     appVersion: 8.2.2
     created: "2026-06-15T19:08:23.973294066Z"
@@ -56329,4 +56383,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-14T11:35:12.385397256Z"
+generated: "2026-07-14T12:35:51.337986781Z"

@@ -333,7 +333,8 @@ The Helm chart has the following values.
 | image | pullPolicy | Image Pull Policy | Always, Never, or IfNotPresent. Defaults to IfNotPresent |
 |       | secret |  An image pull secret used to authenticate with the image registry | If no value is specified we will look for a pull secret named ibm-entitlement-key. |
 | service | type | Specify type of service | Valid options are ClusterIP, NodePort and LoadBalancer (for clusters that support LoadBalancer). Default is ClusterIP |
-|         | annotations | Annotations for the service | Default value is "" |
+|         | annotations | Annotations for the main server service | Default value is "" |
+|         | dfeAnnotations | Annotations for the distributed front end service | Default value is "" |
 |         | loadBalancerClass | https://kubernetes.io/docs/concepts/services-networking/service/#load-balancer-class | Default value is "" |
 |         | loadBalancerSourceRanges | https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/#restrict-access-for-loadbalancer-service | Default value is none |
 | emissary | host.enabled | Enable creation of Emissary resources | Default is true |
@@ -351,6 +352,7 @@ The Helm chart has the following values.
 |          | jdbcConnUrl | The JDBC Connection URL used to connect to the database used by the DevOps Deploy server. This value is normally constructed using the database type and other database field values, but must be specified here when using Oracle RAC/ORAAS or SQL Server with Integrated Security.  If a value is specified here, the other database properties are ignored.| |
 |          | fetchDriver | Boolean specifying whether to fetch JDBC driver from well-known location.  Suppported for db2, mysql, oracle, and sqlserver. This setting will be ignored if extLibVolume.configMapName is specified. | Default value true |
 |          | driverVersion | Version of JDBC driver to fetch from well-known location.  This value is optional.  If not specified, the latest jdbc driver for the database type will be fetched. | |
+|          | driverUrl | Explicit URL used to download the JDBC driver jar. If specified, this overrides the default Maven URL construction and removes the need for an extLibVolume.configMapName script. | |
 |          | createDatabase | Automatically create a MySQL 8.0 Database | Default is false |
 |          | dbVolume.storageClassName | If createDatasbase equals "true", specifies the name of the storageclass to use. | |
 |          | dbVolume.size | If createDatasbase equals "true", specifies the size of the persistent volume used by the database. | |
@@ -359,7 +361,8 @@ The Helm chart has the following values.
 | secret | name | Kubernetes secret which defines required DevOps Deploy passwords. | You may leave this blank to use default name of HelmReleaseName-secrets where HelmReleaseName is the name of your Helm Release, otherwise specify the secret name here. If name is left blank and HelReleaseName-secrets does not exist in the namepace, then a default secret will be automatically created with randomized values for the passwords. |
 | license | accept | Set to true to indicate you have read and agree to license agreements : https://ibm.biz/devops-deploy-license | false |
 |  | serverURL | Information required to connect to the DevOps Deploy license server. | Empty (default) to begin a 60-day evaluation license period.|
-| statefulset | annotations | Annotations for statefulset | Default value is "" |
+| statefulset | annotations | Annotations for main server statefulset | Default value is "" |
+|             | dfeAnnotations | Annotations for distributed front end statefulset | Default value is "" |
 |             | topologySpreadConstraints.enabled | Determines if topologySpreadConstraints are defined for the agent statefulset | Default value is false |
 |             | topologySpreadConstraints.maxSkew | Describes the degree to which Pods may be unevenly distributed | Default value is 1 |
 |             | topologySpreadConstraints.topologyKey | The key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. | Default value is "kubernetes.io/arch" |
