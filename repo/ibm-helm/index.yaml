@@ -44470,6 +44470,31 @@ entries:
   ibm-ucda-prod:
   - apiVersion: v2
     appVersion: 8.2.2
+    created: "2026-07-15T16:37:20.175757735Z"
+    description: IBM DevOps Deploy agent License By installing this product you accept
+      the terms https://ibm.biz/devops-deploy-license.
+    digest: 58c65c6708da4c0e7536fa546e1a0fcec1289cb6c67e9040c39166ddfdccf1c2
+    home: https://github.com/IBM/charts/blob/master/repo/ibm-helm/ibm-ucda-prod.md
+    icon: https://developer.ibm.com/urbancode/wp-content/uploads/sites/16/2017/09/ucdicon.png
+    keywords:
+    - ucd
+    - deploy
+    - amd64
+    - Commercial
+    - RHOCP
+    - IKS
+    - DevOps
+    - CI/CD
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - name: IBM
+    - name: IBM DevOps Deploy
+    name: ibm-ucda-prod
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-ucda-prod-3.3.33.tgz
+    version: 3.3.33
+  - apiVersion: v2
+    appVersion: 8.2.2
     created: "2026-06-16T16:37:17.431919099Z"
     description: IBM DevOps Deploy agent License By installing this product you accept
       the terms https://ibm.biz/devops-deploy-license.
@@ -56451,4 +56476,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-14T22:07:28.263827316Z"
+generated: "2026-07-15T16:37:20.165797765Z"
