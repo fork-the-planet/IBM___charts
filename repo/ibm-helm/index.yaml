@@ -8677,6 +8677,27 @@ entries:
     version: 1.0.0
   ibm-cacc-rhos:
   - apiVersion: v2
+    appVersion: 12.1.3-2607110822
+    created: "2026-07-17T21:35:25.507520083Z"
+    description: Helm chart for IBM Cognos Analytics certified containers License
+      By installing this product you accept the product license terms
+    digest: 9f7ecdf92f32e3c9d67b95f69f3d222322f2a0d5dc59f6980e4a18d41be779b9
+    home: https://github.com/IBM/charts/blob/master/ibm-cacc/README.md
+    keywords:
+    - amd64
+    - Analytics
+    - Commercial
+    - RHOCP
+    - Other
+    kubeVersion: '>= 1.27.0-0'
+    maintainers:
+    - name: IBM
+    name: ibm-cacc-rhos
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-cacc-rhos-1.3.1.tgz
+    version: 1.3.1
+  - apiVersion: v2
     appVersion: 12.1.3-2606251736
     created: "2026-07-07T23:04:37.667334197Z"
     description: Helm chart for IBM Cognos Analytics certified containers License
@@ -56562,4 +56583,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/zen-migration-0.0.0.tgz
     version: 0.0.0
-generated: "2026-07-17T17:38:43.341744385Z"
+generated: "2026-07-17T21:35:25.49404465Z"

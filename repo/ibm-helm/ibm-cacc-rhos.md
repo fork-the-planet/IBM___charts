@@ -82,7 +82,7 @@ Custom SecurityContextConstraints definition:
 ## Installing the Chart
 
 IBM Cognos Analytics Certified Containers helm chart is located at https://github.com/IBM/charts/tree/master/repo/ibm-helm.  
-The name of the chart is ibm-cacc-rhos-{HELM_CHART_VERSION}.tgz where HELM_CHART_VERSION is ibm-cacc-rhos chart version starting from 1.0.0
+The name of the chart is ibm-cacc-prod-{HELM_CHART_VERSION}.tgz where HELM_CHART_VERSION is ibm-cacc-prod chart version starting from 1.0.0
 
 ### 1. Pre-install cluster configuration
 Create a namespace of your desired name
@@ -284,7 +284,7 @@ In an editor, open the caConfiguration.yaml file and update the fields to repres
 $ export NAMESPACE=ns1
 $ export HELM_CHART_VERSION=1.1.0
 
-$ helm install -f ${OVERRIDE_FILE} ca-instance https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-cacc-rhos-{HELM_CHART_VERSION}.tgz  --version {HELM_CHART_VERSION} --namespace ${NAMESPACE}
+$ helm install -f ${OVERRIDE_FILE} ca-instance https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-cacc-prod-{HELM_CHART_VERSION}.tgz  --version {HELM_CHART_VERSION} --namespace ${NAMESPACE}
 ```
 ## Verifying the Chart
 See the instruction (from NOTES.txt within chart) after the helm installation completes for chart verification. The instruction can also be viewed by running the command: helm status my-release.
@@ -310,7 +310,7 @@ The Configuration data is an optional PVC. When enabled, it will persist the con
 
 Note if a PVC is specified, and the PVC doesn't not exist, Helm will stop the deployment and report an error, similar to the following
 
-Error: INSTALLATION FAILED: execution error at (ibm-cacc-rhos/templates/checks/configDataCheck.yaml:24:10): The provided PVC configdata-pvc does NOT exist in the namespace <namespace>
+Error: INSTALLATION FAILED: execution error at (ibm-cacc-prod/templates/checks/configDataCheck.yaml:24:10): The provided PVC configdata-pvc does NOT exist in the namespace <namespace>
 
 When the Configuration PVC is provided, the configuration0.properties file, which holds advanced properties set via the "Manage > Configuration > System" UI (Glass URI) in Cognos Analytics and facilitates synchronization across distributed servers, will be persisted. If the Configuration PVC is not configured, the CM configuration data will NOT be persisted and will be lost when the CM pod restarts.
 ```
@@ -322,7 +322,7 @@ The Deployment PVC is an optional PVC. The PVC can be preloaded with Cognos Anal
 
 Note if a PVC is specified, and the PVC doesn't not exist, Helm will stop the deployment and report an error, similar to the following
 
-Error: INSTALLATION FAILED: execution error at (ibm-cacc-rhos/templates/checks/deploymentCheck.yaml:24:10): The provided PVC deployment-pvc does NOT exist in the namespace cacc <namespace>
+Error: INSTALLATION FAILED: execution error at (ibm-cacc-prod/templates/checks/deploymentCheck.yaml:24:10): The provided PVC deployment-pvc does NOT exist in the namespace cacc <namespace>
 
 The Cognos Analytics PVC is the designated repository for importing and exporting content archives (compressed .zip files) between environments. It serves as the central bridge for content mobility, enabling the transfer of packages, reports, folders, and configuration data across environments, such as from development to testing or production.
 ```
@@ -334,7 +334,7 @@ The External Object Storage (EOS) is an optional PVC. You can configure Content 
 
 Note if a PVC is specified, and the PVC doesn't not exist, Helm will stop the deployment and report an error, similar to the following
 
-Error: INSTALLATION FAILED: execution error at (ibm-cacc-rhos/templates/checks/eosCheck.yaml:24:10): The provided PVC eos-pvc does NOT exist in the namespace <namespace>
+Error: INSTALLATION FAILED: execution error at (ibm-cacc-prod/templates/checks/eosCheck.yaml:24:10): The provided PVC eos-pvc does NOT exist in the namespace <namespace>
 ```
 configs:
   pvcExternalObjectStorage:
@@ -345,7 +345,7 @@ The PVC must be created with an accessMode of ReadWriteOnce
 
 Note if a PVC is specified, and the PVC doesn't not exist, Helm will stop the deployment and report an error, similar to the following
 
-Error: INSTALLATION FAILED: execution error at (ibm-cacc-rhos/templates/checks/powercubeObjectCheck.yaml:25:10): The provided PVC powercubes-pvc does NOT exist in the namespace <namespace>
+Error: INSTALLATION FAILED: execution error at (ibm-cacc-prod/templates/checks/powercubeObjectCheck.yaml:25:10): The provided PVC powercubes-pvc does NOT exist in the namespace <namespace>
 
 Cognos Analytics supports external object storage (such as Amazon S3, Azure Blob Storage, or IBM Cloud Object Storage) to manage data and optimize performance. Users can create connections, store uploaded files, save data sets as parquet files, store SSL certificates for data servers, and archive report outputs. It enhances scalability and reduces content store size.
 ```
@@ -360,7 +360,7 @@ https://kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes
 
 **Note:** If a PVC is specified and does not exist, Helm will stop the deployment and report an error:
 ```
-Error: INSTALLATION FAILED: execution error at (ibm-cacc-rhos/templates/checks/artifactsObjectCheck.yaml:24:10): The provided PVC artifact-pvc does NOT exist in the namespace <namespace>
+Error: INSTALLATION FAILED: execution error at (ibm-cacc-prod/templates/checks/artifactsObjectCheck.yaml:24:10): The provided PVC artifact-pvc does NOT exist in the namespace <namespace>
 ```
 
 To register the Artifacts PVC with your CACC instance, provide the PVC name in the `configs.pvcArtifactsRootFolder` setting. When CACC deploys, the artifacts will be automatically ingested into the services.
@@ -455,7 +455,7 @@ configs:
 5. Deploy/upgrade CACC - artifacts will be automatically ingested into services.
 ```bash
 helm upgrade -f ${OVERRIDE_FILE} ca-instance \
-https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-cacc-rhos-{HELM_CHART_VERSION}.tgz \
+https://raw.githubusercontent.com/IBM/charts/master/repo/ibm-helm/ibm-cacc-prod-{HELM_CHART_VERSION}.tgz \
 --version {HELM_CHART_VERSION} \
 --namespace ${NAMESPACE}
 ```
@@ -474,7 +474,7 @@ Optional PVC for Content Manager temporary storage (session data, temp files). W
 
 Note if a PVC is specified, and the PVC doesn't not exist, Helm will stop the deployment and report an error, similar to the following
 
-Error: INSTALLATION FAILED: execution error at (ibm-cacc-rhos/templates/checks/tmpPvcChecks.yaml:24:10): The provided PVC cm-tmp-pvc does NOT exist in the namespace <namespace>
+Error: INSTALLATION FAILED: execution error at (ibm-cacc-prod/templates/checks/tmpPvcChecks.yaml:24:10): The provided PVC cm-tmp-pvc does NOT exist in the namespace <namespace>
 
 ```
 configs:
@@ -488,7 +488,7 @@ Optional PVC for Reporting Service temporary storage (report outputs, temp proce
 
 Note if a PVC is specified, and the PVC doesn't not exist, Helm will stop the deployment and report an error, similar to the following
 
-Error: INSTALLATION FAILED: execution error at (ibm-cacc-rhos/templates/checks/tmpPvcChecks.yaml:24:10): The provided PVC reporting-tmp-pvc does NOT exist in the namespace <namespace>
+Error: INSTALLATION FAILED: execution error at (ibm-cacc-prod/templates/checks/tmpPvcChecks.yaml:24:10): The provided PVC reporting-tmp-pvc does NOT exist in the namespace <namespace>
 ```
 configs:
   pvcReportingTmp:
@@ -501,7 +501,7 @@ Optional PVC for Dataset Service temporary storage (data processing, temp datase
 
 Note if a PVC is specified, and the PVC doesn't not exist, Helm will stop the deployment and report an error, similar to the following
 
-Error: INSTALLATION FAILED: execution error at (ibm-cacc-rhos/templates/checks/tmpPvcChecks.yaml:24:10): The provided PVC dss-tmp-pvc does NOT exist in the namespace <namespace>
+Error: INSTALLATION FAILED: execution error at (ibm-cacc-prod/templates/checks/tmpPvcChecks.yaml:24:10): The provided PVC dss-tmp-pvc does NOT exist in the namespace <namespace>
 ```
 configs:
   pvcDssTmp:
@@ -533,7 +533,7 @@ Once the configmap is created, provide the configmap name in the override yaml f
 
 Note if a configmap is specified, and the configmap doesn't not exist, Helm will stop the deployment and report an error, similar to the following
 
-Error: INSTALLATION FAILED: execution error at (ibm-cacc-rhos/templates/checks/customConfigCheck.yaml:24:10): The provided ConfigMap customproperties does NOT exist in the namespace <namespace>
+Error: INSTALLATION FAILED: execution error at (ibm-cacc-prod/templates/checks/customConfigCheck.yaml:24:10): The provided ConfigMap customproperties does NOT exist in the namespace <namespace>
 ```
 configs:
   configMapCustomProperties:
@@ -1343,7 +1343,7 @@ services:
 Or via command line:
 
 ```bash
-helm upgrade <release-name> ibm-cacc-rhos \
+helm upgrade <release-name> ibm-cacc-prod \
   --set services.agenticAIService.enableExternalOpenSearch=true \
   -n <namespace>
 ```
@@ -1374,11 +1374,15 @@ kubectl logs -l app=ca-agentic-ai -n <namespace> --tail=50 | grep -i opensearch
 
 ## Agentic AI Service - Redis Sidecar configuration settings
 These configuration settings control the Redis sidecar container that provides caching capabilities for the Agentic AI service.
+
+
+> **Note (12.1.3):** The Redis sidecar image has been updated from `redisearch:2.8.0` to `redis:8.2`. The `redisName` parameter controls the image name used in the image path.
+
 | Parameter                  | Description                                     | Default                                                    |
 | -----------------------    | ---------------------------------------------   | ---------------------------------------------------------- |
-|services.agenticAIService.redisName|Name of the Redis sidecar container|redisearch|
+|services.agenticAIService.redisName|Name of the Redis sidecar container|redis|
 |services.agenticAIService.redisDigest|Image digest for the Redis container|Current image digest is included in the Helm chart|
-|services.agenticAIService.redisTag|Image tag for the Redis container|2.6.0|
+|services.agenticAIService.redisTag|Image tag for the Redis container|8.2|
 |services.agenticAIService.redisRequestsCpu|Set the CPU request for the Redis sidecar|"500m"|
 |services.agenticAIService.redisRequestsMemory|Set the memory request for the Redis sidecar|1Gi|
 |services.agenticAIService.redisLimitsCpu|Set the CPU limit for the Redis sidecar|"1"|
@@ -1463,7 +1467,7 @@ services:
 Or via command line:
 
 ```bash
-helm upgrade <release-name> ibm-cacc-rhos \
+helm upgrade <release-name> ibm-cacc-prod \
   --set services.agenticAIService.enableExternalRedis=true \
   -n <namespace>
 ```
@@ -1515,7 +1519,7 @@ kubectl create secret generic ca-external-redis-credentials-secret \
   -n "$NAMESPACE"
 
 # Step 4: Enable external Redis
-helm upgrade ca-instance ibm-cacc-rhos \
+helm upgrade ca-instance ibm-cacc-prod \
   --set services.agenticAIService.enableExternalRedis=true \
   -n "$NAMESPACE"
 
@@ -1634,7 +1638,7 @@ litellm:
 Deploy or upgrade your CACC instance with LiteLLM enabled:
 
 ```bash
-helm upgrade ca-instance ./ibm-cacc-rhos \
+helm upgrade ca-instance ./ibm-cacc-prod \
   -f your-values.yaml \
   -n ${NAMESPACE}
 ```
